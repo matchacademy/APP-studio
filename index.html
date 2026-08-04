@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>Farmaco — Ansia, Insonnia, Depressione</title>
+<title>Farmacologia — Flashcard</title>
 <style>
   :root{
     --paper: #f6f3ec;
@@ -11,16 +11,11 @@
     --ink: #232019;
     --ink-soft: #5c564a;
     --rule: #d9d2c1;
-    --accent: #2f5d4f;   /* verde farmacia scuro */
-    --accent-2: #a3432f; /* rosso mattone, per "non so" */
-    --gold: #b8863b;
-    --card-shadow: 0 1px 0 rgba(35,32,25,0.06), 0 8px 24px rgba(35,32,25,0.08);
+    --accent: #2f5d4f;
+    --accent-2: #a3432f;
     --mono: 'IBM Plex Mono', 'SF Mono', Menlo, monospace;
     --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
-  }
-  @font-face{
-    font-family:'Source Serif 4';
-    src: local('Source Serif 4');
+    --card-shadow: 0 1px 0 rgba(35,32,25,0.06), 0 8px 24px rgba(35,32,25,0.08);
   }
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
@@ -47,7 +42,7 @@
     margin-bottom: 22px;
   }
   header h1{
-    font-size: 1.32rem;
+    font-size: 1.28rem;
     font-weight: 600;
     margin:0;
     letter-spacing: -0.01em;
@@ -61,26 +56,30 @@
   }
   header .sub{
     font-family: var(--mono);
-    font-size: 0.72rem;
+    font-size: 0.7rem;
     color: var(--ink-soft);
     text-transform: uppercase;
     letter-spacing: 0.08em;
   }
 
-  .controls{
+  .filters{
     display:flex;
-    flex-wrap:wrap;
+    flex-direction: column;
     gap: 8px;
-    margin-bottom: 18px;
+    margin-bottom: 14px;
+  }
+  .filter-row{
+    display:flex;
+    gap: 8px;
   }
   select, button{
     font-family: var(--mono);
-    font-size: 0.78rem;
+    font-size: 0.76rem;
     letter-spacing: 0.02em;
     border: 1px solid var(--rule);
     background: var(--paper-2);
     color: var(--ink);
-    padding: 8px 12px;
+    padding: 9px 12px;
     border-radius: 3px;
     cursor: pointer;
   }
@@ -93,15 +92,17 @@
     background-repeat: no-repeat;
     padding-right: 30px;
     flex: 1 1 auto;
-    min-width: 160px;
+    min-width: 0;
   }
   button:hover, select:hover{ border-color: var(--accent); }
   button:active{ transform: translateY(1px); }
-  button.primary{
-    background: var(--accent);
-    border-color: var(--accent);
-    color: var(--paper);
+
+  .toolbar{
+    display:flex;
+    gap: 8px;
+    margin-bottom: 18px;
   }
+  .toolbar button{ flex:1; }
 
   .progress-row{
     display:flex;
@@ -109,7 +110,7 @@
     gap: 10px;
     margin-bottom: 20px;
     font-family: var(--mono);
-    font-size: 0.72rem;
+    font-size: 0.7rem;
     color: var(--ink-soft);
   }
   .progress-bar{
@@ -161,27 +162,35 @@
     transform: rotateY(180deg);
     justify-content:flex-start;
   }
+  .tag-row{
+    display:flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+    justify-content:center;
+  }
+  .face.back .tag-row{ justify-content:flex-start; }
   .cat-tag{
     font-family: var(--mono);
-    font-size: 0.66rem;
+    font-size: 0.62rem;
     text-transform: uppercase;
-    letter-spacing: 0.09em;
+    letter-spacing: 0.07em;
     color: var(--accent);
     border: 1px solid var(--accent);
-    display:inline-block;
-    padding: 3px 8px;
+    padding: 3px 7px;
     border-radius: 2px;
-    margin-bottom: 20px;
-    align-self: center;
   }
-  .face.back .cat-tag{ align-self:flex-start; }
+  .cat-tag.lezione-tag{
+    color: var(--ink-soft);
+    border-color: var(--rule);
+  }
   .front-term{
-    font-size: 1.5rem;
+    font-size: 1.45rem;
     font-weight: 600;
     line-height:1.3;
   }
   .back-answer{
-    font-size: 1.04rem;
+    font-size: 1.02rem;
     line-height: 1.55;
     color: var(--ink);
   }
@@ -190,7 +199,7 @@
     bottom: 14px;
     right: 18px;
     font-family: var(--mono);
-    font-size: 0.62rem;
+    font-size: 0.6rem;
     color: var(--ink-soft);
     text-transform:uppercase;
     letter-spacing: 0.08em;
@@ -200,7 +209,7 @@
     top:14px;
     right:18px;
     font-family: var(--mono);
-    font-size: 0.68rem;
+    font-size: 0.66rem;
     color: var(--ink-soft);
   }
 
@@ -211,7 +220,7 @@
   .actions button{
     flex:1;
     padding: 13px 10px;
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     font-weight: 600;
   }
   .btn-no{
@@ -243,33 +252,44 @@
     padding: 60px 20px;
     color: var(--ink-soft);
     font-family: var(--mono);
-    font-size: 0.85rem;
+    font-size: 0.82rem;
+    line-height: 1.6;
   }
 
   footer{
     margin-top: 30px;
     text-align:center;
     font-family: var(--mono);
-    font-size: 0.65rem;
+    font-size: 0.62rem;
     color: var(--ink-soft);
     letter-spacing: 0.05em;
   }
 
   @media (max-width: 420px){
-    .front-term{ font-size: 1.25rem; }
+    .front-term{ font-size: 1.2rem; }
     .card{ min-height: 300px; }
+    .filter-row{ flex-direction: column; }
   }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1><span class="rx">Rx/</span>Ansia · Insonnia · Depressione</h1>
-    <div class="sub">Farmacologia I</div>
+    <h1><span class="rx">Rx/</span>Farmacologia</h1>
+    <div class="sub" id="countSub">0 card</div>
   </header>
 
-  <div class="controls">
-    <select id="catFilter"></select>
+  <div class="filters">
+    <div class="filter-row">
+      <select id="moduloFilter"></select>
+      <select id="lezioneFilter"></select>
+    </div>
+    <div class="filter-row">
+      <select id="catFilter"></select>
+    </div>
+  </div>
+
+  <div class="toolbar">
     <button id="shuffleBtn">Mescola</button>
     <button id="resetBtn">Reset progressi</button>
   </div>
@@ -282,24 +302,81 @@
 
   <div id="stageContainer"></div>
 
-  <footer>Community Universitaria non c'entra — buono studio.</footer>
+  <footer>Farmacologia I — Plescia · Calascibetta</footer>
 </div>
 
 <script>
-const CARDS = [{"cat": "Ansiolitici non-BDZ", "front": "Buspirone", "back": "Ansiolitico NO-BDZ, agonista parziale 5-HT1A. Disturbo d'ansia generalizzato (spesso associato a SSRI). Effetto lento (2-3 settimane). Effetti collaterali: nausea, vertigini, cefalea, agitazione paradossa."}, {"cat": "Ansiolitici non-BDZ", "front": "Propranololo (nella terapia dell'ansia)", "back": "Antagonista β, riduce il tono simpatico. Usato per la sintomatologia somatica dell'ansia: tachicardia, tremore, sudorazione."}, {"cat": "Ansiolitici non-BDZ", "front": "Antiepilettici usati nell'ansia", "back": "Gabapentina, Pregabalin, Tiagabina, Valproato, Ziprasidone. Uso: disturbo d'ansia generalizzato."}, {"cat": "Ansiolitici non-BDZ", "front": "Moclobemide", "back": "IMAO reversibile (RIMA). Trattamento di scelta nella fobia sociale."}, {"cat": "Ansiolitici non-BDZ", "front": "BDZ nella gestione dell'ansia", "back": "Farmaci più efficaci per sintomi gravi/persistenti, rapida insorgenza. Uso max ~4 settimane per rischio tolleranza, dipendenza, effetto rebound. Poi si passa a SSRI."}, {"cat": "Ipnotici Z-compound", "front": "Zaleplon", "back": "Z-compound. Emivita 1h. Lega subunità α1 del recettore BDZ. Uso max 2 settimane."}, {"cat": "Ipnotici Z-compound", "front": "Zolpidem", "back": "Z-compound. Emivita 2-4h, biodisponibilità 70%. Lega subunità α1. Uso max 4 settimane."}, {"cat": "Ipnotici Z-compound", "front": "Zopiclone", "back": "Z-compound. Emivita 4-6h, biodisponibilità 80%. Lega anche subunità α2 (quindi anche lieve effetto ansiolitico). Riduce tempo di addormentamento e risvegli notturni. Uso max 4 settimane."}, {"cat": "Ipnotici Z-compound", "front": "Z-compound: caratteristiche generali", "back": "Modulatori allosterici positivi del GABA-A (subunità α1). Solo effetto ipnoinduttore/ipnoprotettivo, NO effetto ansiolitico. Assorbimento intestinale rapido, emivita breve, eliminazione epatica (CYP3A4)."}, {"cat": "Altri farmaci insonnia", "front": "Ramelteon", "back": "Analogo triciclico sintetico della melatonina. Agonista MT1 (induce sonno) e MT2 (regola ritmo circadiano). 8 mg/die, 30 min prima di dormire. Emivita 2h, bassa biodisponibilità (2%, forte metabolismo epatico)."}, {"cat": "Altri farmaci insonnia", "front": "Cloralio idrato", "back": "Usato in pazienti con effetto paradosso da BDZ. Ridotto a tricloroetanolo (attivo) da alcol-deidrogenasi epatica. Potenzia il GABA-A come barbiturici/BDZ."}, {"cat": "Altri farmaci insonnia", "front": "Meprobamato", "back": "Proprietà simili alle BDZ."}, {"cat": "Altri farmaci insonnia", "front": "Difenidramina e Doxilamina", "back": "Antistaminici di prima generazione, senza obbligo di prescrizione. Azione su recettori H1 centrali → inducono sonno. Meno effetti collaterali e minor potenziale d'abuso delle BDZ; usati per insonnia occasionale senza patologia sottostante."}, {"cat": "Altri farmaci insonnia", "front": "Suvorexant", "back": "Inibitore recettori orexina 1 e 2 (le orexine promuovono la veglia). 10 mg 30 min prima di coricarsi (se restano ≥7h al risveglio). Effetti avversi: sonnolenza diurna, peggioramento sintomi depressivi, ideazione suicidaria."}, {"cat": "SSRI", "front": "SSRI: farmaci principali", "back": "Citalopram, Escitalopram, Fluoxetina, Fluvoxamina, Paroxetina, Sertralina. Selettività 300-3000 volte maggiore per SERT rispetto a NET."}, {"cat": "SSRI", "front": "SSRI: indicazioni oltre la depressione", "back": "Attacchi di panico, ansia generalizzata, ansia sociale, disturbo ossessivo-compulsivo, sindromi disforiche. Paroxetina e Sertralina molto usate nel PTSD."}, {"cat": "SSRI", "front": "Fluoxetina", "back": "SSRI. Metabolita attivo norfluoxetina, emivita molto lunga (50h) → formulazione a lento rilascio (1 volta/settimana). Potente inibitore CYP2D6. Antagonizza anche 5HT2C → meno ipersonnia/apatia rispetto ad altri SSRI."}, {"cat": "SSRI", "front": "Paroxetina", "back": "SSRI. Potente inibitore CYP2D6. Azione anche sui recettori istaminergici → effetto sedativo. Eliminazione per via fecale (come Sertralina)."}, {"cat": "SSRI", "front": "Citalopram / Escitalopram: particolarità metaboliche", "back": "Metabolismo sia via CYP2D6 sia CYP2C19. CYP2C19 si riduce con l'età → nell'anziano il metabolismo si sposta su CYP2D6."}, {"cat": "SSRI", "front": "SSRI: effetti avversi principali", "back": "Da sovrastimolazione 5HT2 (SNC): insonnia, ansia, irritabilità, agitazione. Da sovrastimolazione 5HT2 spinale: disfunzioni sessuali (perdita libido, eiaculazione ritardata, anorgasmia). Da sovrastimolazione 5HT3 (SNC+GI): nausea, vomito, diarrea."}, {"cat": "SSRI", "front": "SSRI: perché l'effetto è ritardato (4-6 settimane)", "back": "Nel depresso i recettori 5-HT1 sono up-regolati (inibitori). L'aumento iniziale di serotonina li satura, riducendo ulteriormente il rilascio. Serve tempo per la down-regulation recettoriale prima che l'effetto terapeutico si manifesti."}, {"cat": "SNRI", "front": "SNRI: farmaci principali", "back": "Venlafaxina, Desvenlafaxina, Duloxetina, Milnacipran, Levomilnacipram. Inibiscono ricaptazione di 5HT e NA (struttura non triciclica)."}, {"cat": "SNRI", "front": "SNRI: indicazioni", "back": "Disturbi d'ansia, dolore, autismo (off-label, Venlafaxina), disturbi alimentari, vampate, PTSD, fibromialgia/dolore neuropatico (Duloxetina), incontinenza urinaria."}, {"cat": "SNRI", "front": "Venlafaxina vs Desvenlafaxina", "back": "Desvenlafaxina è il metabolita della Venlafaxina. A basse dosi Desvenlafaxina inibisce soprattutto SERT; a dosi medio-alte anche NET. Emivite: Venlafaxina 5h, Desvenlafaxina 11h, Duloxetina 12h."}, {"cat": "SNRI", "front": "Duloxetina", "back": "SNRI. Esteso metabolismo epatico (sconsigliata in nefropatia, insufficienza epatica, anziani). Modesto inibitore CYP2D6. Effetti antistaminici. NON causa disfunzione sessuale/impotenza — utile se questo è un problema con altri farmaci."}, {"cat": "Triciclici (TCA)", "front": "TCA: farmaci principali", "back": "Amitriptilina, Doxepina, Clomipramina, Desipramina, Nortriptilina, Protriptilina, Maprotilina. Bloccano sia SERT che NET. Oggi poco usati per gli effetti collaterali."}, {"cat": "Triciclici (TCA)", "front": "TCA: effetti avversi anti-M1", "back": "Costipazione, rallentamento cognitivo, xerostomia, sonnolenza, visione offuscata."}, {"cat": "Triciclici (TCA)", "front": "TCA: effetti avversi anti-alfa1 e anti-H1", "back": "Anti-alfa1: sonnolenza, ipotensione ortostatica, dizziness. Anti-H1: aumento ponderale, sonnolenza."}, {"cat": "Triciclici (TCA)", "front": "TCA: rischio da overdose", "back": "Bloccano i canali del sodio voltaggio-dipendenti cardiaci e cerebrali → coma, convulsioni, aritmie cardiache, arresto cardiaco, morte."}, {"cat": "Triciclici (TCA)", "front": "Doxepina e Amitriptilina: uso particolare", "back": "Usate in alcuni disturbi del sonno, oltre che come antalgici. Doxepina agisce anche su 5HT2A/5HT2C post-sinaptici."}, {"cat": "Altri antidepressivi", "front": "Bupropione", "back": "Inibisce ricaptazione di dopamina e noradrenalina (NDRI). Utile nei depressi che vogliono smettere di fumare. Metabolita attivo Idrossibupropione (via CYP2D6, che inibisce a sua volta — 'inibitore suicida'). Emivita 21h. Non ha effetti sulla sfera sessuale."}, {"cat": "Altri antidepressivi", "front": "Bupropione: dosaggio ed effetti avversi", "back": "150 mg/die iniziali, +50 mg ogni 3-4 giorni. Max 400 mg (non ospedalizzati) o 600 mg (ospedalizzati). Effetti avversi: ansia, tachicardia, ipertensione, tremore, irritabilità; meno tipici insonnia, aggressività, impulsività."}, {"cat": "Altri antidepressivi", "front": "Trazodone", "back": "Antagonista 5HT / inibitore reuptake. Dosi 50-100 mg per insonnia e depressione, spesso in associazione con SSRI/SNRI. Metabolizzato da CYP3A4."}, {"cat": "Altri antidepressivi", "front": "Mirtazapina", "back": "Blocca H1 e antagonizza alfa2 (aumenta rilascio NA) e i recettori 5HT2 e 5HT3 → meno effetti collaterali serotoninergici classici. Emivita ~16h, dose 15-45 mg. Metabolismo CYP2D6/3A4."}, {"cat": "Altri antidepressivi", "front": "Nefazodone e Mianserina", "back": "Antagonisti dei recettori 5HT e inibitori del reuptake, stesso gruppo di Trazodone e Mirtazapina."}, {"cat": "IMAO", "front": "IMAO: farmaci irreversibili non selettivi", "back": "Fenelzina, Isocarbossiazide, Tranilcipromina. Aumentano monoamine endogene ed esogene (es. tiramina) → rischio crisi ipertensive."}, {"cat": "IMAO", "front": "Selegilina", "back": "IMAO irreversibile selettivo per MAO-B, a bassi dosaggi."}, {"cat": "IMAO", "front": "Moclobemide ed Eprobemide", "back": "IMAO reversibili e competitivi, selettivi per MAO-A (RIMA)."}, {"cat": "IMAO", "front": "IMAO: effetti avversi e interazioni", "back": "Crisi ipertensiva (da tiramina), irritabilità, epatiti. Rischio sindrome serotoninergica se associati a inibitori SERT o triptofano. Da non associare a simpaticomimetici. Dopo sospensione, funzionalità MAO recuperata dopo almeno 2 settimane."}, {"cat": "Antipsicotici atipici", "front": "Antipsicotici atipici in depressione: combinazioni tipiche", "back": "Aripiprazolo o Quetiapina + SSRI/SNRI. Olanzapina (3-12 mg) + Fluoxetina (25-50 mg). Usati in schizofrenia, depressione bipolare, depressione maggiore con psicosi; off-label anche senza psicosi."}, {"cat": "Antipsicotici atipici", "front": "Antipsicotici atipici: effetti avversi principali", "back": "Aumento di peso, sindrome metabolica."}, {"cat": "Basi biologiche", "front": "Ipotesi monoaminergica della depressione", "back": "Carenza di serotonina, noradrenalina e dopamina. Le trasmissioni serotoninergica e noradrenergica si influenzano via autocettori 5-HT2/alfa2, condividono le MAO come sistema di degradazione."}, {"cat": "Basi biologiche", "front": "Ipotesi neurorecettoriale", "back": "Up-regulation dei recettori 5-HT1 (somatodendritici) e 5-HT2 (post-sinaptici) causata dalla riduzione del neurotrasmettitore. Spiega la latenza della risposta al trattamento."}, {"cat": "Basi biologiche", "front": "Ipotesi neurotrofica", "back": "Lo stress deplenisce fattori neurotrofici come il BDNF a livello ippocampale. Gli antidepressivi agirebbero cronicamente ripristinando l'espressione di BDNF, favorendo plasticità/neurogenesi."}, {"cat": "Basi biologiche", "front": "Recettori serotoninergici: le 4 famiglie", "back": "1° tipo: 5-HT1(A/B/D/E/F), accoppiati a Gi. 2° tipo: 5-HT2(A/B/C), accoppiati a Gq/11. 3° tipo: 5-HT3, unico recettore-canale. 4° tipo: 5-HT4, 5-HT5, 5-HT6, 5-HT7, accoppiati a Gs."}, {"cat": "Concetti clinici generali", "front": "Fasi del trattamento antidepressivo", "back": "Fase acuta: 6-12 settimane, inizio remissione. Fase di continuazione: 4-9 mesi, remissione completa. Fase di mantenimento: 12-36 mesi, prevenzione recidive."}, {"cat": "Concetti clinici generali", "front": "Farmaci di prima vs seconda generazione", "back": "Prima generazione: IMAO, TCA (poco usati oggi). Seconda generazione: SSRI, SNRI, NRI, NaSSA, SARI, DNRI, agonisti melatoninergici, antidepressivi multimodali."}, {"cat": "Concetti clinici generali", "front": "Caso: disfunzione sessuale da Fluoxetina dopo 6 settimane efficaci", "back": "Risposta corretta: Mirtazapina. Non causa disfunzione sessuale come gli SSRI (antagonizza 5HT2/5HT3, meccanismo diverso)."}, {"cat": "Concetti clinici generali", "front": "Caso: depressione maggiore + glaucoma ad angolo chiuso, farmaco da evitare", "back": "Risposta corretta: Amitriptilina (TCA). Azione anticolinergica (anti-M1) può precipitare/aggravare il glaucoma ad angolo chiuso per midriasi."}];
+const CARDS = [{"cat": "Ansiolitici non-BDZ", "front": "Buspirone", "back": "Ansiolitico NO-BDZ, agonista parziale 5-HT1A. Disturbo d'ansia generalizzato (spesso associato a SSRI). Effetto lento (2-3 settimane). Effetti collaterali: nausea, vertigini, cefalea, agitazione paradossa.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Ansiolitici non-BDZ", "front": "Propranololo (nella terapia dell'ansia)", "back": "Antagonista β, riduce il tono simpatico. Usato per la sintomatologia somatica dell'ansia: tachicardia, tremore, sudorazione.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Ansiolitici non-BDZ", "front": "Antiepilettici usati nell'ansia", "back": "Gabapentina, Pregabalin, Tiagabina, Valproato, Ziprasidone. Uso: disturbo d'ansia generalizzato.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Ansiolitici non-BDZ", "front": "Moclobemide", "back": "IMAO reversibile (RIMA). Trattamento di scelta nella fobia sociale.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Ansiolitici non-BDZ", "front": "BDZ nella gestione dell'ansia", "back": "Farmaci più efficaci per sintomi gravi/persistenti, rapida insorgenza. Uso max ~4 settimane per rischio tolleranza, dipendenza, effetto rebound. Poi si passa a SSRI.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Ipnotici Z-compound", "front": "Zaleplon", "back": "Z-compound. Emivita 1h. Lega subunità α1 del recettore BDZ. Uso max 2 settimane.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Ipnotici Z-compound", "front": "Zolpidem", "back": "Z-compound. Emivita 2-4h, biodisponibilità 70%. Lega subunità α1. Uso max 4 settimane.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Ipnotici Z-compound", "front": "Zopiclone", "back": "Z-compound. Emivita 4-6h, biodisponibilità 80%. Lega anche subunità α2 (quindi anche lieve effetto ansiolitico). Riduce tempo di addormentamento e risvegli notturni. Uso max 4 settimane.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Ipnotici Z-compound", "front": "Z-compound: caratteristiche generali", "back": "Modulatori allosterici positivi del GABA-A (subunità α1). Solo effetto ipnoinduttore/ipnoprotettivo, NO effetto ansiolitico. Assorbimento intestinale rapido, emivita breve, eliminazione epatica (CYP3A4).", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Altri farmaci insonnia", "front": "Ramelteon", "back": "Analogo triciclico sintetico della melatonina. Agonista MT1 (induce sonno) e MT2 (regola ritmo circadiano). 8 mg/die, 30 min prima di dormire. Emivita 2h, bassa biodisponibilità (2%, forte metabolismo epatico).", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Altri farmaci insonnia", "front": "Cloralio idrato", "back": "Usato in pazienti con effetto paradosso da BDZ. Ridotto a tricloroetanolo (attivo) da alcol-deidrogenasi epatica. Potenzia il GABA-A come barbiturici/BDZ.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Altri farmaci insonnia", "front": "Meprobamato", "back": "Proprietà simili alle BDZ.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Altri farmaci insonnia", "front": "Difenidramina e Doxilamina", "back": "Antistaminici di prima generazione, senza obbligo di prescrizione. Azione su recettori H1 centrali → inducono sonno. Meno effetti collaterali e minor potenziale d'abuso delle BDZ; usati per insonnia occasionale senza patologia sottostante.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Altri farmaci insonnia", "front": "Suvorexant", "back": "Inibitore recettori orexina 1 e 2 (le orexine promuovono la veglia). 10 mg 30 min prima di coricarsi (se restano ≥7h al risveglio). Effetti avversi: sonnolenza diurna, peggioramento sintomi depressivi, ideazione suicidaria.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "SSRI", "front": "SSRI: farmaci principali", "back": "Citalopram, Escitalopram, Fluoxetina, Fluvoxamina, Paroxetina, Sertralina. Selettività 300-3000 volte maggiore per SERT rispetto a NET.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "SSRI", "front": "SSRI: indicazioni oltre la depressione", "back": "Attacchi di panico, ansia generalizzata, ansia sociale, disturbo ossessivo-compulsivo, sindromi disforiche. Paroxetina e Sertralina molto usate nel PTSD.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "SSRI", "front": "Fluoxetina", "back": "SSRI. Metabolita attivo norfluoxetina, emivita molto lunga (50h) → formulazione a lento rilascio (1 volta/settimana). Potente inibitore CYP2D6. Antagonizza anche 5HT2C → meno ipersonnia/apatia rispetto ad altri SSRI.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "SSRI", "front": "Paroxetina", "back": "SSRI. Potente inibitore CYP2D6. Azione anche sui recettori istaminergici → effetto sedativo. Eliminazione per via fecale (come Sertralina).", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "SSRI", "front": "Citalopram / Escitalopram: particolarità metaboliche", "back": "Metabolismo sia via CYP2D6 sia CYP2C19. CYP2C19 si riduce con l'età → nell'anziano il metabolismo si sposta su CYP2D6.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "SSRI", "front": "SSRI: effetti avversi principali", "back": "Da sovrastimolazione 5HT2 (SNC): insonnia, ansia, irritabilità, agitazione. Da sovrastimolazione 5HT2 spinale: disfunzioni sessuali (perdita libido, eiaculazione ritardata, anorgasmia). Da sovrastimolazione 5HT3 (SNC+GI): nausea, vomito, diarrea.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "SSRI", "front": "SSRI: perché l'effetto è ritardato (4-6 settimane)", "back": "Nel depresso i recettori 5-HT1 sono up-regolati (inibitori). L'aumento iniziale di serotonina li satura, riducendo ulteriormente il rilascio. Serve tempo per la down-regulation recettoriale prima che l'effetto terapeutico si manifesti.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "SNRI", "front": "SNRI: farmaci principali", "back": "Venlafaxina, Desvenlafaxina, Duloxetina, Milnacipran, Levomilnacipram. Inibiscono ricaptazione di 5HT e NA (struttura non triciclica).", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "SNRI", "front": "SNRI: indicazioni", "back": "Disturbi d'ansia, dolore, autismo (off-label, Venlafaxina), disturbi alimentari, vampate, PTSD, fibromialgia/dolore neuropatico (Duloxetina), incontinenza urinaria.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "SNRI", "front": "Venlafaxina vs Desvenlafaxina", "back": "Desvenlafaxina è il metabolita della Venlafaxina. A basse dosi Desvenlafaxina inibisce soprattutto SERT; a dosi medio-alte anche NET. Emivite: Venlafaxina 5h, Desvenlafaxina 11h, Duloxetina 12h.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "SNRI", "front": "Duloxetina", "back": "SNRI. Esteso metabolismo epatico (sconsigliata in nefropatia, insufficienza epatica, anziani). Modesto inibitore CYP2D6. Effetti antistaminici. NON causa disfunzione sessuale/impotenza — utile se questo è un problema con altri farmaci.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Triciclici (TCA)", "front": "TCA: farmaci principali", "back": "Amitriptilina, Doxepina, Clomipramina, Desipramina, Nortriptilina, Protriptilina, Maprotilina. Bloccano sia SERT che NET. Oggi poco usati per gli effetti collaterali.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Triciclici (TCA)", "front": "TCA: effetti avversi anti-M1", "back": "Costipazione, rallentamento cognitivo, xerostomia, sonnolenza, visione offuscata.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Triciclici (TCA)", "front": "TCA: effetti avversi anti-alfa1 e anti-H1", "back": "Anti-alfa1: sonnolenza, ipotensione ortostatica, dizziness. Anti-H1: aumento ponderale, sonnolenza.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Triciclici (TCA)", "front": "TCA: rischio da overdose", "back": "Bloccano i canali del sodio voltaggio-dipendenti cardiaci e cerebrali → coma, convulsioni, aritmie cardiache, arresto cardiaco, morte.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Triciclici (TCA)", "front": "Doxepina e Amitriptilina: uso particolare", "back": "Usate in alcuni disturbi del sonno, oltre che come antalgici. Doxepina agisce anche su 5HT2A/5HT2C post-sinaptici.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Altri antidepressivi", "front": "Bupropione", "back": "Inibisce ricaptazione di dopamina e noradrenalina (NDRI). Utile nei depressi che vogliono smettere di fumare. Metabolita attivo Idrossibupropione (via CYP2D6, che inibisce a sua volta — 'inibitore suicida'). Emivita 21h. Non ha effetti sulla sfera sessuale.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Altri antidepressivi", "front": "Bupropione: dosaggio ed effetti avversi", "back": "150 mg/die iniziali, +50 mg ogni 3-4 giorni. Max 400 mg (non ospedalizzati) o 600 mg (ospedalizzati). Effetti avversi: ansia, tachicardia, ipertensione, tremore, irritabilità; meno tipici insonnia, aggressività, impulsività.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Altri antidepressivi", "front": "Trazodone", "back": "Antagonista 5HT / inibitore reuptake. Dosi 50-100 mg per insonnia e depressione, spesso in associazione con SSRI/SNRI. Metabolizzato da CYP3A4.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Altri antidepressivi", "front": "Mirtazapina", "back": "Blocca H1 e antagonizza alfa2 (aumenta rilascio NA) e i recettori 5HT2 e 5HT3 → meno effetti collaterali serotoninergici classici. Emivita ~16h, dose 15-45 mg. Metabolismo CYP2D6/3A4.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Altri antidepressivi", "front": "Nefazodone e Mianserina", "back": "Antagonisti dei recettori 5HT e inibitori del reuptake, stesso gruppo di Trazodone e Mirtazapina.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "IMAO", "front": "IMAO: farmaci irreversibili non selettivi", "back": "Fenelzina, Isocarbossiazide, Tranilcipromina. Aumentano monoamine endogene ed esogene (es. tiramina) → rischio crisi ipertensive.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "IMAO", "front": "Selegilina", "back": "IMAO irreversibile selettivo per MAO-B, a bassi dosaggi.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "IMAO", "front": "Moclobemide ed Eprobemide", "back": "IMAO reversibili e competitivi, selettivi per MAO-A (RIMA).", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "IMAO", "front": "IMAO: effetti avversi e interazioni", "back": "Crisi ipertensiva (da tiramina), irritabilità, epatiti. Rischio sindrome serotoninergica se associati a inibitori SERT o triptofano. Da non associare a simpaticomimetici. Dopo sospensione, funzionalità MAO recuperata dopo almeno 2 settimane.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Antipsicotici atipici", "front": "Antipsicotici atipici in depressione: combinazioni tipiche", "back": "Aripiprazolo o Quetiapina + SSRI/SNRI. Olanzapina (3-12 mg) + Fluoxetina (25-50 mg). Usati in schizofrenia, depressione bipolare, depressione maggiore con psicosi; off-label anche senza psicosi.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Antipsicotici atipici", "front": "Antipsicotici atipici: effetti avversi principali", "back": "Aumento di peso, sindrome metabolica.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Basi biologiche", "front": "Ipotesi monoaminergica della depressione", "back": "Carenza di serotonina, noradrenalina e dopamina. Le trasmissioni serotoninergica e noradrenergica si influenzano via autocettori 5-HT2/alfa2, condividono le MAO come sistema di degradazione.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Basi biologiche", "front": "Ipotesi neurorecettoriale", "back": "Up-regulation dei recettori 5-HT1 (somatodendritici) e 5-HT2 (post-sinaptici) causata dalla riduzione del neurotrasmettitore. Spiega la latenza della risposta al trattamento.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Basi biologiche", "front": "Ipotesi neurotrofica", "back": "Lo stress deplenisce fattori neurotrofici come il BDNF a livello ippocampale. Gli antidepressivi agirebbero cronicamente ripristinando l'espressione di BDNF, favorendo plasticità/neurogenesi.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Basi biologiche", "front": "Recettori serotoninergici: le 4 famiglie", "back": "1° tipo: 5-HT1(A/B/D/E/F), accoppiati a Gi. 2° tipo: 5-HT2(A/B/C), accoppiati a Gq/11. 3° tipo: 5-HT3, unico recettore-canale. 4° tipo: 5-HT4, 5-HT5, 5-HT6, 5-HT7, accoppiati a Gs.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Concetti clinici generali", "front": "Fasi del trattamento antidepressivo", "back": "Fase acuta: 6-12 settimane, inizio remissione. Fase di continuazione: 4-9 mesi, remissione completa. Fase di mantenimento: 12-36 mesi, prevenzione recidive.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Concetti clinici generali", "front": "Farmaci di prima vs seconda generazione", "back": "Prima generazione: IMAO, TCA (poco usati oggi). Seconda generazione: SSRI, SNRI, NRI, NaSSA, SARI, DNRI, agonisti melatoninergici, antidepressivi multimodali.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Concetti clinici generali", "front": "Caso: disfunzione sessuale da Fluoxetina dopo 6 settimane efficaci", "back": "Risposta corretta: Mirtazapina. Non causa disfunzione sessuale come gli SSRI (antagonizza 5HT2/5HT3, meccanismo diverso).", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}, {"cat": "Concetti clinici generali", "front": "Caso: depressione maggiore + glaucoma ad angolo chiuso, farmaco da evitare", "back": "Risposta corretta: Amitriptilina (TCA). Azione anticolinergica (anti-M1) può precipitare/aggravare il glaucoma ad angolo chiuso per midriasi.", "modulo": "Plescia", "lezione": "4 - Ansia e Insonnia, Depressione"}];
 
-const STORAGE_KEY = 'farmaco_flashcards_known_v1';
+const STORAGE_KEY = 'farmaco_flashcards_known_v2';
 let known = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
 
-function cardId(c){ return c.cat + '::' + c.front; }
+function cardId(c){ return c.modulo + '::' + c.lezione + '::' + c.cat + '::' + c.front; }
 
-let currentCat = 'Tutte';
+let filters = { modulo: 'Tutti', lezione: 'Tutte', cat: 'Tutte' };
 let deck = [];
 let idx = 0;
 let flipped = false;
 
+function uniq(arr){ return Array.from(new Set(arr)); }
+
+function getFilteredBase(){
+  return CARDS.filter(c =>
+    (filters.modulo === 'Tutti' || c.modulo === filters.modulo) &&
+    (filters.lezione === 'Tutte' || c.lezione === filters.lezione)
+  );
+}
+
+function populateModuloFilter(){
+  const sel = document.getElementById('moduloFilter');
+  const moduli = ['Tutti', ...uniq(CARDS.map(c => c.modulo))];
+  sel.innerHTML = moduli.map(m => `<option value="${m}">${m === 'Tutti' ? 'Tutti i moduli' : m}</option>`).join('');
+  sel.value = filters.modulo;
+  sel.addEventListener('change', () => {
+    filters.modulo = sel.value;
+    filters.lezione = 'Tutte';
+    filters.cat = 'Tutte';
+    populateLezioneFilter();
+    populateCatFilter();
+    buildDeck();
+    render();
+  });
+}
+
+function populateLezioneFilter(){
+  const sel = document.getElementById('lezioneFilter');
+  const pool = filters.modulo === 'Tutti' ? CARDS : CARDS.filter(c => c.modulo === filters.modulo);
+  const lezioni = ['Tutte', ...uniq(pool.map(c => c.lezione)).sort((a,b) => {
+    const na = parseFloat(a); const nb = parseFloat(b);
+    if(!isNaN(na) && !isNaN(nb)) return na - nb;
+    return a.localeCompare(b);
+  })];
+  sel.innerHTML = lezioni.map(l => `<option value="${l}">${l === 'Tutte' ? 'Tutte le lezioni' : l}</option>`).join('');
+  sel.value = filters.lezione;
+  sel.onchange = () => {
+    filters.lezione = sel.value;
+    filters.cat = 'Tutte';
+    populateCatFilter();
+    buildDeck();
+    render();
+  };
+}
+
+function populateCatFilter(){
+  const sel = document.getElementById('catFilter');
+  const pool = getFilteredBase();
+  const cats = ['Tutte', ...uniq(pool.map(c => c.cat)).sort()];
+  sel.innerHTML = cats.map(c => `<option value="${c}">${c === 'Tutte' ? 'Tutti gli argomenti' : c}</option>`).join('');
+  sel.value = filters.cat;
+  sel.onchange = () => {
+    filters.cat = sel.value;
+    buildDeck();
+    render();
+  };
+}
+
 function buildDeck(){
-  deck = currentCat === 'Tutte' ? CARDS.slice() : CARDS.filter(c => c.cat === currentCat);
+  deck = getFilteredBase().filter(c => filters.cat === 'Tutte' || c.cat === filters.cat);
   idx = 0;
   flipped = false;
 }
@@ -311,28 +388,18 @@ function shuffle(arr){
   }
 }
 
-function populateFilter(){
-  const cats = ['Tutte', ...Array.from(new Set(CARDS.map(c => c.cat)))];
-  const sel = document.getElementById('catFilter');
-  sel.innerHTML = cats.map(c => `<option value="${c}">${c === 'Tutte' ? 'Tutte le categorie' : c}</option>`).join('');
-  sel.addEventListener('change', () => {
-    currentCat = sel.value;
-    buildDeck();
-    render();
-  });
-}
-
 function render(){
   const container = document.getElementById('stageContainer');
   const total = deck.length;
   const knownCount = deck.filter(c => known[cardId(c)]).length;
 
+  document.getElementById('countSub').textContent = `${CARDS.length} card totali`;
   document.getElementById('progressLabel').textContent = total ? `${idx + 1} / ${total}` : '0 / 0';
   document.getElementById('knownLabel').textContent = `${knownCount} sapute`;
   document.getElementById('progressFill').style.width = total ? `${(knownCount/total)*100}%` : '0%';
 
   if(total === 0){
-    container.innerHTML = `<div class="empty">Nessuna card in questa categoria.</div>`;
+    container.innerHTML = `<div class="empty">Nessuna card qui ancora.<br>Aggiungi nuove lezioni al dataset per popolare questa sezione.</div>`;
     return;
   }
 
@@ -344,12 +411,18 @@ function render(){
       <div class="card ${flipped ? 'flipped' : ''}" id="flipCard">
         <div class="face front">
           <span class="index-mark">${idx+1}/${total}${isKnown ? ' ✓' : ''}</span>
-          <span class="cat-tag">${c.cat}</span>
+          <div class="tag-row">
+            <span class="cat-tag lezione-tag">${c.modulo} · ${c.lezione}</span>
+            <span class="cat-tag">${c.cat}</span>
+          </div>
           <div class="front-term">${c.front}</div>
           <span class="flip-hint">tocca per girare</span>
         </div>
         <div class="face back">
-          <span class="cat-tag">${c.cat}</span>
+          <div class="tag-row">
+            <span class="cat-tag lezione-tag">${c.modulo} · ${c.lezione}</span>
+            <span class="cat-tag">${c.cat}</span>
+          </div>
           <div class="back-answer">${c.back}</div>
           <span class="flip-hint">tocca per tornare</span>
         </div>
@@ -394,12 +467,12 @@ function render(){
 
 function goNext(){
   flipped = false;
-  idx = (idx + 1) % deck.length;
+  idx = deck.length ? (idx + 1) % deck.length : 0;
   render();
 }
 function goPrev(){
   flipped = false;
-  idx = (idx - 1 + deck.length) % deck.length;
+  idx = deck.length ? (idx - 1 + deck.length) % deck.length : 0;
   render();
 }
 
@@ -419,12 +492,19 @@ document.getElementById('resetBtn').addEventListener('click', () => {
 });
 
 document.addEventListener('keydown', (e) => {
-  if(e.code === 'Space'){ e.preventDefault(); flipped = !flipped; render(); const el=document.getElementById('flipCard'); if(el) el.classList.toggle('flipped', flipped); }
+  if(e.code === 'Space'){
+    e.preventDefault();
+    flipped = !flipped;
+    const el = document.getElementById('flipCard');
+    if(el) el.classList.toggle('flipped', flipped);
+  }
   if(e.code === 'ArrowRight') goNext();
   if(e.code === 'ArrowLeft') goPrev();
 });
 
-populateFilter();
+populateModuloFilter();
+populateLezioneFilter();
+populateCatFilter();
 buildDeck();
 render();
 </script>

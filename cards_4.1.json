@@ -1,0 +1,256 @@
+{
+  "modulo": "Plescia",
+  "lezione": "4.1 - Basi dell'Ansia e Benzodiazepine",
+  "cards": [
+    {
+      "cat": "Antagonisti adrenergici",
+      "front": "Antagonisti alfa1-selettivi",
+      "back": "Doxazosina, Prazosina, Terazosina, Tamsulosina (specifica per alfa1A, usata nella ritenzione urinaria da ipertrofia prostatica). Effetti collaterali: tachicardia, disfunzione sessuale, vertigini, ipotensione ortostatica."
+    },
+    {
+      "cat": "Antagonisti adrenergici",
+      "front": "Yohimbina",
+      "back": "Antagonista alfa2-selettivo. Recettori alfa2 localizzati nel tratto gastrointestinale e a livello pancreatico."
+    },
+    {
+      "cat": "Antagonisti adrenergici",
+      "front": "Fenossibenzamina",
+      "back": "Antagonista non selettivo, irreversibile, di tutti i recettori alfa. Usata nel feocromocitoma (dove un antagonista alfa1 selettivo non basta). Blocca alfa1 (↓resistenze periferiche, tachicardia riflessa) e alfa2 presinaptico (↑rilascio NA). Effetti collaterali: ipotensione posturale, congestione nasale, nausea, vomito."
+    },
+    {
+      "cat": "Antagonisti adrenergici",
+      "front": "Fentolamina",
+      "back": "Antagonista non selettivo reversibile dei recettori alfa adrenergici."
+    },
+    {
+      "cat": "Antagonisti adrenergici",
+      "front": "Beta-bloccanti: generazioni",
+      "back": "1a generazione (non selettivi, alfa1+beta2): Propranololo, Pindololo (anche profilassi emicrania), Nadololo, Sotalolo, Timololo. 2a generazione (beta1-selettivi): Atenololo, Acebutololo, Bisoprololo, Esmololo, Metoprololo. 3a generazione: Carvedilolo/Labetalolo (anche antagonisti alfa1) o Nebivololo/Betaxololo (beta1-selettivi con proprietà vasali)."
+    },
+    {
+      "cat": "Antagonisti adrenergici",
+      "front": "Perché scegliere beta1-selettivi vs non selettivi",
+      "back": "Nel paziente diabetico, a rischio infarto, con trigliceridemia o ipercolesterolemia, evitare farmaci di 1a generazione (agiscono anche su beta2, localizzati a livello epatico e adiposo, peggiorando il quadro metabolico). Preferire beta1-selettivi."
+    },
+    {
+      "cat": "Antagonisti adrenergici",
+      "front": "Nebivololo e Betaxololo",
+      "back": "Beta1-selettivi di 3a generazione con proprietà vasali. Nebivololo: NO-donor, favorisce vasodilatazione. Betaxololo: inibisce canali del calcio, vasodilatazione."
+    },
+    {
+      "cat": "Antagonisti adrenergici",
+      "front": "Timololo",
+      "back": "Beta-bloccante non selettivo (beta1-beta2), usato per uso topico nel glaucoma. Effetti collaterali: senso di stanchezza e freddo alle estremità."
+    },
+    {
+      "cat": "Basi neurobiologiche ansia",
+      "front": "Amigdala e ippocampo nell'ansia",
+      "back": "Amigdala: gestisce le emozioni negative, fissa i ricordi negativi (es. PTSD). Ippocampo: apprendimento, memoria, implicato nell'evitamento. Insieme creano un circuito di potenziamento simile alla paura."
+    },
+    {
+      "cat": "Basi neurobiologiche ansia",
+      "front": "Grigio periacqueduttale (PAG) nell'ansia",
+      "back": "Stimolato da corteccia paralimbica, ippocampo e amigdala (via glutammatergica) → scarica di noradrenalina → manifestazioni somatiche dell'ansia e attacco di panico."
+    },
+    {
+      "cat": "Basi neurobiologiche ansia",
+      "front": "Locus coeruleus: ruolo regolatorio",
+      "back": "Si attiva insieme al PAG ma lo frena tramite trasmissione GABAergica, riducendo le manifestazioni somatiche dell'ansia e gli attacchi di panico (reazioni di allerta e panicolisi)."
+    },
+    {
+      "cat": "Basi neurobiologiche ansia",
+      "front": "Nuclei del rafe (dorsale e mediale)",
+      "back": "Neuroni serotoninergici che inibiscono ulteriormente il grigio periacqueduttale e l'amigdala tramite azione sui siti recettoriali."
+    },
+    {
+      "cat": "Basi neurobiologiche ansia",
+      "front": "Perché gli SSRI funzionano nell'ansia (meccanismo circuitale)",
+      "back": "Potenziando la trasmissione serotoninergica si inibiscono amigdala (quindi la sua comunicazione con corteccia paralimbica e ippocampo) e il grigio periacqueduttale → riduzione dello stato ansioso."
+    },
+    {
+      "cat": "Basi neurobiologiche ansia",
+      "front": "Recettori 5-HT1 vs 5-HT2 nella regolazione somatodendritica",
+      "back": "5-HT1 somatodendritico: inibitorio, riduce il rilascio di serotonina. 5-HT2 post-sinaptico: eccitatorio. Nel paziente ansioso/depresso entrambi sono in up-regulation rispetto alla condizione fisiologica."
+    },
+    {
+      "cat": "Basi neurobiologiche ansia",
+      "front": "BDNF e ansia/depressione",
+      "back": "Il rilascio di serotonina/NA attiva il fattore di trascrizione CREB, che sintetizza geni precoci (c-Fos, PER1) e il fattore neurotrofico BDNF. Nei pazienti ansiosi/depressi il BDNF è ridotto (minor trofismo cerebrale). Con la terapia farmacologica la sintesi di BDNF aumenta."
+    },
+    {
+      "cat": "Basi neurobiologiche ansia",
+      "front": "Iperventilazione nell'ansia: minaccia fisica vs emotiva",
+      "back": "Minaccia fisica: aumento respirazione giustificato (più ossigeno necessario). Minaccia emotiva: aumento respirazione immotivato → squilibrio O2/CO2 con prevalenza CO2 → cefalea, tachicardia, attacco di panico."
+    },
+    {
+      "cat": "Farmaci per condizioni specifiche",
+      "front": "Antistaminici di 1a generazione nell'ansia",
+      "back": "Prometazina, Idrossazina. Usati nei soggetti ansiosi o per indurre ipnosi; premedicazione in anestesia e odontoiatria per azione sedativa e antiemetica."
+    },
+    {
+      "cat": "Farmaci per condizioni specifiche",
+      "front": "Propranololo nell'ansia (dettaglio)",
+      "back": "Beta-bloccante non selettivo (beta1+beta2). Controlla i sintomi neurovegetativi legati ad ansia/stress, incluso il blocco dell'iperventilazione."
+    },
+    {
+      "cat": "Farmaci per condizioni specifiche",
+      "front": "Pregabalin nell'ansia",
+      "back": "Antiepilettico efficace nel disturbo d'ansia generalizzata. Agisce sui canali del calcio riducendo le trasmissioni eccitatorie."
+    },
+    {
+      "cat": "Benzodiazepine - generale",
+      "front": "Benzodiazepine: azioni principali",
+      "back": "Sedazione, ipnosi, riduzione dell'ansia, rilassamento muscolare, amnesia anterograda (es. Midazolam per gastroscopia/colonscopia), attività anticonvulsivante. NON hanno attività anestetica."
+    },
+    {
+      "cat": "Benzodiazepine - generale",
+      "front": "BDZ: meccanismo d'azione molecolare",
+      "back": "Modulatori allosterici positivi del GABA-A. Si legano tra subunità α e γ (il GABA si lega tra α e β). Aumentano l'affinità del GABA E il tempo di apertura del canale del cloro. A differenza dei barbiturici, necessitano sempre della presenza del GABA per attivare il recettore."
+    },
+    {
+      "cat": "Benzodiazepine - generale",
+      "front": "Perché le BDZ non trattano la dipendenza da alcol",
+      "back": "Nel soggetto alcolista manca la subunità γ del recettore GABA-A, quindi le BDZ (che si legano tra α e γ) non hanno sito recettoriale disponibile e risultano inefficaci."
+    },
+    {
+      "cat": "Benzodiazepine - generale",
+      "front": "Recettori Ω1, Ω2, Ω3 delle BDZ",
+      "back": "Ω1 (centrali): cervelletto, substantia nigra, corteccia. Ω2 (centrali): midollo allungato, ippocampo, corteccia. Ω3 (periferici): rene, testicolo, glia, sistema immunitario."
+    },
+    {
+      "cat": "Benzodiazepine - generale",
+      "front": "Flumazenil",
+      "back": "Antagonista competitivo del recettore delle BDZ (antidoto). Dosaggio 0,2-0,3 mg e.v. in ~15 secondi; se il paziente non si risveglia, si ripete ogni 60 secondi fino a 2 mg totali."
+    },
+    {
+      "cat": "Benzodiazepine - generale",
+      "front": "Beta-carboline",
+      "back": "Agonisti inversi del recettore delle BDZ (non utilizzate clinicamente); hanno effetti opposti agli agonisti: promnestico, ansiogenico, convulsivante."
+    },
+    {
+      "cat": "Benzodiazepine - generale",
+      "front": "Spettro d'azione delle BDZ (agonista → agonista inverso)",
+      "back": "Agonista: ansiolitico, sedativo-ipnotico, miorilassante, anticonvulsivante, amnestico, dipendenza. Agonista parziale: solo ansiolitico. Antagonista: nessun effetto clinico. Agonista parziale inverso/inverso: effetti opposti (promnestico, ansiogenico, pro-convulsivante/convulsivante)."
+    },
+    {
+      "cat": "Benzodiazepine - generale",
+      "front": "Subunità α1 vs α2 del recettore GABA-A",
+      "back": "α1: sedazione ed effetto ipnoinduttore (più espressa a livello troncoencefalico). α2: effetto ansiolitico e miorilassante (più espressa a livello mesolimbico)."
+    },
+    {
+      "cat": "Benzodiazepine - generale",
+      "front": "Z-compound: selettività recettoriale",
+      "back": "Modulatori allosterici positivi del GABA-A come le BDZ, ma si legano preferenzialmente al recettore con subunità α1 → solo attività ipnoinduttrice/ipnoprotettrice, NESSUNA attività ansiolitica."
+    },
+    {
+      "cat": "Benzodiazepine - generale",
+      "front": "BDZ: azione per area cerebrale",
+      "back": "Ansiolitica → sistema limbico. Ipnotica → tronco encefalico. Anticonvulsivante → mesencefalo-diencefalo. Miorilassante → corteccia-sottocorteccia."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "BDZ: le due emivite (T½α e T½β)",
+      "back": "T½α (2-10h, comune a tutte): fase di distribuzione. T½β (2-100h, variabile): fase di eliminazione/biotrasformazione, usata per classificare le BDZ. Emivita breve → meno sonnolenza residua ma più dipendenza/tolleranza."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "BDZ a lunga durata d'azione (>24h)",
+      "back": "Nitrobenzodiazepine (emivita 24-48h) e pronordiazepam-simili (emivita >48h). Vanno incontro a metabolismo di fase 1 con metaboliti attivi a emivita superiore. Accumulo con uso prolungato — sconsigliate in anziani/epatopatici."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "Clordiazepossido",
+      "back": "Pronordiazepam-simile, emivita 15-100h. Usato per l'astinenza da alcol (non l'alcolismo in sé) e per stati ansiosi con complicazioni cardiache."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "Diazepam",
+      "back": "Pronordiazepam-simile (Valium), emivita 20-100h. Metabolizzato in Temazepam poi Oxazepam (metaboliti attivi). Somministrabile per via orale, rettale (unica via nei bambini), intramuscolare, endovenosa lenta. Usato come anticonvulsivante, miorilassante, in premedicazione chirurgica."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "Flurazepam",
+      "back": "Nitrobenzodiazepina, emivita 2-3h ma metabolita N-dealchiflurazepam ha emivita 47-100h. Classificato ipnotico a lunga azione. Usato per insonnia con risvegli notturni frequenti."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "Nitrazepam",
+      "back": "Nitrobenzodiazepina capostipite, emivita 25-30h. Attività ipnoinducente, buon effetto anticonvulsivante, si accumula con somministrazioni continue."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "Flunitrazepam",
+      "back": "Nitrobenzodiazepina, emivita 15-30h. Ipnoinducente nel trattamento di insonnie intermedie con risvegli precoci."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "Clonazepam",
+      "back": "Nitrobenzodiazepina con azione di agonismo parziale (attività intrinseca minore). Usato principalmente nell'epilessia, poco/nulla in ansia e disturbi del sonno."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "BDZ a durata intermedia (<24h): oxazepam-simili",
+      "back": "Vanno direttamente a glucurono-coniugazione (fase 2) senza fase 1 → nessun metabolita attivo, nessun accumulo. Adatte ad anziani ed epatopatici."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "Oxazepam",
+      "back": "Oxazepam-simile, emivita 4-24h. Molto usato per l'ansia nell'anziano, nessun accumulo (non metabolizzato in fase 1)."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "Lorazepam",
+      "back": "Oxazepam-simile, emivita ~7h, coniugato direttamente ed eliminato. Elevata affinità e attività intrinseca. Disponibile anche in cerotto — utile nell'ansia del paziente con Alzheimer (rilascio lento e protezione prolungata)."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "BDZ a breve durata d'azione: triazolo-benzodiazepine",
+      "back": "Emivita 2-16h (es. Alprazolam, Triazolam). Idrossilate in fase 1 poi coniugate. Accumulo minimo, ma possibile prolungamento in anziani/epatopatici."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "Alprazolam (Xanax)",
+      "back": "Triazolo-benzodiazepina, emivita 6-12h. Indicato nell'ansia (soprattutto associata a depressione, effetto dose-dipendente) e negli attacchi di panico in acuto. Alto rischio di tolleranza/dipendenza per l'emivita breve."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "Triazolam",
+      "back": "Triazolo-benzodiazepina, emivita 2,5h. Maggiore affinità per il recettore GABAergico (atomo di cloro extra). Usato come ipnoinducente nell'insonnia transitoria."
+    },
+    {
+      "cat": "Benzodiazepine - farmacocinetica",
+      "front": "Midazolam",
+      "back": "Imidazolo-benzodiazepina, emivita brevissima 2-3h. Sedativo, ipnoinducente, dà amnesia anterograda → usato in manovre invasive (gastroscopia, colonscopia) e per sedazione profonda nei bambini (anche per os)."
+    },
+    {
+      "cat": "Benzodiazepine - clinica",
+      "front": "Interazione SSRI (fluoxetina) + BDZ",
+      "back": "Da evitare: la fluoxetina inibisce il metabolismo della benzodiazepina (via CYP), potenziandone l'effetto per oltre 48h."
+    },
+    {
+      "cat": "Benzodiazepine - clinica",
+      "front": "Tolleranza alle BDZ",
+      "back": "Necessità di aumentare il dosaggio per lo stesso effetto. Più frequente e intensa con ipnoinducenti a breve emivita e con gli anticonvulsivanti."
+    },
+    {
+      "cat": "Benzodiazepine - clinica",
+      "front": "Effetto rebound delle BDZ",
+      "back": "Ricomparsa più accentuata della sintomatologia originaria dopo sospensione brusca del farmaco. Più frequente/intenso con BDZ a breve emivita. Tipicamente difficoltà di addormentamento e risvegli notturni frequenti."
+    },
+    {
+      "cat": "Benzodiazepine - clinica",
+      "front": "BDZ: effetti sistemici respiratori e cardiovascolari",
+      "back": "Respiratori: minimi a dosi ipnotiche; a dosi da premedicazione possibile depressione ventilatoria/acidosi respiratoria (più marcata in BPCO). Cardiovascolari: a dosi preanestetiche ipotensione e tachicardia (Midazolam riduce resistenze periferiche, Diazepam riduce il lavoro cardiaco)."
+    },
+    {
+      "cat": "Benzodiazepine - clinica",
+      "front": "Sindrome da brusca sospensione di BDZ",
+      "back": "Sintomi frequenti: ansia, insonnia, disforia, eccitabilità, riduzione memoria/concentrazione, vertigini, sudorazione, tremore. Rari ma gravi: convulsioni, sintomi psicotici, ideazione suicidaria."
+    },
+    {
+      "cat": "Benzodiazepine - clinica",
+      "front": "BDZ nel bambino: unica indicazione",
+      "back": "Diazepam per via rettale, per risolvere crisi epilettiche — è l'unica indicazione approvata per l'uso di BDZ nel bambino."
+    }
+  ]
+}

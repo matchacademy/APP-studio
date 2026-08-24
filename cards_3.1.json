@@ -3,212 +3,212 @@
   "lezione": "3.1 - Regolazione Farmacologica del Sistema Nervoso Autonomo (Sistema Colinergico)",
   "cards": [
     {
-      "cat": "SNA generalità",
+      "cat": "SNA e neurotrasmissione colinergica",
       "front": "Controllo centrale del SNA",
       "back": "Ipotalamo: porzione ventro-mediale controlla il simpatico, porzione laterale controlla il parasimpatico. Glucocorticoidi facilitano la sintesi di adrenalina a livello della midollare del surrene."
     },
     {
-      "cat": "SNA generalità",
+      "cat": "SNA e neurotrasmissione colinergica",
       "front": "Neurotrasmettitori pre/post-gangliari",
       "back": "Neurone pregangliare: SEMPRE acetilcolina (sia simpatico che parasimpatico), su recettori nicotinici. Neurone postgangliare parasimpatico: acetilcolina (recettori muscarinici). Neurone postgangliare simpatico: noradrenalina (recettori adrenergici)."
     },
     {
-      "cat": "Sintesi acetilcolina",
+      "cat": "SNA e neurotrasmissione colinergica",
       "front": "Sintesi dell'acetilcolina",
       "back": "Colina captata da CHT1 (cotrasporto con Na+) → colina-acetil-transferasi + acetil-CoA → acetilcolina → conservata in vescicole. Rilascio tramite apertura canali Na+/Ca2+ voltaggio-dipendenti (proteine SNAP25, SNARE)."
     },
     {
-      "cat": "Sintesi acetilcolina",
+      "cat": "SNA e neurotrasmissione colinergica",
       "front": "CHT1 vs CHT2",
       "back": "CHT1: principale trasportatore neuronale, membrana presinaptica. CHT2: prevalentemente epatociti e tubuli prossimali. Entrambi sodio-indipendenti (nel senso del meccanismo di trasporto, ma captano colina in cotrasporto Na+)."
     },
     {
-      "cat": "Degradazione acetilcolina",
+      "cat": "SNA e neurotrasmissione colinergica",
       "front": "Acetilcolinesterasi (AChE)",
       "back": "Degrada rapidamente ACh e i suoi analoghi (metacolina, carbacolo, betanecolo). L'aggiunta di gruppi metilici conferisce resistenza all'AChE, aumentando l'emivita del farmaco."
     },
     {
-      "cat": "Farmaci sul sistema colinergico",
+      "cat": "SNA e neurotrasmissione colinergica",
       "front": "Vesamicolo e tossina botulinica",
       "back": "Vesamicolo: inibitore del trasportatore vescicolare dell'ACh. Tossina botulinica: taglia SNAP25, impedisce il legame della sinaptotagmina → blocca il rilascio di ACh → paralisi flaccida/rilassamento muscolare."
     },
     {
-      "cat": "Inibitori AChE",
+      "cat": "SNA e neurotrasmissione colinergica",
       "front": "Organofosforici e gas nervini",
       "back": "Impediscono all'AChE di degradare ACh → potenziamento eccessivo del sistema colinergico → broncocostrizione (M3) può portare ad arresto respiratorio. Antidoto: atropina (antagonista muscarinico)."
     },
     {
-      "cat": "Inibitori AChE",
+      "cat": "SNA e neurotrasmissione colinergica",
       "front": "Rivastigmina nell'Alzheimer",
       "back": "Inibisce l'acetilcolinesterasi, potenzia la trasmissione colinergica deficitaria nel paziente con Alzheimer (riduzione proiezioni setto mediale-ippocampo-corteccia)."
     },
     {
-      "cat": "Recettori nicotinici e muscarinici",
+      "cat": "Recettori muscarinici ed effetti dell'ACh",
       "front": "Autorecettori ed eterorecettori del rilascio di ACh",
       "back": "Autorecettori M2/M4 (presinaptici, feedback inibitorio). Eterorecettori: adrenergici α2 (inibitori), recettori adenosina, istamina, oppiacei, NO (media vasodilatazione ACh-indotta)."
     },
     {
-      "cat": "Recettori muscarinici",
+      "cat": "Recettori muscarinici ed effetti dell'ACh",
       "front": "M1,M3,M5 vs M2,M4 - proteina G",
       "back": "Dispari (M1,M3,M5): proteina Gq, via PLC-DAG-IP3, rilascio di Ca2+. Pari (M2,M4): proteina Gi, inibitoria."
     },
     {
-      "cat": "Recettori muscarinici",
+      "cat": "Recettori muscarinici ed effetti dell'ACh",
       "front": "M2 cardiaco - effetti",
       "back": "Aumenta correnti K+ (beta-gamma mediate) → iperpolarizzazione. Riduce corrente Ca2+ (canali tipo L). Effetti: cronotropo-, dromotropo-, inotropo- (meno importante su ventricoli che su atri)."
     },
     {
-      "cat": "Effetti acetilcolina",
+      "cat": "Recettori muscarinici ed effetti dell'ACh",
       "front": "Effetti ACh su apparato cardiovascolare",
       "back": "Vasodilatazione (via M3 endotelio → Gq → PLC → IP3 → Ca2+ → eNOS → NO → cGMP). Diminuzione frequenza (crono-), velocità di conduzione AV (dromo-), contrattilità (inotropo-)."
     },
     {
-      "cat": "Effetti acetilcolina",
+      "cat": "Recettori muscarinici ed effetti dell'ACh",
       "front": "Effetti ACh su bronchi, vescica, GI, occhio",
       "back": "Bronchi (M3): broncocostrizione, aumento secrezioni. Vescica (M3): contrazione detrusore. GI (M3): aumento tono/motilità/secrezione. Occhio (M3): miosi, accomodazione per vicino."
     },
     {
-      "cat": "Agonisti muscarinici - esteri colina",
+      "cat": "Agonisti e antagonisti muscarinici",
       "front": "Metacolina - uso diagnostico",
       "back": "Estere sintetico della colina, resistente a colinesterasi. Usata per il test di provocazione bronchiale (diagnosi asma/iperreattività). Controindicazioni: infarto recente, ictus, ipertensione non controllata, gravidanza."
     },
     {
-      "cat": "Agonisti muscarinici - esteri colina",
+      "cat": "Agonisti e antagonisti muscarinici",
       "front": "Betanecolo vs carbacolo",
       "back": "Betanecolo: attività muscarinica maggiore (vescica, GI), usato per irritazione urinaria non ostruttiva, 10-50mg 3-4 volte/die a stomaco vuoto. Carbacolo: attività nicotinica rilevante, usato in collirio per glaucoma."
     },
     {
-      "cat": "Agonisti muscarinici - alcaloidi",
+      "cat": "Agonisti e antagonisti muscarinici",
       "front": "Pilocarpina",
       "back": "Alcaloide naturale, azione muscarinica predominante (agonista parziale). Usata per xerostomia da radioterapia o sindrome di Sjögren, 5-10mg x3/die. Ghiandole sudoripare molto sensibili."
     },
     {
-      "cat": "Antagonisti muscarinici",
+      "cat": "Agonisti e antagonisti muscarinici",
       "front": "Atropina - effetti dose-dipendenti",
       "back": "0.4-0.6mg: rallentamento FC (blocco M1 presinaptico). 2mg: tachicardia (blocco M2 sul nodo SA). Usi: midriasi, premedicazione anestesia, bradicardia da tono vagale eccessivo, avvelenamento da organofosforici."
     },
     {
-      "cat": "Antagonisti muscarinici",
+      "cat": "Agonisti e antagonisti muscarinici",
       "front": "Scopolamina",
       "back": "Antiemetico per cinetosi (mal d'auto/aereo), cerotto retroauricolare, rilascio di 0.5mg in 72h. Oggi sostituita spesso da anti-H1 ad azione centrale (es. prometazina)."
     },
     {
-      "cat": "Antagonisti muscarinici selettivi",
+      "cat": "Agonisti e antagonisti muscarinici",
       "front": "Farmaci per iperattività vescicale (M3)",
       "back": "Ossibutilina (CYP3A4, cerotto per xerostomia), Tolterodina (CYP2D6→3A4 backup), Solifenacina/Darifenacina (CYP3A4/2D6, alta affinità M3)."
     },
     {
-      "cat": "Antagonisti muscarinici selettivi",
+      "cat": "Agonisti e antagonisti muscarinici",
       "front": "Ipatropio vs Tiotropio (BPCO)",
       "back": "Ipatropio: blocca tutti i sottotipi M inclusi M2 presinaptico (effetto contrastato), serve 4-6 somministrazioni/die. Tiotropio: selettivo M1/M3, minor affinità M2, 1 somministrazione/die (24h)."
     },
     {
-      "cat": "Anticolinesterasici reversibili",
+      "cat": "Agonisti e antagonisti muscarinici",
       "front": "Piridostigmina nella miastenia gravis",
       "back": "Compresse 180mg a rilascio differenziato (60-80mg immediato + resto lento). Aumenta ACh in giunzione neuromuscolare per compensare i recettori nicotinici ridotti."
     },
     {
-      "cat": "Anticolinesterasici reversibili",
+      "cat": "Agonisti e antagonisti muscarinici",
       "front": "Fisostigmina e neostigmina - usi",
       "back": "Ileo paralitico e atonia della vescica. Neostigmina metosolfato: sottocute 0.5mg, ripresa peristalsi in 10-30min. Anche antidoto dei curari competitivi."
     },
     {
-      "cat": "Bloccanti neuromuscolari - curari",
+      "cat": "Bloccanti neuromuscolari e miorilassanti",
       "front": "Curari competitivi vs depolarizzanti",
       "back": "Competitivi: antagonisti del recettore nicotinico (bloccano la placca). Depolarizzanti (succinilcolina): agonisti che stimolano eccessivamente il recettore inducendone desensibilizzazione → paralisi."
     },
     {
-      "cat": "Bloccanti neuromuscolari - curari",
+      "cat": "Bloccanti neuromuscolari e miorilassanti",
       "front": "Antidoto curari competitivi vs succinilcolina",
       "back": "Curari competitivi: neostigmina/fisostigmina (potenziano ACh che scalza il curaro). Succinilcolina: MAI dare neostigmina/fisostigmina (potenzierebbero l'effetto) - usare eventualmente atropina."
     },
     {
-      "cat": "Bloccanti neuromuscolari - curari",
+      "cat": "Bloccanti neuromuscolari e miorilassanti",
       "front": "Classificazione chimica dei curari",
       "back": "Benzil-isochinoline (atracurio, cis-atracurio, mivacurio): minor durata, ridotta attività ganglioplegica, meno istamina. Ammonio-steroidi (pancuronio, vecuronio, rocuronio): lunga durata, azione vagolitica (tachicardia/ipertensione)."
     },
     {
-      "cat": "Miorilassanti",
+      "cat": "Bloccanti neuromuscolari e miorilassanti",
       "front": "Dantrolene",
       "back": "Miorilassante ad azione diretta: inibisce il rilascio di Ca2+ dal reticolo sarcoplasmatico. Usato in sclerosi multipla, paralisi spastica, emiplegia, ipertermia maligna."
     },
     {
-      "cat": "Miorilassanti centrali",
+      "cat": "Bloccanti neuromuscolari e miorilassanti",
       "front": "Baclofen vs Tizanidina vs Diazepam",
       "back": "Baclofen: agonista GABAb (presinaptico). Tizanidina: agonista α-2 presinaptico, inibisce rilascio NA a livello spinale. Diazepam: agonista GABAa, potenzia inibizione presinaptica sulle afferenze Ia."
     },
     {
-      "cat": "Tossina botulinica",
+      "cat": "Bloccanti neuromuscolari e miorilassanti",
       "front": "Tipi e usi della tossina botulinica",
       "back": "Tipi: Incobotulina A, Onabotulina A, Abobotulina A, Rimabotulina B. Usi: blefarospasmo, spasmo emifacciale, ragadi, uso cosmetico. Paralisi flaccida dura 3-4 mesi (recupero via sprouting nervoso)."
     },
     {
-      "cat": "Sistema catecolaminergico",
+      "cat": "Sistema catecolaminergico - sintesi e degradazione",
       "front": "Sintesi delle catecolamine",
       "back": "Tirosina → (tirosina idrossilasi) → DOPA → (dopa-decarbossilasi) → Dopamina → (dopamina-β-idrossilasi, nelle vescicole) → Noradrenalina → (feniletanolammina-N-metiltransferasi, midollare surrene) → Adrenalina."
     },
     {
-      "cat": "Sistema catecolaminergico",
+      "cat": "Sistema catecolaminergico - sintesi e degradazione",
       "front": "Metirosina e α-metildopa - meccanismo",
       "back": "Metirosina: inibisce tirosina idrossilasi. α-metildopa: condivide meccanismo α2 con clonidina, inibisce dopa-decarbossilasi, agisce da falso neurotrasmettitore nelle vescicole. Usata in gravidanza (non attraversa la placenta, a differenza della clonidina)."
     },
     {
-      "cat": "Sistema catecolaminergico",
+      "cat": "Sistema catecolaminergico - sintesi e degradazione",
       "front": "Reserpina e cocaina - meccanismo",
       "back": "Reserpina: inibisce il re-uptake vescicolare (VMAT) della dopamina, riducendo la produzione di NA. Cocaina: inibisce il trasportatore di membrana NET, aumentando la NA in cleft."
     },
     {
-      "cat": "Degradazione catecolamine",
+      "cat": "Sistema catecolaminergico - sintesi e degradazione",
       "front": "MAO-A vs MAO-B",
       "back": "MAO-A: terminazioni nervose, fegato, intestino - deaminano NA, adrenalina, serotonina. MAO-B: prevalentemente neuronali - metabolismo della dopamina (target nel Parkinson). Entrambe target storico di antidepressivi."
     },
     {
-      "cat": "Degradazione catecolamine",
+      "cat": "Sistema catecolaminergico - sintesi e degradazione",
       "front": "COMT e acido vanilmandelico (VMA)",
       "back": "COMT: espresse nella glia, mancano a livello neuronale. Dall'azione di MAO+COMT si produce VMA, eliminato con le urine - indice di feocromocitoma se elevato (produzione eccessiva di catecolamine)."
     },
     {
-      "cat": "Recettori adrenergici",
+      "cat": "Recettori adrenergici/dopaminergici e simpatico-mimetici",
       "front": "Recettore β1 - localizzazione ed effetti",
       "back": "Gs, localizzato cuore, occhio, rene. Cuore: inotropo/cronotropo/dromotropo positivo. Rene (apparato iuxtaglomerulare): rilascio di renina → attivazione RAAS → vasocostrizione. Target dei beta-bloccanti (scompenso cardiaco, ipertensione)."
     },
     {
-      "cat": "Recettori adrenergici",
+      "cat": "Recettori adrenergici/dopaminergici e simpatico-mimetici",
       "front": "Recettore β2 - localizzazione ed effetti",
       "back": "Gs, muscolatura liscia bronchiale/vasale/vescica/utero: broncodilatazione, vasodilatazione, rilasciamento. Metabolico: glicogenolisi/gluconeogenesi epatica e muscolare (iperglicemia)."
     },
     {
-      "cat": "Recettori adrenergici",
+      "cat": "Recettori adrenergici/dopaminergici e simpatico-mimetici",
       "front": "Recettore β3 e α1/α2",
       "back": "β3 (Gs): lipolisi nel tessuto adiposo. α1 (Gq/11): vasocostrizione (coronarie, vasi), midriasi, riduzione secrezione insulina indiretta. α2 (Gi): riduzione motilità GI, riduzione secrezione insulina (pancreas), sedazione centrale, autorecettore presinaptico."
     },
     {
-      "cat": "Recettori dopaminergici",
+      "cat": "Recettori adrenergici/dopaminergici e simpatico-mimetici",
       "front": "D1-like vs D2-like",
       "back": "D1-like (D1, D5): proteina G stimolatoria (Gs). D2-like (D2, D3, D4): proteina G inibitoria (Gi). Coinvolti in patologie SNC come psicosi/depressione."
     },
     {
-      "cat": "Farmaci simpatico-mimetici diretti",
+      "cat": "Recettori adrenergici/dopaminergici e simpatico-mimetici",
       "front": "Adrenalina - effetti dose-dipendenti",
       "back": "Basse dosi: prevale β2 (vasodilatazione). Alte dosi: prevale α1 (vasocostrizione). Usi: shock anafilattico, arresto cardiaco, broncospasmo. Affine sia a β2 che α, per questo usata nello shock anafilattico (a differenza della noradrenalina)."
     },
     {
-      "cat": "Farmaci simpatico-mimetici diretti",
+      "cat": "Recettori adrenergici/dopaminergici e simpatico-mimetici",
       "front": "Dopamina - effetti dose-dipendenti",
       "back": "Basse dosi: recettori D1 (vasi renali/mesenterici/coronarici) → aumento flusso renale. Dosi alte: β1 cardiaci (inotropo+). Concentrazioni elevate: α1. Uso: shock cardiogeno/settico, insufficienza cardiaca grave."
     },
     {
-      "cat": "Farmaci simpatico-mimetici diretti",
+      "cat": "Recettori adrenergici/dopaminergici e simpatico-mimetici",
       "front": "Clonidina - meccanismo e usi",
       "back": "Agonista α2 centrale (centri vasomotori bulbari) → inibisce rilascio NA → riduce pressione arteriosa. Usi: ipertensione, disintossicazione da narcotici/alcol/tabacco, vampate menopausa. Effetti collaterali: disfunzione sessuale, xerostomia, sedazione, bradicardia."
     },
     {
-      "cat": "Farmaci simpatico-mimetici indiretti",
+      "cat": "Recettori adrenergici/dopaminergici e simpatico-mimetici",
       "front": "Anfetamina - meccanismo",
       "back": "Inverte il trasportatore di membrana DAT (flusso dopamina in uscita anziché entrata), inibisce MAO e VMAT. Più potente della cocaina. Farmaci correlati: metanfetamina, metilfenidato (ADHD)."
     },
     {
-      "cat": "Broncodilatatori β2",
+      "cat": "Recettori adrenergici/dopaminergici e simpatico-mimetici",
       "front": "SABA vs LABA vs Ultra-LABA",
       "back": "SABA (breve durata): salbutamolo, terbutalina. LABA (lunga durata): formoterolo, salmeterolo. Ultra-LABA: indacaterolo, olodaterolo, vilanterolo - preferiti nell'asma grave e nella BPCO."
     }

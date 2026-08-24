@@ -18,37 +18,37 @@
       "back": "Antiaritmici di classe 1A, 1B, 1C bloccano il canale del Na+ legandosi al suo interno ('tappo'), aumentando il periodo refrattario. Es: lidocaina, procainamide."
     },
     {
-      "cat": "Classificazione recettori canale",
+      "cat": "Recettori canale",
       "front": "4 classi di recettori canale",
       "back": "1) Cys-loop: GABA-A, 5HT3, nicotinico. 2) Ionotropici del glutammato: AMPA, NMDA, Kainato. 3) Nucleotidi ciclici: cAMP/cGMP (Na, K, Ca). 4) Ionotropici ATP: P2X."
     },
     {
-      "cat": "Classificazione recettori canale",
+      "cat": "Recettori canale",
       "front": "Perché si chiamano 'cys-loop'?",
       "back": "Per la presenza nella porzione ammino-terminale di residui di cisteina (13 aa tra Cys128-142) che formano un ponte disolfuro importante per la struttura terziaria."
     },
     {
-      "cat": "Recettore nicotinico",
+      "cat": "Recettore nicotinico e 5HT3",
       "front": "Struttura del recettore nicotinico",
       "back": "Eteropentamero, famiglia cys-loop, 4 subunità diverse (2α1,1β1,1γ1 o 1ε1,1δ1). Porzione ammino-terminale extracitoplasmatica, 4 domini transmembrana (M1-M4), dominio carbossi-terminale intracitoplasmatico."
     },
     {
-      "cat": "Recettore nicotinico",
+      "cat": "Recettore nicotinico e 5HT3",
       "front": "Recettore nicotinico α4β2 vs α7",
       "back": "α4β2: 2 subunità α, attivato da 2 molecole di nicotina/ACh, su neurone dopaminergico VTA. α7: 5 subunità α, attivato da 5 molecole, su neurone glutammatergico. Entrambi nel meso-limbico/meso-corticale, responsabili della dipendenza da nicotina."
     },
     {
-      "cat": "Recettore nicotinico",
+      "cat": "Recettore nicotinico e 5HT3",
       "front": "Vareniclina",
       "back": "Agonista parziale dei recettori α4β2 (agonista totale per α7). Usata per smettere di fumare: stimolazione minore della nicotina, ma blocca il firing quando la nicotina è presente."
     },
     {
-      "cat": "Recettore nicotinico",
+      "cat": "Recettore nicotinico e 5HT3",
       "front": "Recettore nicotinico muscolare e miastenia gravis",
       "back": "Recettore nicotinico muscolare (placca neuromuscolare) sotto-espresso in miastenia gravis (anche per azione autoimmune). Trattamento: piridostigmina (inibitore AChE) aumenta il tono colinergico sui pochi recettori rimasti."
     },
     {
-      "cat": "Recettore 5HT3",
+      "cat": "Recettore nicotinico e 5HT3",
       "front": "Recettore 5HT3 e farmaci anti-emetici",
       "back": "Situato nella CTZ (centro del vomito). Antagonizzato da ondansetron, granisetron, tropisetron - usati nell'emesi da chemioterapici o post-anestesia."
     },
@@ -83,142 +83,142 @@
       "back": "α1: effetto ipnotico-sedativo. α2: effetto ansiolitico. α3: effetto miorilassante ad azione centrale."
     },
     {
-      "cat": "Recettori glutammato",
+      "cat": "Recettori del glutammato",
       "front": "Recettori canale del glutammato",
       "back": "AMPA, Kainato, NMDA. Struttura tetramerica. NMDA e AMPA i più studiati (modulazione e eccitotossicità). NMDA ha residuo di Asparagina → alta permeabilità Ca2+ e tappo di Mg2+."
     },
     {
-      "cat": "Recettori glutammato",
+      "cat": "Recettori del glutammato",
       "front": "Ketamina e fenciclidina",
       "back": "Bloccanti selettivi dei canali NMDA. Usate in passato come anestetici generali; la ketamina dà anestesia dissociativa, potenziale d'abuso."
     },
     {
-      "cat": "Recettori glutammato",
+      "cat": "Recettori del glutammato",
       "front": "LTP vs LTD",
       "back": "LTP (Long Term Potentiation): potenziamento duraturo della trasmissione sinaptica dopo stimolazione breve e intensa. LTD (Long Term Depression): controparte, indotta da stimoli più lunghi. Entrambi coinvolti in memoria e apprendimento."
     },
     {
-      "cat": "Recettori glutammato",
+      "cat": "Recettori del glutammato",
       "front": "Eccitotossicità da glutammato",
       "back": "Eccessivo Ca2+ intracellulare da iperattivazione NMDA: aumenta rilascio di glutammato, attiva proteasi/lipasi (danno membrane), aumenta radicali liberi (ROS) → morte cellulare. Rilevante in Alzheimer."
     },
     {
-      "cat": "GPCR",
+      "cat": "GPCR e segnalazione",
       "front": "Recettori accoppiati a proteine G - generalità",
       "back": "7 domini transmembrana, N-terminale extracellulare, C-terminale intracellulare. Il 30% dei farmaci in commercio agisce sui GPCR (~825 GPCR totali)."
     },
     {
-      "cat": "GPCR",
+      "cat": "GPCR e segnalazione",
       "front": "3 gruppi/famiglie di GPCR",
       "back": "Gruppo I (famiglia A, rodopsina): amine biogene, oppioidi, vasopressina. Gruppo II (famiglia B): calcitonina, PTH, glucagone, VIP - N-terminale lunga. Gruppo III (famiglia C): GABAb, glutammato metabotropico, recettore del Ca2+ e del gusto."
     },
     {
-      "cat": "GPCR",
+      "cat": "GPCR e segnalazione",
       "front": "Recettore GABAb",
       "back": "Funziona SOLO allo stato dimerico (eterodimero GABAb1+GABAb2). Il baclofen è l'unica molecola con buona attività su questo recettore (miorilassante, agonista, proteina G inibitoria)."
     },
     {
-      "cat": "GPCR - proteina G",
+      "cat": "GPCR e segnalazione",
       "front": "Subunità della proteina G eterotrimerica",
       "back": "α: lega nucleotide guanilico, attività GTPasica, specificità recettore/effettore. βγ: si lega al bilayer (prenilazione), interagisce con effettori (canali K+, Ca2+, PLC, PI3K)."
     },
     {
-      "cat": "GPCR - proteina G",
+      "cat": "GPCR e segnalazione",
       "front": "4 famiglie di subunità α",
       "back": "Gs: attiva adenilato ciclasi. Gi: inibisce adenilato ciclasi (antagonista di Gs). Gq: attiva PLCβ → IP3 + DAG → aumento Ca2+ e attivazione PKA. G12/13: si accoppia a PKA, PKC, GEF (Rho, Rac)."
     },
     {
-      "cat": "GPCR - desensibilizzazione",
+      "cat": "GPCR e segnalazione",
       "front": "Beta-arrestine e asma",
       "back": "Stimolazione eccessiva del recettore → GRK fosforila il C-terminale → richiama arrestine → down-regulation/internalizzazione. Nell'asmatico il salbutamolo può perdere efficacia; il glucocorticoide favorisce la ritrascrizione del recettore β adrenergico."
     },
     {
-      "cat": "Fosfodiesterasi",
+      "cat": "GPCR e segnalazione",
       "front": "PDE3 vs PDE5",
       "back": "PDE3: bersaglio in asma/insufficienza cardiaca. PDE5: bersaglio di Tadalafil, Vardenafil, Sildenafil (Viagra/Cialis) - vasodilatazione, disfunzione erettile, promuovono sintesi NO."
     },
     {
-      "cat": "Fosfodiesterasi",
+      "cat": "GPCR e segnalazione",
       "front": "Caffeina e teofillina - meccanismo",
       "back": "Inibiscono le fosfodiesterasi (non PDE3/5 specificamente), prolungando il segnale stimolatorio del cAMP."
     },
     {
-      "cat": "cAMP e canali",
+      "cat": "GPCR e segnalazione",
       "front": "Ivabradina",
       "back": "Farmaco bradicardizzante: blocca specificamente i canali If del nodo senoatriale, aperti direttamente dal cAMP dopo stimolazione β1."
     },
     {
-      "cat": "Recettori cannabinoidi",
+      "cat": "GPCR e segnalazione",
       "front": "CB1 vs CB2",
       "back": "CB1: proteine Gi/o, inibisce adenilato ciclasi, attiva MAP chinasi e canali K+, inibisce canali Ca2+. Presinaptico, ampiamente espresso nel cervello → inibisce rilascio neurotrasmettitori. CB2: solo inibizione adenilato ciclasi."
     },
     {
-      "cat": "Reazioni avverse - classificazione",
+      "cat": "Reazioni avverse e farmacogenetica",
       "front": "Classificazione ADR da A a F",
       "back": "A=Augmented (dose-dipendente), B=Bizzarre (allergia/idiosincrasia), C=Chronic, D=Delayed, E=End of use (da sospensione), F=Failure (fallimento terapia)."
     },
     {
-      "cat": "Reazioni avverse tipo A",
+      "cat": "Reazioni avverse e farmacogenetica",
       "front": "Caratteristiche reazioni tipo A",
       "back": "Comuni, dose-dipendenti, prevedibili, bassa mortalità. Es: effetto anticolinergico TCA, sedazione da antistaminici, ototossicità da aminoglicosidi, epatotossicità da paracetamolo."
     },
     {
-      "cat": "Reazioni avverse tipo B",
+      "cat": "Reazioni avverse e farmacogenetica",
       "front": "Caratteristiche reazioni tipo B (Bizzarre)",
       "back": "Rare, dose-indipendenti, imprevedibili, alta mortalità. Base allergica o idiosincrasica. Es: shock anafilattico da penicillina, apnea da succinilcolina, ipertermia maligna."
     },
     {
-      "cat": "Reazioni avverse tipo C-F",
+      "cat": "Reazioni avverse e farmacogenetica",
       "front": "Reazioni C, D, E, F - esempi chiave",
       "back": "C (Cronica): sordità da aminoglicosidi, tumori da contraccettivi orali. D (Delayed): teratogenesi da Talidomide. E (End of use): astinenza da oppiacei, ipertensione da sospensione clonidina. F (Failure): interazioni tra farmaci (es. antidepressivi + beta-bloccanti su CYP450)."
     },
     {
-      "cat": "Intolleranza ai farmaci",
+      "cat": "Reazioni avverse e farmacogenetica",
       "front": "Farmaco-allergia vs farmaco-idiosincrasia",
       "back": "Allergia: richiede sensibilizzazione precedente, dose-indipendente, manifestazioni uniformi, 20-40 anni. Idiosincrasia: base genetica, presente alla nascita, no sensibilizzazione, dose-dipendente, manifestazioni variabili."
     },
     {
-      "cat": "Reazioni allergiche",
+      "cat": "Reazioni avverse e farmacogenetica",
       "front": "4 tipi di reazioni allergiche",
       "back": "Tipo I: anafilattiche/immediate (IgE, mastociti/basofili). Tipo II: citotossiche (IgG/IgM, NK o complemento). Tipo III: Arthus (IgG, immunocomplessi). Tipo IV: cellulo-mediata (macrofagi, linfociti T, 24-48h)."
     },
     {
-      "cat": "Reazioni allergiche",
+      "cat": "Reazioni avverse e farmacogenetica",
       "front": "Farmaci da reazioni citotossiche tipo II",
       "back": "Idralazina e procainamide → sindrome simil-lupus. Penicilline → anemia emolitica. Sulfamidici → granulocitopenia. Cloramfenicolo → anemia aplastica."
     },
     {
-      "cat": "Farmacoidiosincrasia",
+      "cat": "Reazioni avverse e farmacogenetica",
       "front": "Deficit G6PD",
       "back": "Sulfamidici, antimalarici (primachina), doxorubicina, cloramfenicolo, acido acetilsalicilico, paracetamolo, vitamina K possono causare anemia emolitica in deficit di G6PD (impossibile ridurre i composti ossidati)."
     },
     {
-      "cat": "Farmacoidiosincrasia",
+      "cat": "Reazioni avverse e farmacogenetica",
       "front": "Succinilcolina e pseudocolinesterasi",
       "back": "In soggetti con succinilcolin-esterasi (butirril-colinesterasi) alterata: apnea prolungata perché l'enzima non riesce a metabolizzare rapidamente il farmaco, bloccando la muscolatura respiratoria."
     },
     {
-      "cat": "Farmacoidiosincrasia",
+      "cat": "Reazioni avverse e farmacogenetica",
       "front": "N-acetiltransferasi 2 e acetilatori",
       "back": "Metabolizza isoniazide, procainamide, idralazina. Acetilatori rapidi: mancato effetto con isoniazide. Acetilatori lenti: rischio neuropatia periferica con isoniazide, predisposizione a lupus da idralazina."
     },
     {
-      "cat": "Fotosensibilità",
+      "cat": "Reazioni avverse e farmacogenetica",
       "front": "Fototossicità vs fotoallergia",
       "back": "Fototossicità (comune, UV-B 290-320nm): accumulo farmaco/metabolita in cute, danno tipo scottatura. Farmaci: tetracicline, fluorochinoloni, amiodarone. Fotoallergia (rara, UV-A 320-400nm): risposta immunitaria, dermatite persistente. Farmaci: sulfoniluree, clorpromazina, carbamazepina."
     },
     {
-      "cat": "Tolleranza e dipendenza",
+      "cat": "Reazioni avverse e farmacogenetica",
       "front": "Tolleranza acuta (tachifilassi) vs cronica",
       "back": "Acuta/tachifilassi: si manifesta in pochi minuti dopo poche somministrazioni. Cronica: richiede giorni/settimane; può essere farmacodinamica (recettore meno sensibile) o farmacometabolica (variazioni ADME)."
     },
     {
-      "cat": "Tolleranza e dipendenza",
+      "cat": "Reazioni avverse e farmacogenetica",
       "front": "Dipendenza fisica vs psicologica",
       "back": "Fisica: reazioni di astinenza importanti (tremori, difficoltà a concentrarsi), risolvibile dopo la sindrome di astinenza. Psicologica: coinvolge circuito mesolimbico, può persistere tutta la vita, responsabile delle ricadute."
     },
     {
-      "cat": "Sindrome da astinenza",
+      "cat": "Reazioni avverse e farmacogenetica",
       "front": "Esempi di sindrome da astinenza per classe farmacologica",
       "back": "Glucocorticoidi → insufficienza surrenalica acuta. Clonidina → ipertensione severa. Beta-bloccanti → peggioramento angina/infarto. Neurolettici → aumento crisi epilettiche. Ipnotici → insonnia."
     }

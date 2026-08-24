@@ -426,6 +426,10 @@ async function loadCards(){
         const data = await res.json();
         const modulo = data.modulo;
         const lezione = data.lezione;
+        if(!modulo || !lezione){
+          console.warn('File scartato per modulo/lezione mancanti:', filename);
+          continue;
+        }
         for(const c of (data.cards || [])){
           loaded.push({ cat: c.cat, front: c.front, back: c.back, modulo, lezione });
         }

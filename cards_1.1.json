@@ -1,0 +1,206 @@
+{
+  "modulo": "Plescia",
+  "lezione": "1.1 - Introduzione, Farmacodinamica, Recettori",
+  "cards": [
+    {
+      "cat": "Definizioni generali",
+      "front": "A cosa serve la farmacologia",
+      "back": "Serve a curare, diagnosticare (es. scintigrafia renale) e prevenire malattie. Il farmaco può anche fungere da antidoto (es. flumazenil per BDZ, naloxone/naltrexone per overdose da eroina)."
+    },
+    {
+      "cat": "Definizioni generali",
+      "front": "I farmaci curano sempre la malattia?",
+      "back": "No. Non danno il 100% di certezza di guarigione (es. FANS per processo flogistico). In malattie neurodegenerative (Alzheimer, Parkinson) il farmaco rallenta la progressione, non cura."
+    },
+    {
+      "cat": "Definizioni generali",
+      "front": "Farmaci chemioterapici: rapporto rischio/beneficio",
+      "back": "Doxorubicina, tamoxifene: tossici perché distruggono cellule in proliferazione eccessiva, danneggiando anche cellule funzionali. Il beneficio prevale perché il rischio di non trattare (morte) è maggiore."
+    },
+    {
+      "cat": "Definizioni generali",
+      "front": "Tossicologia (definizione)",
+      "back": "Scienza che si occupa degli effetti dannosi delle sostanze chimiche sui sistemi viventi, dalle singole cellule agli ecosistemi complessi."
+    },
+    {
+      "cat": "Definizioni generali",
+      "front": "Farmacocinetica vs Farmacodinamica",
+      "back": "Farmacocinetica: cosa il corpo fa al farmaco (assorbimento, distribuzione, metabolismo, eliminazione). Farmacodinamica: cosa il farmaco fa al corpo, modificando una funzione preesistente (non ne crea di nuove)."
+    },
+    {
+      "cat": "Definizioni generali",
+      "front": "Digossina: meccanismo d'azione",
+      "back": "Si lega al sito di legame del K sulla pompa Na/K ATPasi del miocardiocita, bloccandola. Aumenta il Na intracellulare, che inverte lo scambiatore Na/Ca → più Ca entra → aumento della forza di contrazione cardiaca (effetto inotropo positivo). Ha anche effetto batmotropo e cronotropo negativo (utile in scompenso con fibrillazione atriale)."
+    },
+    {
+      "cat": "Definizioni generali",
+      "front": "Farmaco vs Principio attivo vs Medicina/Medicamento",
+      "back": "Farmaco: sostanza a struttura nota che modifica funzioni dell'organismo. Principio attivo: la sostanza che esplica l'azione terapeutica (es. paracetamolo nella tachipirina). Medicina/medicamento: preparazione con uno o più principi attivi per un effetto terapeutico."
+    },
+    {
+      "cat": "Definizioni generali",
+      "front": "Eccipienti: funzioni e rischi",
+      "back": "Veicolano il farmaco, ne garantiscono stabilità e accettabilità, possono modificare l'assorbimento (es. formulazione 'molle' vs normale). Possono causare reazioni allergiche (es. eritemi, circa 1 pz su 1000), alcune idiosincrasiche/genetiche senza sensibilizzazione preventiva."
+    },
+    {
+      "cat": "Definizioni generali",
+      "front": "Interazioni farmacologiche: tipi di base",
+      "back": "Possono essere su base recettoriale, farmacocinetica, o sul metabolismo. Con più farmaci, la competizione per lo stesso sito recettoriale può rendere uno dei due un antagonista funzionale."
+    },
+    {
+      "cat": "Farmacodinamica - bersagli",
+      "front": "Il recettore (definizione)",
+      "back": "Complesso macromolecolare cui il farmaco si lega modificandone la funzione. Non tutti i farmaci agiscono su recettori classici: alcuni agiscono su canali ionici, enzimi, trasportatori, o con meccanismi chimico-fisici."
+    },
+    {
+      "cat": "Farmacodinamica - bersagli",
+      "front": "Bersagli del farmaco: le 5 categorie principali",
+      "back": "1) Recettori (complesso macromolecolare); 2) Canali ionici (Na, Ca, K); 3) Enzimi (es. ciclossigenasi); 4) Trasportatori (es. SERT, DAT, NET); 5) Meccanismi chimico-fisici (es. idrossido di alluminio, diuretici osmotici)."
+    },
+    {
+      "cat": "Farmacodinamica - bersagli",
+      "front": "COX-1 vs COX-2",
+      "back": "COX-1: fisiologica, consente sintesi di prostaglandine/prostacicline/trombossani (incluso muco gastroprotettore). COX-2: presente in basse concentrazioni normalmente, espressa in eccesso durante infiammazione. L'aspirina inibisce fortemente COX-1 → maggiore gastrolesività rispetto ad altri FANS."
+    },
+    {
+      "cat": "Farmacodinamica - bersagli",
+      "front": "Glucocorticoidi: meccanismo d'azione anti-COX",
+      "back": "Agiscono 'a monte' rispetto ai FANS: tramite GRα/GRβ stimolano la produzione di annessina 1, che inibisce la fosfolipasi A2 (impedendo la trasformazione dell'acido arachidonico in prostaglandine). Effetto più forte ma più lento dei FANS (devono entrare nel nucleo, sintetizzare fattori)."
+    },
+    {
+      "cat": "Farmacodinamica - bersagli",
+      "front": "Trasportatori di membrana e antidepressivi",
+      "back": "SSRI, SNRI, NRI agiscono sui neurotrasportatori di membrana che rimuovono il neurotrasmettitore in eccesso dal cleft sinaptico (serotonina, dopamina, noradrenalina) per riciclarlo in vescicole."
+    },
+    {
+      "cat": "Farmacodinamica - bersagli",
+      "front": "Cocaina: meccanismo d'azione",
+      "back": "Blocca il trasportatore della dopamina (DAT) e della noradrenalina (NET). Blocco DAT → aumento dopamina nel circuito mesolimbico. Blocco NET → potenziamento del sistema simpatico (vasocostrizione, aumento contrattilità cardiaca)."
+    },
+    {
+      "cat": "Farmacodinamica - bersagli",
+      "front": "Meccanismi chimico-fisici (non recettoriali)",
+      "back": "Es. idrossido di alluminio per l'acidità gastrica (azione di base che tampona un acido); diuretici osmotici (richiamano acqua per osmosi)."
+    },
+    {
+      "cat": "Farmacodinamica - bersagli",
+      "front": "Metotrexato: bersaglio",
+      "back": "Agisce sulla diidrofolato reduttasi."
+    },
+    {
+      "cat": "Farmacodinamica - bersagli",
+      "front": "Acido valproico in gravidanza",
+      "back": "Classificato dalla FDA come rischio X (rischio certo): causa spina bifida nel 96% dei casi, insieme a labiopalatoschisi e altre malformazioni."
+    },
+    {
+      "cat": "Farmacodinamica - bersagli",
+      "front": "Adrenalina: azione recettore-dipendente",
+      "back": "Shock anafilattico → beta1 (cardiaco) aumenta attività cardiaca. Edema → alfa1 (vasi) vasocostringe. Broncospasmo/difficoltà respiratoria → alfa2 determina broncodilatazione. Diversa dalla noradrenalina, che ha affinità recettoriale differente (minore su alfa e beta2)."
+    },
+    {
+      "cat": "Farmacodinamica - bersagli",
+      "front": "Affinità vs Efficacia (attività intrinseca)",
+      "back": "Affinità: capacità del farmaco di legarsi al sito recettoriale (questione chimico-strutturale). Efficacia/attività intrinseca: capacità di dare inizio alla risposta biologica una volta legato (probabilità di indurre cambiamento conformazionale)."
+    },
+    {
+      "cat": "Farmacodinamica - bersagli",
+      "front": "Agonista vs Antagonista (definizione base)",
+      "back": "Agonista: ha affinità ED efficacia, si lega e attiva il recettore. Antagonista: ha affinità ma NON efficacia, si comporta 'come un tappo' impedendo al modulatore endogeno di legarsi e funzionare."
+    },
+    {
+      "cat": "Legami farmaco-recettore",
+      "front": "Tipi di legame farmaco-recettore",
+      "back": "Reversibili (maggioranza dei casi): forze di Van der Waals, legami ionici, legami a ponte di idrogeno. Irreversibili: legame covalente (affinità molto elevata, non si stacca). I legami irreversibili sono tipici di agenti tossici (gas nervini, arsenico, mercurio) e pochi farmaci."
+    },
+    {
+      "cat": "Legami farmaco-recettore",
+      "front": "Aspirina e COX-1: legame irreversibile",
+      "back": "L'aspirina forma un legame covalente irreversibile con COX-1 piastrinica. Sfruttato nella cardioaspirina a basse dosi (evita l'effetto di primo passaggio). Le piastrine, senza nucleo, non possono risintetizzare COX: serve il ricambio piastrinico (~7 giorni) per il ripristino."
+    },
+    {
+      "cat": "Legami farmaco-recettore",
+      "front": "PPI (inibitori di pompa protonica): legame covalente",
+      "back": "Pantoprazolo, lansoprazolo, omeprazolo. Formano legame covalente con la pompa protonica dei microvilli gastrici → somministrazione 1 volta/die al mattino, la pompa deve essere risintetizzata de novo per tornare disponibile."
+    },
+    {
+      "cat": "Legami farmaco-recettore",
+      "front": "Biodisponibilità (definizione)",
+      "back": "Quota di farmaco che raggiunge effettivamente la circolazione sistemica."
+    },
+    {
+      "cat": "Stereoisomeria",
+      "front": "Stereoisomeria geometrica (cis-trans)",
+      "back": "Molecole con diverso orientamento spaziale di gruppi chimici (stessa parte = cis, parte opposta = trans). Esempio: Desametasone (cis) e Betametasone (trans), entrambi correlati al Triamcinolone, entrambi potenti antinfiammatori."
+    },
+    {
+      "cat": "Stereoisomeria",
+      "front": "Betametasone: usi particolari",
+      "back": "Riduce la pressione intracranica in corso di infiammazione. È il principio attivo del Bentelan, farmaco salva-vita nello shock anafilattico — somministrato per via sublinguale per azione rapida diretta in circolo."
+    },
+    {
+      "cat": "Stereoisomeria",
+      "front": "Stereoisomeria ottica (enantiomeria)",
+      "back": "Dovuta a un atomo di carbonio chirale con gruppo ossidrilico a destra (D, destrogiro) o sinistra (L, levogiro). Le vie biosintetiche naturali producono sempre l'isomero a maggiore affinità recettoriale; la sintesi chimica artificiale produce spesso un racemo (miscela di entrambi)."
+    },
+    {
+      "cat": "Stereoisomeria",
+      "front": "L-adrenalina vs D-adrenalina",
+      "back": "La forma L è più efficace della forma D. Fisiologicamente la midollare produce la forma L; in sintesi artificiale sono presenti entrambe le forme, riducendo l'azione media del farmaco rispetto al prodotto endogeno puro."
+    },
+    {
+      "cat": "Stereoisomeria",
+      "front": "Bupivacaina: D vs L",
+      "back": "Anestetico locale. La forma D è più cardiotossica rispetto alla forma L."
+    },
+    {
+      "cat": "Agonisti e antagonisti",
+      "front": "Modulatori allosterici positivi (definizione)",
+      "back": "Favoriscono la funzione del modulatore endogeno legandosi però a un sito diverso sullo stesso complesso macrorecettoriale. Esempio: le benzodiazepine, che permettono al GABA di legarsi con maggiore affinità, avere efficacia maggiore e aumentare il tempo di apertura del canale."
+    },
+    {
+      "cat": "Agonisti e antagonisti",
+      "front": "Curarici: pancuronio, vecuronio",
+      "back": "Miorilassanti usati per incisione/intubazione nelle fasi profonde dell'anestesia."
+    },
+    {
+      "cat": "Agonisti e antagonisti",
+      "front": "Succinilcolina: meccanismo particolare",
+      "back": "Agonista che ha in realtà un'azione funzionalmente antagonista: si lega al recettore nicotinico e lo stimola così tanto da desensibilizzarlo, rendendolo inattivo. Metabolizzata da pseudocolinesterasi (deficit genetico → effetto più marcato/prolungato). Antidoto: fisostigmina o prostigmina."
+    },
+    {
+      "cat": "Agonisti e antagonisti",
+      "front": "Agonista inverso (definizione)",
+      "back": "Si lega allo stesso sito dell'agonista ma produce effetti diametralmente opposti. NON è un antagonista: ha comunque attività intrinseca (l'antagonista puro non ne ha mai). Esempi: Bicucullina (AI del recettore GABA-A), Prometazina (AI del recettore H1)."
+    },
+    {
+      "cat": "Agonisti e antagonisti",
+      "front": "Antistaminici come agonisti inversi",
+      "back": "Il recettore H1 esiste in stato funzionale/inattivo e attivato. Gli antistaminici (anti-H1) si legano allo stato inattivo impedendo l'attivazione — agiscono da agonisti inversi, non semplici antagonisti."
+    },
+    {
+      "cat": "Agonisti e antagonisti",
+      "front": "Agonista parziale (definizione)",
+      "back": "Farmaco in grado di attivare il recettore ma con risposta massimale minore di un agonista puro. In assenza di agonista puro si comporta da agonista; in presenza dell'agonista puro si comporta da antagonista competitivo (importante per l'esame)."
+    },
+    {
+      "cat": "Agonisti e antagonisti",
+      "front": "Schizofrenia: razionale per gli agonisti parziali",
+      "back": "Aumento di dopamina nel circuito mesolimbico (sintomi positivi: allucinazioni) + riduzione nel circuito mesocorticale (sintomi negativi: ottundimento emotivo). Un antagonista dopaminergico puro migliora i sintomi positivi ma peggiora quelli cognitivi/negativi — da qui l'idea degli agonisti parziali (es. aripiprazolo)."
+    },
+    {
+      "cat": "Agonisti e antagonisti",
+      "front": "Buprenorfina",
+      "back": "Analgesico oppiaceo di semisintesi, agonista parziale del recettore μ (MOP), antagonista kappa. Usata nella terapia sostitutiva dell'eroinomane: se il paziente assume eroina mentre è in terapia, la buprenorfina si comporta da antagonista competitivo bloccandone l'effetto."
+    },
+    {
+      "cat": "Agonisti e antagonisti",
+      "front": "Vareniclina",
+      "back": "Agonista parziale del recettore nicotinico, usata per la disassuefazione da fumo (Pfizer). Dà piacere assumendo il farmaco invece di fumare. Effetti collaterali importanti: può indurre pensieri suicidi."
+    },
+    {
+      "cat": "Agonisti e antagonisti",
+      "front": "Perché la Levodopa e non la dopamina nel Parkinson",
+      "back": "La dopamina non attraversa la barriera ematoencefalica (BEE). Si usa Levodopa + benserazide (inibisce gli enzimi di degradazione periferici), permettendo il passaggio centrale. Solo il 4-8% della dose raggiunge il SNC."
+    }
+  ]
+}

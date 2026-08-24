@@ -1,0 +1,276 @@
+{
+  "modulo": "Plescia",
+  "lezione": "1.2 - Curve Dose-Risposta, Tolleranza, Classificazione Recettori",
+  "cards": [
+    {
+      "cat": "Curva dose-risposta",
+      "front": "Curva dose-risposta: cos'è",
+      "back": "Grafico che mostra la concentrazione/dose di farmaco (ascisse) vs risposta massimale (ordinate). Permette di stabilire il dosaggio per un'azione terapeutica. Dose per sostanze solide/solubilizzate, concentrazione per sostanze aeriformi (es. anestetici inalatori)."
+    },
+    {
+      "cat": "Curva dose-risposta",
+      "front": "DE50 / CE50 (dose/concentrazione efficace 50%)",
+      "back": "Concentrazione di farmaco che produce metà dell'effetto massimo (Emax), ovvero che dà effetto nel 50% dei soggetti trattati. Sotto la DE50 il farmaco è inutile; sopra è utile per l'effetto terapeutico."
+    },
+    {
+      "cat": "Curva dose-risposta",
+      "front": "Concentrazione plateau",
+      "back": "Punto in cui si raggiunge l'effetto massimo (100% efficacia): aumentare ulteriormente la dose non aumenta l'efficacia, ma può causare effetti indesiderati o dose letale."
+    },
+    {
+      "cat": "Curva dose-risposta",
+      "front": "Potenza (definizione)",
+      "back": "Quantità di farmaco necessaria per ottenere un effetto. Un farmaco è potente se produce i suoi effetti a basse dosi. Due farmaci possono avere la stessa efficacia (100%) ma potenza diversa (dose diversa per raggiungerla)."
+    },
+    {
+      "cat": "Curva dose-risposta",
+      "front": "Morfina vs Codeina: potenza",
+      "back": "La codeina viene trasformata in morfina nell'organismo. La morfina è più potente → richiede concentrazione più bassa per lo stesso effetto."
+    },
+    {
+      "cat": "Curva dose-risposta",
+      "front": "Tapentadolo vs Morfina",
+      "back": "Il tapentadolo è più potente della morfina, con meccanismo d'azione leggermente diverso (attivazione delle vie discendenti inibitorie del dolore)."
+    },
+    {
+      "cat": "Curva dose-risposta",
+      "front": "Potenza dei FANS: esempio comparativo",
+      "back": "Piroxicam (selettivo COX-2): efficacia 100% con 10 mg. Naprossene: serve 1000 mg. ASA: serve 4000 mg. Il piroxicam è quindi molto più potente."
+    },
+    {
+      "cat": "Curva dose-risposta",
+      "front": "Farmaco 'C' che non raggiunge il 100% dell'effetto",
+      "back": "Un farmaco che attiva il recettore ma non raggiunge mai il 100% dell'effetto massimo è tipicamente un agonista parziale (l'agonista puro raggiunge quasi sempre l'effetto massimo)."
+    },
+    {
+      "cat": "Curva dose-risposta",
+      "front": "Oppiacei potenti: fentanyl",
+      "back": "I fentanilici sono molto potenti ma con emivita molto breve — permettono di cambiare molecola al risveglio dall'anestesia (morfina, tapentadolo, FANS). Esiste anche in cerotto a rilascio lento per terapia del dolore cronico."
+    },
+    {
+      "cat": "Curva dose-risposta",
+      "front": "Ketorolac",
+      "back": "FANS utilizzato come antalgico, soprattutto per dolore a carico dell'apparato osteoscheletrico. I FANS non raggiungono comunque lo stesso effetto antalgico degli oppiacei."
+    },
+    {
+      "cat": "Curva dose-risposta",
+      "front": "Bmax e Kd",
+      "back": "Bmax: quantità di recettori legati dal farmaco (concentrazione di farmaco legato rilevabile, misurata con tecniche di radiomarcatura). Kd: costante di dissociazione, capacità del farmaco di dissociarsi dal recettore — indica il tempo che il farmaco resta legato e informa sull'intervallo tra somministrazioni."
+    },
+    {
+      "cat": "Curve e antagonismo",
+      "front": "Curva graduale vs curva quantale",
+      "back": "Curva graduale: studia la reazione di un farmaco sul singolo individuo, in relazione alla concentrazione somministrata. Curva quantale: curva a campana su una popolazione (es. 100 soggetti), rappresenta la dose efficace nel 50% dei soggetti (ED50); permette di distinguere chi risponde a dosi basse vs chi necessita dosi maggiori (differenze di metabolismo enzimatico)."
+    },
+    {
+      "cat": "Curve e antagonismo",
+      "front": "Antagonismo competitivo",
+      "back": "L'antagonista si lega sullo stesso sito recettoriale dell'agonista. Aumentando la concentrazione dell'agonista, si spiazza l'antagonista. La curva dose-effetto si sposta a destra, SENZA variare pendenza o Emax. Esempio: terazosina (antipertensivo, recettore alfa1)."
+    },
+    {
+      "cat": "Curve e antagonismo",
+      "front": "Antagonismo non competitivo",
+      "back": "Anche aumentando la dose non si raggiunge l'effetto 100%: variazione della PENDENZA della curva (a differenza del competitivo). Include: antagonismo irreversibile, allosterico, funzionale."
+    },
+    {
+      "cat": "Curve e antagonismo",
+      "front": "Antagonismo irreversibile",
+      "back": "La molecola si lega in modo covalente al sito attivo del recettore, riducendo il numero di recettori disponibili per l'agonista."
+    },
+    {
+      "cat": "Curve e antagonismo",
+      "front": "Antagonismo allosterico: esempio NMDA",
+      "back": "Il recettore NMDA del glutammato ha vari siti di legame. Fenciclidina e ketamina si legano su siti diversi rispetto al sito del glutammato → antagonismo allosterico (modifica la capacità del recettore di far transitare Ca2+). Il glutammato è coinvolto in psicosi, epilessia, Alzheimer."
+    },
+    {
+      "cat": "Curve e antagonismo",
+      "front": "Antagonismo funzionale",
+      "back": "Due farmaci agiscono su recettori diversi con effetti opposti sulla stessa funzione. Es: istamina su H1 → broncocostrizione; adrenalina su beta2 → broncodilatazione. Es: recettore muscarinico M3 (acetilcolina, broncocostrittivo) vs beta2 agonista (broncodilatatore) nell'asmatico."
+    },
+    {
+      "cat": "Curve e antagonismo",
+      "front": "Antagonismo chimico (antidotismo)",
+      "back": "Es. dimercaprolo per avvelenamento da metalli pesanti (piombo, cadmio, zinco) — chela il metallo per l'eliminazione. Es. anticorpi monoclonali come infliximab, che lega il TNF-alfa bloccandolo."
+    },
+    {
+      "cat": "Curve e antagonismo",
+      "front": "Antagonismo farmacocinetico",
+      "back": "La sostanza antagonista modifica la concentrazione del farmaco attivo nel sito d'azione: può rallentare l'assorbimento (es. modificando il pH intestinale), modificare la distribuzione (legame proteine plasmatiche), o modulare il metabolismo (induzione/inibizione enzimatica, es. citocromo P450)."
+    },
+    {
+      "cat": "Curve e antagonismo",
+      "front": "Barbiturici: induzione enzimatica",
+      "back": "Oltre al legame GABAergico, si legano ai recettori per l'androstano (RXR), inducendo l'espressione delle isoforme 2C19, 3A4, 2D6 del citocromo P450 — accelerano il metabolismo di altri farmaci."
+    },
+    {
+      "cat": "Indice terapeutico",
+      "front": "Indice terapeutico (IT)",
+      "back": "Rapporto tra dose letale 50 (DL50) e dose efficace 50 (DE50). Es. DL50=400, DE50=100 → IT=4. Indice di 'maneggevolezza' del farmaco. Oggi poco usato, sostituito dal margine di sicurezza."
+    },
+    {
+      "cat": "Indice terapeutico",
+      "front": "Margine di sicurezza",
+      "back": "Rapporto tra dose letale nell'1% (DL1) e dose efficace nel 99% (DE99) della popolazione. Rappresenta il range di dosi utilizzabile in modo sicuro."
+    },
+    {
+      "cat": "Indice terapeutico",
+      "front": "Digitale: indice terapeutico",
+      "back": "Molecola molto tossica, indice terapeutico basso. Va oltre il volume di distribuzione normale (si distribuisce anche a livello intracellulare). Usata in pazienti con scompenso cardiaco (aspettativa di vita già ridotta) nonostante il rischio."
+    },
+    {
+      "cat": "Indice terapeutico",
+      "front": "Codeina: dose-dipendenza dell'effetto",
+      "back": "10-20 mg x4/die: effetto antitussivo. Dosi maggiori (15-60 mg x3-6/die): effetto antalgico. Dose massima quotidiana: 120 mg. Stesso farmaco, effetti diversi in base al dosaggio, entro il margine di sicurezza."
+    },
+    {
+      "cat": "Indice terapeutico",
+      "front": "Barbiturici: uso clinico attuale",
+      "back": "Non più usati come ipnoinduttori (tossici, dose-dipendenti). Oggi: tiobarbiturici in anestesiologia, fenobarbital e primidone per l'epilessia."
+    },
+    {
+      "cat": "Sensibilità e tolleranza",
+      "front": "Sensibilità individuale ai farmaci",
+      "back": "Alla stessa dose, alcuni soggetti rispondono meno (base farmacodinamica: minor numero di recettori funzionali). Soluzioni: cambiare farmaco o, se c'è margine, aumentare il dosaggio (preferibile cambiare molecola)."
+    },
+    {
+      "cat": "Sensibilità e tolleranza",
+      "front": "Tolleranza (definizione)",
+      "back": "L'effetto viene a mancare alla dose abituale → serve dose maggiore per lo stesso effetto. Tipica delle sostanze d'abuso (causa dell'overdose nel tossicodipendente). Può essere vista come riduzione della potenza del farmaco (spostamento della curva dose-effetto)."
+    },
+    {
+      "cat": "Sensibilità e tolleranza",
+      "front": "Gestione della tolleranza da BDZ a breve emivita",
+      "back": "Si sostituisce gradualmente la BDZ a breve emivita (es. Alprazolam) con una a lunga emivita (es. Diazepam/Valium, 48h), aumentando quest'ultima e riducendo la prima, fino a sospendere completamente quella a breve emivita."
+    },
+    {
+      "cat": "Sensibilità e tolleranza",
+      "front": "Tolleranza inversa (sensibilizzazione)",
+      "back": "Opposto della tolleranza: alla stessa dose il paziente risponde in modo eccessivo (spostamento a sinistra della curva dose-effetto). Ben studiata con i cannabinoidi: dose minore → effetto potenziato."
+    },
+    {
+      "cat": "Sensibilità e tolleranza",
+      "front": "Down-regulation",
+      "back": "Riduzione del numero dei recettori, dovuta a stimolazione protratta da ligandi endogeni e/o farmaci agonisti. Es: beta2-agonisti (salbutamolo) nell'asmatico grave → riduzione recettori beta2 bronchiali → perdita di effetto."
+    },
+    {
+      "cat": "Sensibilità e tolleranza",
+      "front": "Up-regulation",
+      "back": "Aumento del numero dei recettori, dovuto a stimolazione protratta. Es: nel depresso con bassa serotonina, il sistema sintetizza più recettori 5-HT per compensare."
+    },
+    {
+      "cat": "Sensibilità e tolleranza",
+      "front": "Asma: associazione beta2-agonista + glucocorticoide",
+      "back": "Il glucocorticoide agisce sul DNA modificando l'espressione del recettore beta-adrenergico, prevenendo la down-regulation causata dall'uso cronico del beta2-agonista (es. salbutamolo)."
+    },
+    {
+      "cat": "Sensibilità e tolleranza",
+      "front": "Meccanismo molecolare della down-regulation recettoriale",
+      "back": "Fosforilazione del recettore (da chinasi recettore-associate e proteinchinasi da secondo messaggero) → disaccoppiamento delle proteine G → legame con beta-arrestine → internalizzazione e proteolisi (con clatrina e beta-adattine)."
+    },
+    {
+      "cat": "Recettori - generalità",
+      "front": "Recettore (definizione generale)",
+      "back": "Macromolecola proteica che lega uno o più mediatori endogeni (ormoni, neurotrasmettitori) con specificità e affinità precise, generando un effetto biologico tramite modificazione conformazionale."
+    },
+    {
+      "cat": "Recettori - generalità",
+      "front": "Bromidina / alfa-metildopa",
+      "back": "Antipertensivi ad azione centrale: agiscono sul recettore alfa2 presinaptico del SNC (accoppiato a proteina G inibitoria), inibendo il rilascio di noradrenalina."
+    },
+    {
+      "cat": "Recettori - generalità",
+      "front": "Criteri di classificazione dei recettori",
+      "back": "In base a: mediatore endogeno di risposta, risposte cellulari evocate, sequenza aminoacidica primaria, localizzazione anatomica (membrana vs intracellulare), tipologia (es. proteine G accoppiate Gq/Gi/Gs/Go)."
+    },
+    {
+      "cat": "Recettori di membrana",
+      "front": "Recettori di membrana: caratteristiche generali",
+      "back": "Trasducono il segnale di sostanze che non attraversano il bilayer fosfolipidico. Agiscono sul versante extracitoplasmatico. Recettori per neurotrasmettitori classici, peptidici, fattori di crescita, citochine, prostaglandine."
+    },
+    {
+      "cat": "Recettori di membrana",
+      "front": "Recettori canale nicotinici: struttura",
+      "back": "Eteropentamerici: 5 subunità (due alfa, due beta, e una gamma, epsilon o delta). La combinazione di subunità determina l'affinità per farmaci specifici."
+    },
+    {
+      "cat": "Recettori di membrana",
+      "front": "Recettori nicotinici α4β2 e α7",
+      "back": "α4β2: nell'area tegmentale ventrale, legano preferenzialmente la nicotina, stimolano il sistema colinergico e il rilascio di dopamina. α7: localizzati prevalentemente sul sistema glutammatergico (area tegmentale ventrale), influenzano indirettamente il rilascio di dopamina."
+    },
+    {
+      "cat": "Recettori di membrana",
+      "front": "Recettori accoppiati a proteine G: tipi",
+      "back": "Gi: inibitoria. Gs: stimolatoria. Go e Gq: secondi messaggeri differenti. Es: recettore beta2 (Gs) → dilatazione (non costrizione) tramite fosforilazione di actina/miosina che blocca la loro interazione."
+    },
+    {
+      "cat": "Recettori di membrana",
+      "front": "Altri tipi di recettori di membrana",
+      "back": "Recettori tirosin-chinasici (fattori di crescita, TNF-alfa); recettori per lipoproteine (rimozione LDL, target delle statine); recettori ad attività guanilato-ciclasica; recettori per adesione/movimento; recettori Toll-like (risposta immunitaria, linfociti T, interleuchine)."
+    },
+    {
+      "cat": "Recettori intracellulari",
+      "front": "Recettori intracellulari: caratteristiche",
+      "back": "Per ormoni come i glucocorticoidi. Il ligando attraversa il doppio strato fosfolipidico ma non la membrana nucleare. Il recettore si trova nel citoplasma legato a proteine heat shock (HSP) che lo mantengono inattivo."
+    },
+    {
+      "cat": "Recettori intracellulari",
+      "front": "Glucocorticoidi: meccanismo recettoriale completo",
+      "back": "Il glucocorticoide entra, si lega al recettore, scalza le HSP → dimerizzazione → transita nel nucleo → si lega alla sequenza responsiva → sintesi/inibizione di fattori (es. IKB, che sequestra NFkB proinfiammatorio impedendogli di trascrivere citochine pro-infiammatorie)."
+    },
+    {
+      "cat": "Recettori intracellulari",
+      "front": "Struttura del recettore intracellulare dei glucocorticoidi",
+      "back": "5 regioni funzionali: porzione E (LBD, lega HSP e ligando), porzione C (dita di zinco, si lega al DNA). Può agire su geni precoci per sopprimere prodotti del sistema immunitario (azione immunosoppressiva dose-dipendente, es. Lupus)."
+    },
+    {
+      "cat": "Recettori intracellulari",
+      "front": "PPARα e RXR",
+      "back": "Recettori nucleari. RXR è attivato dal fenobarbital con meccanismo enzimatico (induzione)."
+    },
+    {
+      "cat": "Recettori intracellulari",
+      "front": "Tiazolidinedioni (Pioglitazone, Rosiglitazone)",
+      "back": "Attivano PPARγ, aumentando espressione e traslocazione di GLUT-1 e GLUT-4 sulla superficie cellulare → maggiore uptake di glucosio epatico/muscolare → effetto ipoglicemizzante."
+    },
+    {
+      "cat": "Recettori specifici",
+      "front": "Recettore nicotinico vs muscarinico",
+      "back": "Nicotinico: recettore canale (dove agisce la vareniclina). Muscarinico: recettore accoppiato a proteine G, sottotipi M1/M3/M5 (proteina G stimolatoria) e M2/M4 (proteina G inibitoria)."
+    },
+    {
+      "cat": "Recettori specifici",
+      "front": "Recettore GABA-A vs GABA-B vs GABA-C",
+      "back": "GABA-A: recettore canale (ionotropico), lega le benzodiazepine, azione miorilassante centrale. GABA-B: metabotropico (proteina G), il farmaco che lo lega è il baclofen — formato da due recettori accoppiati. GABA-C: meno studiato, di recente scoperta."
+    },
+    {
+      "cat": "Recettori specifici",
+      "front": "Recettori del glutammato: NMDA e mGLU",
+      "back": "NMDA: implicati in long-term potentiation e long-term repression (memoria); target di farmaci nell'Alzheimer; la ketamina lega questo recettore (sito allosterico). mGLU: metabotropici (proteine G), meno rilevanti terapeuticamente ma molto studiati, modulano altri neurotrasmettitori."
+    },
+    {
+      "cat": "Recettori specifici",
+      "front": "Recettori della serotonina: canale vs proteina G",
+      "back": "Unico recettore canale: 5-HT3. Tutti gli altri sono accoppiati a proteine G (inibitorie o stimolatorie), suddivisi in categorie 1 e 2, con sottocategorie (1a, 1b, ecc.)."
+    },
+    {
+      "cat": "Recettori specifici",
+      "front": "Recettore canale vs recettore accoppiato a proteine G: cinetica",
+      "back": "Recettore canale (ionotropico): cambia conformazione, passaggio ionico rapido, risposta farmacologica veloce. Recettore a proteine G (metabotropico): tempo più lungo tra attivazione ed effetto finale, cinetica più lenta."
+    },
+    {
+      "cat": "Recettori specifici",
+      "front": "Selettività ionica dei recettori canale",
+      "back": "GABA-A: entra Cl⁻ → iperpolarizzazione (miorilassamento, effetto inibitorio). Nicotinico: entra Na⁺ → depolarizzazione (contrazione muscolare, effetto eccitatorio)."
+    },
+    {
+      "cat": "Recettori specifici",
+      "front": "Recettore canale vs canale ionico: distinzione",
+      "back": "Il recettore canale viene attivato sul sito recettoriale (si apre il canale, transita lo ione). Il canale ionico può essere bloccato direttamente da un farmaco (es. calcio-antagonisti, bloccanti dei canali del sodio/potassio) — sono concetti distinti anche se il canale ionico è esso stesso un recettore per alcuni farmaci."
+    },
+    {
+      "cat": "Recettori specifici",
+      "front": "Recettore nicotinico vs recettore NMDA del glutammato: struttura",
+      "back": "Nicotinico: eteropentamerico (5 subunità). Glutammato/NMDA: tetramero (4 subunità), con 4 domini transmembrana M1-M4. La subunità M2 è la più importante per la selettività ionica (aminoacidi positivi/neutri)."
+    }
+  ]
+}

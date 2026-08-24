@@ -23,42 +23,42 @@
       "back": "Il glutammato è centrale in LTP (potenziamento a lungo termine) e LTD (depressione a lungo termine), coinvolti in Alzheimer/demenza. Se le sinapsi non sono 'allenate' avviene il pruning (potatura sinaptica)."
     },
     {
-      "cat": "Classificazione recettori canale",
+      "cat": "Recettori canale",
       "front": "4 classi di recettori canale",
       "back": "1) Cys-loop: GABA-A, 5HT3, nicotinico. 2) Ionotropici del glutammato: AMPA, NMDA, Kainato. 3) Nucleotidi ciclici (cAMP/cGMP): permeabili a Na, K, Ca. 4) Ionotropici ATP: P2X."
     },
     {
-      "cat": "Classificazione recettori canale",
+      "cat": "Recettori canale",
       "front": "Perché 'cys-loop'?",
       "back": "Nella porzione ammino-terminale del recettore nicotinico ci sono residui di cisteina (13 aa tra Cys128-142) che formano un ponte disolfuro, importante per la struttura terziaria della subunità."
     },
     {
-      "cat": "Recettore nicotinico",
+      "cat": "Recettore nicotinico e 5HT3",
       "front": "Struttura del recettore nicotinico",
       "back": "Eteropentamero, famiglia cys-loop, 4 subunità diverse (stechiometria 2α1,1β1/1γ1,1ε1,1δ1). N-terminale extracitoplasmatico, 4 domini transmembrana (M1-M4), C-terminale intracitoplasmatico (a differenza del recettore del glutammato)."
     },
     {
-      "cat": "Recettore nicotinico",
+      "cat": "Recettore nicotinico e 5HT3",
       "front": "Selettività ionica del poro",
       "back": "Il poro è carico negativamente nei recettori canale per cationi (dominio M2), non carico nei recettori canale per anioni. La selettività dipende anche dalla subunità (es. subunità α2 = alta permeabilità Ca2+)."
     },
     {
-      "cat": "Recettore nicotinico",
+      "cat": "Recettore nicotinico e 5HT3",
       "front": "Recettori nicotinici α4β2 vs α7",
       "back": "α4β2: 2 subunità α (attivato da 2 molecole nicotina/ACh), su neurone dopaminergico VTA → rilascio dopamina nel nucleus accumbens (piacere). α7: 5 subunità α, su neurone glutammatergico → rilascio glutammato."
     },
     {
-      "cat": "Recettore nicotinico",
+      "cat": "Recettore nicotinico e 5HT3",
       "front": "Vareniclina",
       "back": "Agonista parziale dei recettori α4β2 (agonista totale per α7). Usata per smettere di fumare: stimolazione minore della nicotina, ma blocca il firing se la nicotina è presente."
     },
     {
-      "cat": "Recettore nicotinico",
+      "cat": "Recettore nicotinico e 5HT3",
       "front": "Miastenia gravis e piridostigmina",
       "back": "Recettore nicotinico muscolare sotto-espresso in miastenia gravis (anche per azione autoimmune). Trattamento: piridostigmina (inibitore AChE) per aumentare il tono colinergico sui recettori rimasti."
     },
     {
-      "cat": "Recettore 5HT3",
+      "cat": "Recettore nicotinico e 5HT3",
       "front": "Recettore 5HT3 e antiemetici",
       "back": "Localizzato nella CTZ (chemoreceptor trigger zone, centro del vomito). Antagonizzato da ondansetron, granisetron, tropisetron - usati nell'emesi da chemioterapici o post-anestesia."
     },
@@ -93,117 +93,117 @@
       "back": "α1: effetto ipnotico-sedativo (disturbi del sonno). α2: effetto ansiolitico. α3: effetto miorilassante ad azione centrale."
     },
     {
-      "cat": "Recettori glutammato",
+      "cat": "Recettori del glutammato",
       "front": "AMPA, Kainato, NMDA - struttura",
       "back": "Struttura tetramerica, 4 subunità della stessa sottoclasse (identiche o diverse). NMDA e AMPA i più studiati per modulazione ed eccitotossicità del glutammato."
     },
     {
-      "cat": "Recettori glutammato",
+      "cat": "Recettori del glutammato",
       "front": "Recettore NMDA - caratteristiche uniche",
       "back": "Residuo di Asparagina → alta permeabilità al Ca2+ e capacità di legare il Mg2+ (tappo di magnesio). Per attivarlo serve un potenziale che rimuova il tappo. Antagonizzato nei pazienti con Alzheimer."
     },
     {
-      "cat": "Recettori glutammato",
+      "cat": "Recettori del glutammato",
       "front": "Ketamina e fenciclidina",
       "back": "Bloccanti selettivi dei canali NMDA. Usate in passato come anestetici generali (anestesia dissociativa con la ketamina), noti anche per il potenziale d'abuso."
     },
     {
-      "cat": "Recettori glutammato",
+      "cat": "Recettori del glutammato",
       "front": "LTP vs LTD - meccanismo",
       "back": "LTP: attivazione AMPA → entra Na+ → rimozione tappo Mg2+ → attivazione NMDA → aumento Ca2+ intracellulare → attiva PKA, rilascia vescicole, stimola NOS. LTD/eccitotossicità: eccessivo Ca2+ → danno membrane, ROS, morte cellulare."
     },
     {
-      "cat": "Recettori canale - altri",
+      "cat": "Recettori canale",
       "front": "Recettori canale per nucleotidi ciclici e ATP",
       "back": "Nucleotidi ciclici (3a classe): permeabili a Na/K/Ca, aperti da cAMP (epitelio olfattivo, tessuti sensoriali) o cGMP (retina). ATP (4a classe, P2X): 2 subunità, formano un poro con 3 subunità totali."
     },
     {
-      "cat": "Modulazione recettori canale",
+      "cat": "Recettori canale",
       "front": "Succinilcolina - meccanismo agonista",
       "back": "Agonista che stimola eccessivamente il recettore colinergico (canale) inducendone desensibilizzazione → paralisi muscolare. I curari, al contrario, sono antagonisti dei recettori nicotinici."
     },
     {
-      "cat": "GPCR generalità",
+      "cat": "GPCR - struttura e proteina G",
       "front": "Struttura GPCR",
       "back": "7 domini transmembrana, N-terminale extracellulare, C-terminale intracellulare. Il 30% dei farmaci in commercio agisce modulando i GPCR (~825 GPCR totali)."
     },
     {
-      "cat": "GPCR generalità",
+      "cat": "GPCR - struttura e proteina G",
       "front": "Rodopsina come esempio di GPCR",
       "back": "Recettore CPG inattivo legato al cis-retinale; in presenza di fotoni si isomerizza in trans, causando modifica conformazionale e attivazione della proteina G intracitoplasmatica."
     },
     {
-      "cat": "GPCR - gruppi",
+      "cat": "GPCR - struttura e proteina G",
       "front": "3 gruppi/famiglie di GPCR",
       "back": "Gruppo I (famiglia A, rodopsina): N-terminale corto, amine biogene, bradichinina, oppioidi, vasopressina, ossitocina. Gruppo II (famiglia B): N-terminale lungo, calcitonina, PTH, glucagone, VIP (taglio da trombina). Gruppo III (famiglia C): ampia coda extracellulare, GABAb, glutammato metabotropico, recettore Ca2+ e gusto."
     },
     {
-      "cat": "GPCR - recettori specifici",
+      "cat": "GPCR - struttura e proteina G",
       "front": "Recettore GABAb",
       "back": "Funziona SOLO allo stato dimerico (eterodimero GABAb1+GABAb2). Il baclofen è l'unica molecola con buona attività recettoriale (miorilassante, legato a proteina G inibitoria)."
     },
     {
-      "cat": "GPCR - recettori specifici",
+      "cat": "GPCR - struttura e proteina G",
       "front": "Recettori dopaminergici e muscarinici GPCR",
       "back": "Dopaminergici: D1-like (stimolatorio) e D2-like (inibitorio). Muscarinici: M1,M3,M5 (stimolatori, Gq) ed M2 (inibitorio, attivato dal vago soprattutto cardiaco), M4 (inibitorio)."
     },
     {
-      "cat": "GPCR - recettori specifici",
+      "cat": "GPCR - struttura e proteina G",
       "front": "Recettori adrenergici - accoppiamento proteina G",
       "back": "β1 (cuore), β2 (bronchi, fegato, muscolatura liscia vasi), β3 (tessuto adiposo): tutti accoppiati a Gs. Recettori α: accoppiati a Gq e Gi."
     },
     {
-      "cat": "GPCR - proteina G",
+      "cat": "GPCR - struttura e proteina G",
       "front": "Subunità della proteina G eterotrimerica",
       "back": "α: lega nucleotide guanilico, attività GTPasica (GDP→GTP all'attivazione), specificità recettore/effettore. βγ: si lega al bilayer (prenilazione subunità γ), interagisce direttamente con effettori (canali K+/Ca2+, PLC, PI3K)."
     },
     {
-      "cat": "GPCR - proteina G",
+      "cat": "GPCR - struttura e proteina G",
       "front": "4 famiglie di subunità α",
       "back": "Gs: attiva uniformemente adenilato ciclasi. Gi: inibisce adenilato ciclasi (antagonista di Gs). Gq: attiva PLCβ → IP3+DAG → aumento Ca2+ e attivazione PKA. G12/13: accoppiata a PKA/PKC/GEF (Rho, Rac), poco studiata."
     },
     {
-      "cat": "GPCR - desensibilizzazione",
+      "cat": "GPCR - struttura e proteina G",
       "front": "Beta-arrestine e desensibilizzazione recettoriale",
       "back": "Stimolazione eccessiva → GRK fosforila C-terminale del recettore → richiama arrestine → down-regulation/internalizzazione. Nell'asmatico il salbutamolo può perdere efficacia; il glucocorticoide favorisce la ritrascrizione del recettore β."
     },
     {
-      "cat": "Adenilato ciclasi e PKA",
+      "cat": "Segnalazione a valle (cAMP, PDE, recettori specifici)",
       "front": "Via cAMP-PKA",
       "back": "Adenilato ciclasi converte ATP in cAMP → attiva PKA (2 subunità catalitiche + 2 regolatorie, complesso tetramerico). cAMP si lega alle regolatorie → distacco delle catalitiche → fosforilazione di substrati. Localizzazione guidata dalle AKAP."
     },
     {
-      "cat": "Adenilato ciclasi e PKA",
+      "cat": "Segnalazione a valle (cAMP, PDE, recettori specifici)",
       "front": "Funzioni cellulari controllate da PKA",
       "back": "Attività canali ionici, reazioni metaboliche, trascrizione genica, attività cardiaca, rilasciamento muscolatura liscia, secrezione, differenziamento/proliferazione cellulare."
     },
     {
-      "cat": "Recettori beta1 e beta2 cardiaci",
+      "cat": "Segnalazione a valle (cAMP, PDE, recettori specifici)",
       "front": "Beta1 vs beta2 - effetto sulla muscolatura",
       "back": "Beta1 (cuore): PKA fosforila troponina → aumento contrattilità (inotropo+). Beta2 (muscolatura liscia bronchiale/vascolare): PKA fosforila miosina-actina impedendo l'unione → rilassamento/broncodilatazione, pur essendo entrambi Gs stimolatori."
     },
     {
-      "cat": "Fosfodiesterasi",
+      "cat": "Segnalazione a valle (cAMP, PDE, recettori specifici)",
       "front": "PDE3 vs PDE5",
       "back": "PDE3: bersaglio in asma/insufficienza cardiaca. PDE5: bersaglio di Tadalafil, Vardenafil, Sildenafil (Viagra/Cialis) - vasodilatazione, disfunzione erettile, promuovono sintesi NO."
     },
     {
-      "cat": "Fosfodiesterasi",
+      "cat": "Segnalazione a valle (cAMP, PDE, recettori specifici)",
       "front": "Caffeina e teofillina",
       "back": "Inibiscono varie fosfodiesterasi (non PDE3/5), prolungando il segnale stimolatorio del cAMP."
     },
     {
-      "cat": "cAMP e canali cardiaci",
+      "cat": "Segnalazione a valle (cAMP, PDE, recettori specifici)",
       "front": "Ivabradina",
       "back": "Farmaco bradicardizzante: blocca specificamente i canali If del nodo senoatriale, aperti direttamente dal cAMP dopo stimolazione β1 (non serve necessariamente l'azione della PKA)."
     },
     {
-      "cat": "Recettore istaminico",
+      "cat": "Segnalazione a valle (cAMP, PDE, recettori specifici)",
       "front": "Via Gq-PLC-IP3/DAG (recettore istaminico H1)",
       "back": "Attivazione fosfolipasi C → idrolizza PIP2 in IP3 e DAG. IP3 si lega a recettori rianodino-sensibili → rilascio Ca2+ dal reticolo. DAG si lega alle PKC, promuovendone la fosforilazione con Ca2+."
     },
     {
-      "cat": "Recettori cannabinoidi",
+      "cat": "Segnalazione a valle (cAMP, PDE, recettori specifici)",
       "front": "CB1 vs CB2",
       "back": "CB1 (Gi/o): inibisce adenilato ciclasi, attiva via MAPK e canali K+, inibisce canali Ca2+. Presinaptico, ampiamente espresso nel cervello → inibisce rilascio neurotrasmettitori. CB2: solo inibizione adenilato ciclasi."
     }

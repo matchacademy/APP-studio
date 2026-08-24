@@ -1,12 +1,16 @@
 {
-  "corso": "Farmacologia Generale e Molecolare - Modulo II",
-  "docente": "Anna Calascibetta",
-  "universita": "Palermo (Caltanissetta)",
   "files": [
-    "cards_lezione1_intro_farmacocinetica.json",
-    "cards_lezione2_assorbimento_biodisponibilita.json",
-    "cards_lezione3_distribuzione_metabolismo_eliminazione.json",
-    "cards_lezione5_antimicrobici.json"
-  ],
-  "note": "Lezione 4 non presente tra i PDF caricati. Mancano le lezioni sugli inibitori della sintesi proteica (accennate a fine lezione 5)."
+    "cards_1.1.json",
+    "cards_1.2.json",
+    "cards_2.1.json",
+    "cards_2.2.json",
+    "cards_3.1.json",
+    "cards_3.2.json",
+    "cards_4.1.json",
+    "cards_4.2.json",
+    "cards_C1.json",
+    "cards_C2.json",
+    "cards_C3.json",
+    "cards_C5.json"
+  ]
 }

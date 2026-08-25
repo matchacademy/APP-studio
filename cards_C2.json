@@ -2,35 +2,155 @@
   "modulo": "Calascibetta",
   "lezione": "2 - Assorbimento, Vie di Somministrazione, Biodisponibilità",
   "cards": [
-    {"cat": "Meccanismi di trasporto", "front": "Quali sono i 4 meccanismi molecolari di passaggio attraverso la membrana?", "back": "A) Diffusione passiva, B) Diffusione attraverso canale, C) Diffusione mediata da trasportatore, D) Endocitosi in fase fluida, E) Endocitosi mediata da recettore."},
-    {"cat": "Meccanismi di trasporto", "front": "Cos'è il coefficiente di ripartizione?", "back": "Rapporto tra farmaco nella fase oleosa e farmaco nella fase acquosa. Se >1 il farmaco è lipofilo (diffonde facilmente); se <1 è idrofilo."},
-    {"cat": "Meccanismi di trasporto", "front": "Quali sono le caratteristiche del trasporto attivo?", "back": "Selettività, saturabilità, richiesta di energia, inibizione competitiva da parte di sostanze strutturalmente correlate."},
-    {"cat": "Meccanismi di trasporto", "front": "Quali sono i 4 siti corporei principali dove il trasporto carrier-mediato è rilevante?", "back": "Tubulo renale, tratto biliare, barriera ematoencefalica, tratto gastrointestinale."},
-    {"cat": "Acidi e basi deboli", "front": "Perché un acido debole si assorbe meglio in ambiente acido?", "back": "Perché in un ambiente con la stessa carica (pH vicino al suo pK) tende a rimanere non ionizzato e quindi liposolubile, attraversando facilmente le membrane."},
-    {"cat": "Acidi e basi deboli", "front": "Perché per eliminare un acido conviene un ambiente basico e viceversa?", "back": "Per l'eliminazione l'obiettivo è rendere il farmaco più polare (ionizzato) così non viene riassorbito per diffusione passiva secondo gradiente."},
-    {"cat": "Acidi e basi deboli", "front": "Esempi di acidi deboli e basi deboli (farmaci)", "back": "Acidi deboli: Aspirina/FANS, Sulfamidici, Beta-lattamine, Diuretici, Barbiturici, Warfarin, Metotrexate. Basi deboli: Amfetamina/simpaticomimetici, Betabloccanti, Agenti colinergici, Anestetici locali, Oppioidi, Benzodiazepine, Antidepressivi triciclici."},
-    {"cat": "Trasportatori", "front": "Perché la Glicoproteina P riduce la biodisponibilità della via orale?", "back": "È molto espressa a livello intestinale dove espelle il farmaco verso l'esterno dopo l'assorbimento, oltre a essere presente a livello epatico per lo smaltimento."},
-    {"cat": "Vie di somministrazione", "front": "Quali sono le vie enterali (naturali) di somministrazione?", "back": "Orale, sublinguale, rettale, topica, transdermica, inalatoria, congiuntivale, nasale."},
-    {"cat": "Vie di somministrazione", "front": "Quali sono le vie parenterali (artificiali)?", "back": "Endovenosa, sottocutanea, intramuscolare, spinale, intrarteriale, intratecale."},
-    {"cat": "Via orale", "front": "Perché l'aspirina va assunta a stomaco pieno mentre altri FANS a stomaco vuoto?", "back": "L'aspirina ha un effetto gastrolesivo diretto (si dissocia in H+ e acido salicilico danneggiando subito la mucosa); gli altri FANS devono prima essere assorbiti per essere gastrolesivi, quindi conviene assumerli a stomaco vuoto."},
-    {"cat": "Via orale", "front": "Cos'è l'effetto di primo passaggio epatico?", "back": "I farmaci assorbiti per via orale, con drenaggio portale, passano dal fegato prima di raggiungere il circolo sistemico, subendo una prima inattivazione/metabolizzazione."},
-    {"cat": "Via sublinguale", "front": "Vantaggio principale della via sublinguale", "back": "Si evita l'effetto di primo passaggio epatico (drenaggio sistemico, non portale) e si ha un assorbimento rapido, utile in emergenza."},
-    {"cat": "Via sublinguale", "front": "Perché nello shock anafilattico non si usa la via sublinguale per il cortisone?", "back": "Perché serve una dose alta (almeno 500mg) impossibile da dare sublinguale (max 1-2mg), e nello shock c'è crollo pressorio generale con ridotto apporto ematico a tutti i distretti."},
-    {"cat": "Via sublinguale", "front": "Qual è il farmaco di emergenza nello shock anafilattico e perché?", "back": "Adrenalina per via endovenosa: agisce sui recettori alfa1 contrastando la vasodilatazione e dando broncodilatazione; il cortisone agisce lentamente (ore) perché deve modulare la trascrizione genica."},
-    {"cat": "Via endovenosa", "front": "Perché la via endovenosa non ha fase di assorbimento?", "back": "Il farmaco è immesso direttamente nel circolo sistemico, bypassando la membrana di assorbimento."},
-    {"cat": "Via endovenosa", "front": "Perché gli accessi venosi per chemioterapici vanno fatti su vasi di grosso calibro, lontano da articolazioni?", "back": "Perché sono sostanze irritanti: vasi piccoli si scleroticizzano/fibrotizzano con uso ripetuto; vicino alle articolazioni un eventuale stravaso causerebbe danno articolare."},
-    {"cat": "Via intramuscolare", "front": "Quali farmaci si somministrano tipicamente per via intramuscolare a lento assorbimento?", "back": "Preparazioni oleose e a lento assorbimento come la penicillina benzatina."},
-    {"cat": "Via intramuscolare", "front": "Perché con la lidocaina anestetica si aggiunge un vasocostrittore?", "back": "Per ridurre l'assorbimento sistemico e mantenere l'effetto anestetico locale più a lungo (unico caso in cui si vuole rallentare l'assorbimento IM)."},
-    {"cat": "Via polmonare", "front": "Come varia la tossicità di un aerosol in base alla dimensione delle particelle?", "back": ">5-10 micron: prime vie aeree. 2-5 micron: scendono nell'albero bronchiale. <1 micron: raggiungono l'alveolo (più tossiche, es. amianto/asbestosi)."},
-    {"cat": "Via polmonare", "front": "Da cosa dipende la capacità di assorbimento di un farmaco gassoso per via polmonare?", "back": "Dal coefficiente di solubilità nel sangue: alta solubilità (es. cloroformio) = assorbimento rapido con pochi atti respiratori; bassa solubilità = assorbimento lento anche iperventilando."},
-    {"cat": "Curve concentrazione-tempo", "front": "Cosa misurano Cmax, Tmax e AUC?", "back": "Cmax: concentrazione massima raggiunta. Tmax: tempo per raggiungere la concentrazione massima (velocità). AUC: area sotto la curva, quantità totale di farmaco nel tempo."},
-    {"cat": "Curve concentrazione-tempo", "front": "Cos'è la finestra terapeutica?", "back": "L'intervallo tra la concentrazione minima efficace (MEC) e la concentrazione tossica; il picco plasmatico deve rimanere dentro questo intervallo."},
-    {"cat": "Biodisponibilità", "front": "Quali sono le 3 cause principali di ridotta/aumentata biodisponibilità orale?", "back": "1) Effetto di primo passaggio epatico, 2) solubilità/caratteristiche chimico-fisiche del farmaco e forma farmaceutica, 3) presenza di trasportatori di efflusso (glicoproteina P)."},
-    {"cat": "Biodisponibilità", "front": "Perché la biodisponibilità della via orale è più variabile rispetto a quella intramuscolare?", "back": "Perché è influenzata da molti fattori: cibo, pH, svuotamento gastrico, diarrea, gravidanza, abitudini di vita (alcol, fumo), malattie infiammatorie intestinali, interazioni farmacologiche."},
-    {"cat": "Farmaco equivalente", "front": "Qual è il range legale di variazione di biodisponibilità di un farmaco equivalente rispetto al brevettato?", "back": "±20%, ovvero tra 80% e 125% del brevettato."},
-    {"cat": "Farmaco equivalente", "front": "Perché è sconsigliato passare da un generico a un altro generico diverso (ma non tra brevettato e uno stesso generico)?", "back": "Perché la differenza cumulativa tra due generici diversi può superare il 20% (es. arrivare al 40%), mentre generico-brevettato è sempre entro il 20%."},
-    {"cat": "Distribuzione", "front": "Quali sono i 3 fattori fisiologici principali che regolano la distribuzione di un farmaco?", "back": "Gittata cardiaca/flusso (organi ad alto flusso ricevono più farmaco prima), permeabilità capillare (presenza di barriere), legame alle proteine plasmatiche."},
-    {"cat": "Distribuzione", "front": "Perché la barriera placentare non è considerata una vera barriera?", "back": "È ricca di trasportatori (glicoproteina P, famiglia MDR, trasportatori per cationi/anioni) che degradano o espellono le sostanze dopo che sono passate, più che bloccarle; la sua funzione protettiva è massima nel primo trimestre (organogenesi)."},
-    {"cat": "Distribuzione", "front": "Perché le tetracicline non si danno ai bambini?", "back": "Si legano al calcio dei tessuti (ossa e denti), bloccano la cartilagine di accrescimento e causano colorazione giallastra della dentatura decidua."}
+    {
+      "cat": "Assorbimento e trasporto",
+      "front": "Quali sono i 4 meccanismi molecolari di passaggio attraverso la membrana?",
+      "back": "A) Diffusione passiva, B) Diffusione attraverso canale, C) Diffusione mediata da trasportatore, D) Endocitosi in fase fluida, E) Endocitosi mediata da recettore."
+    },
+    {
+      "cat": "Assorbimento e trasporto",
+      "front": "Cos'è il coefficiente di ripartizione?",
+      "back": "Rapporto tra farmaco nella fase oleosa e farmaco nella fase acquosa. Se >1 il farmaco è lipofilo (diffonde facilmente); se <1 è idrofilo."
+    },
+    {
+      "cat": "Assorbimento e trasporto",
+      "front": "Quali sono le caratteristiche del trasporto attivo?",
+      "back": "Selettività, saturabilità, richiesta di energia, inibizione competitiva da parte di sostanze strutturalmente correlate."
+    },
+    {
+      "cat": "Assorbimento e trasporto",
+      "front": "Quali sono i 4 siti corporei principali dove il trasporto carrier-mediato è rilevante?",
+      "back": "Tubulo renale, tratto biliare, barriera ematoencefalica, tratto gastrointestinale."
+    },
+    {
+      "cat": "Assorbimento e trasporto",
+      "front": "Perché un acido debole si assorbe meglio in ambiente acido?",
+      "back": "Perché in un ambiente con la stessa carica (pH vicino al suo pK) tende a rimanere non ionizzato e quindi liposolubile, attraversando facilmente le membrane."
+    },
+    {
+      "cat": "Assorbimento e trasporto",
+      "front": "Perché per eliminare un acido conviene un ambiente basico e viceversa?",
+      "back": "Per l'eliminazione l'obiettivo è rendere il farmaco più polare (ionizzato) così non viene riassorbito per diffusione passiva secondo gradiente."
+    },
+    {
+      "cat": "Assorbimento e trasporto",
+      "front": "Esempi di acidi deboli e basi deboli (farmaci)",
+      "back": "Acidi deboli: Aspirina/FANS, Sulfamidici, Beta-lattamine, Diuretici, Barbiturici, Warfarin, Metotrexate. Basi deboli: Amfetamina/simpaticomimetici, Betabloccanti, Agenti colinergici, Anestetici locali, Oppioidi, Benzodiazepine, Antidepressivi triciclici."
+    },
+    {
+      "cat": "Assorbimento e trasporto",
+      "front": "Perché la Glicoproteina P riduce la biodisponibilità della via orale?",
+      "back": "È molto espressa a livello intestinale dove espelle il farmaco verso l'esterno dopo l'assorbimento, oltre a essere presente a livello epatico per lo smaltimento."
+    },
+    {
+      "cat": "Vie di somministrazione",
+      "front": "Quali sono le vie enterali (naturali) di somministrazione?",
+      "back": "Orale, sublinguale, rettale, topica, transdermica, inalatoria, congiuntivale, nasale."
+    },
+    {
+      "cat": "Vie di somministrazione",
+      "front": "Quali sono le vie parenterali (artificiali)?",
+      "back": "Endovenosa, sottocutanea, intramuscolare, spinale, intrarteriale, intratecale."
+    },
+    {
+      "cat": "Vie di somministrazione",
+      "front": "Perché l'aspirina va assunta a stomaco pieno mentre altri FANS a stomaco vuoto?",
+      "back": "L'aspirina ha un effetto gastrolesivo diretto (si dissocia in H+ e acido salicilico danneggiando subito la mucosa); gli altri FANS devono prima essere assorbiti per essere gastrolesivi, quindi conviene assumerli a stomaco vuoto."
+    },
+    {
+      "cat": "Vie di somministrazione",
+      "front": "Cos'è l'effetto di primo passaggio epatico?",
+      "back": "I farmaci assorbiti per via orale, con drenaggio portale, passano dal fegato prima di raggiungere il circolo sistemico, subendo una prima inattivazione/metabolizzazione."
+    },
+    {
+      "cat": "Vie di somministrazione",
+      "front": "Vantaggio principale della via sublinguale",
+      "back": "Si evita l'effetto di primo passaggio epatico (drenaggio sistemico, non portale) e si ha un assorbimento rapido, utile in emergenza."
+    },
+    {
+      "cat": "Vie di somministrazione",
+      "front": "Perché nello shock anafilattico non si usa la via sublinguale per il cortisone?",
+      "back": "Perché serve una dose alta (almeno 500mg) impossibile da dare sublinguale (max 1-2mg), e nello shock c'è crollo pressorio generale con ridotto apporto ematico a tutti i distretti."
+    },
+    {
+      "cat": "Vie di somministrazione",
+      "front": "Qual è il farmaco di emergenza nello shock anafilattico e perché?",
+      "back": "Adrenalina per via endovenosa: agisce sui recettori alfa1 contrastando la vasodilatazione e dando broncodilatazione; il cortisone agisce lentamente (ore) perché deve modulare la trascrizione genica."
+    },
+    {
+      "cat": "Vie di somministrazione",
+      "front": "Perché la via endovenosa non ha fase di assorbimento?",
+      "back": "Il farmaco è immesso direttamente nel circolo sistemico, bypassando la membrana di assorbimento."
+    },
+    {
+      "cat": "Vie di somministrazione",
+      "front": "Perché gli accessi venosi per chemioterapici vanno fatti su vasi di grosso calibro, lontano da articolazioni?",
+      "back": "Perché sono sostanze irritanti: vasi piccoli si scleroticizzano/fibrotizzano con uso ripetuto; vicino alle articolazioni un eventuale stravaso causerebbe danno articolare."
+    },
+    {
+      "cat": "Vie di somministrazione",
+      "front": "Quali farmaci si somministrano tipicamente per via intramuscolare a lento assorbimento?",
+      "back": "Preparazioni oleose e a lento assorbimento come la penicillina benzatina."
+    },
+    {
+      "cat": "Vie di somministrazione",
+      "front": "Perché con la lidocaina anestetica si aggiunge un vasocostrittore?",
+      "back": "Per ridurre l'assorbimento sistemico e mantenere l'effetto anestetico locale più a lungo (unico caso in cui si vuole rallentare l'assorbimento IM)."
+    },
+    {
+      "cat": "Vie di somministrazione",
+      "front": "Come varia la tossicità di un aerosol in base alla dimensione delle particelle?",
+      "back": ">5-10 micron: prime vie aeree. 2-5 micron: scendono nell'albero bronchiale. <1 micron: raggiungono l'alveolo (più tossiche, es. amianto/asbestosi)."
+    },
+    {
+      "cat": "Vie di somministrazione",
+      "front": "Da cosa dipende la capacità di assorbimento di un farmaco gassoso per via polmonare?",
+      "back": "Dal coefficiente di solubilità nel sangue: alta solubilità (es. cloroformio) = assorbimento rapido con pochi atti respiratori; bassa solubilità = assorbimento lento anche iperventilando."
+    },
+    {
+      "cat": "Biodisponibilità e cinetica",
+      "front": "Cosa misurano Cmax, Tmax e AUC?",
+      "back": "Cmax: concentrazione massima raggiunta. Tmax: tempo per raggiungere la concentrazione massima (velocità). AUC: area sotto la curva, quantità totale di farmaco nel tempo."
+    },
+    {
+      "cat": "Biodisponibilità e cinetica",
+      "front": "Cos'è la finestra terapeutica?",
+      "back": "L'intervallo tra la concentrazione minima efficace (MEC) e la concentrazione tossica; il picco plasmatico deve rimanere dentro questo intervallo."
+    },
+    {
+      "cat": "Biodisponibilità e cinetica",
+      "front": "Quali sono le 3 cause principali di ridotta/aumentata biodisponibilità orale?",
+      "back": "1) Effetto di primo passaggio epatico, 2) solubilità/caratteristiche chimico-fisiche del farmaco e forma farmaceutica, 3) presenza di trasportatori di efflusso (glicoproteina P)."
+    },
+    {
+      "cat": "Biodisponibilità e cinetica",
+      "front": "Perché la biodisponibilità della via orale è più variabile rispetto a quella intramuscolare?",
+      "back": "Perché è influenzata da molti fattori: cibo, pH, svuotamento gastrico, diarrea, gravidanza, abitudini di vita (alcol, fumo), malattie infiammatorie intestinali, interazioni farmacologiche."
+    },
+    {
+      "cat": "Biodisponibilità e cinetica",
+      "front": "Qual è il range legale di variazione di biodisponibilità di un farmaco equivalente rispetto al brevettato?",
+      "back": "±20%, ovvero tra 80% e 125% del brevettato."
+    },
+    {
+      "cat": "Biodisponibilità e cinetica",
+      "front": "Perché è sconsigliato passare da un generico a un altro generico diverso (ma non tra brevettato e uno stesso generico)?",
+      "back": "Perché la differenza cumulativa tra due generici diversi può superare il 20% (es. arrivare al 40%), mentre generico-brevettato è sempre entro il 20%."
+    },
+    {
+      "cat": "Distribuzione",
+      "front": "Quali sono i 3 fattori fisiologici principali che regolano la distribuzione di un farmaco?",
+      "back": "Gittata cardiaca/flusso (organi ad alto flusso ricevono più farmaco prima), permeabilità capillare (presenza di barriere), legame alle proteine plasmatiche."
+    },
+    {
+      "cat": "Distribuzione",
+      "front": "Perché la barriera placentare non è considerata una vera barriera?",
+      "back": "È ricca di trasportatori (glicoproteina P, famiglia MDR, trasportatori per cationi/anioni) che degradano o espellono le sostanze dopo che sono passate, più che bloccarle; la sua funzione protettiva è massima nel primo trimestre (organogenesi)."
+    },
+    {
+      "cat": "Distribuzione",
+      "front": "Perché le tetracicline non si danno ai bambini?",
+      "back": "Si legano al calcio dei tessuti (ossa e denti), bloccano la cartilagine di accrescimento e causano colorazione giallastra della dentatura decidua."
+    }
   ]
 }

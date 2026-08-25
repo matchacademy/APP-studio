@@ -2,29 +2,125 @@
   "modulo": "Calascibetta",
   "lezione": "1 - Introduzione alla Farmacologia e Farmacocinetica",
   "cards": [
-    {"cat": "Storia e definizioni", "front": "Cos'è un farmaco secondo l'OMS?", "back": "Ogni sostanza che, introdotta nell'organismo vivente, può modificarne una o più funzioni (definizione del 1969)."},
-    {"cat": "Storia e definizioni", "front": "Chi introdusse il concetto di recettore e in che anno?", "back": "Ehrlich, nel 1900. Frase chiave: 'corpora non agunt nisi fixata' (i farmaci non agiscono se non si legano)."},
-    {"cat": "Storia e definizioni", "front": "Quali sono le poche categorie di farmaci che agiscono senza legarsi a un recettore?", "back": "Farmaci che agiscono tramite proprietà fisico-chimiche: antiacidi (tamponano l'acidità gastrica), diuretici osmotici e lassativi osmotici (richiamano acqua)."},
-    {"cat": "Storia e definizioni", "front": "Cosa fu il Prontosil Rosso e perché è importante?", "back": "Un colorante inefficace in vitro ma efficace in vivo; dopo metabolizzazione produceva i primi sulfamidici, attivi contro Gram+."},
-    {"cat": "Storia e definizioni", "front": "Cosa segnò il caso della Talidomide?", "back": "La nascita della farmacologia clinica e della farmacovigilanza; antiemetico in gravidanza che causò focomelia nei nascituri, ritirato dopo 6 mesi."},
-    {"cat": "Storia e definizioni", "front": "Differenza tra farmacologia clinica e farmacovigilanza?", "back": "Farmacologia clinica: studia la tossicità prima della commercializzazione (fasi 1-3). Farmacovigilanza: monitora la sicurezza dopo la commercializzazione (fase 4)."},
-    {"cat": "Farmaco equivalente", "front": "Cos'è un farmaco equivalente (generico)?", "back": "Stesso principio attivo e stesso dosaggio del farmaco brevettato, ma diversi eccipienti; biodisponibilità può variare di ±20% rispetto al brevettato."},
-    {"cat": "Farmaco equivalente", "front": "Perché nelle terapie croniche con basso indice terapeutico (es. Coumadin) bisogna usare sempre lo stesso equivalente?", "back": "Perché cambiando tra due generici diversi (es. uno -20% e uno +20%) la differenza cumulativa può arrivare al 40%, rischiando emorragia o inefficacia."},
-    {"cat": "Terminologia", "front": "Le 3 nomenclature di un farmaco (es. aspirina)?", "back": "Nome chimico (acido acetilsalicilico), nome commerciale (Cardioaspirin), nome comune (aspirina)."},
-    {"cat": "Terminologia", "front": "Cos'è il placebo e cos'è il nocebo?", "back": "Placebo: sostanza inerte che produce risposta terapeutica per effetto psicologico. Nocebo: effetto placebo con esito negativo."},
-    {"cat": "Terminologia", "front": "Cosa sono i farmaci off-label?", "back": "Farmaci usati per un'indicazione non compresa nella AIC (Autorizzazione Immissione in Commercio), richiedono autorizzazione specifica."},
-    {"cat": "Farmacocinetica generale", "front": "Differenza tra farmacocinetica e farmacodinamica?", "back": "Farmacocinetica: cosa fa il corpo al farmaco (assorbimento, distribuzione, metabolismo, escrezione). Farmacodinamica: cosa fa il farmaco al corpo."},
-    {"cat": "Farmacocinetica generale", "front": "Quali sono le 4 fasi della farmacocinetica?", "back": "Assorbimento, Distribuzione, Metabolismo (Biotrasformazione), Escrezione."},
-    {"cat": "Passaggio attraverso le membrane", "front": "Qual è il limite dimensionale di attraversamento della membrana plasmatica?", "back": "60 kDalton (un farmaco tipico ha circa 200 Dalton, molto più piccolo)."},
-    {"cat": "Passaggio attraverso le membrane", "front": "Da cosa dipende principalmente l'attraversamento della membrana da parte di un farmaco liposolubile?", "back": "Dal gradiente di concentrazione, tramite diffusione passiva."},
-    {"cat": "Passaggio attraverso le membrane", "front": "Cosa indica il pK di un farmaco?", "back": "Il valore di pH al quale il farmaco è dissociato al 50%."},
-    {"cat": "Passaggio attraverso le membrane", "front": "Cosa succede a un acido debole in un ambiente con pH uguale al suo pK?", "back": "Rimane indissociato e attraversa la membrana come se fosse liposolubile (non deve cedere elettroni)."},
-    {"cat": "Passaggio attraverso le membrane", "front": "Quali sono i fattori che condizionano l'assorbimento per diffusione passiva (indipendenti dal farmaco)?", "back": "Superficie di contatto, spessore della membrana, presenza/assenza di carrier, flusso ematico del distretto."},
-    {"cat": "Trasportatori", "front": "Cos'è la Glicoproteina P (P-gp170)?", "back": "Proteina di efflusso della famiglia ABC, identificata in cellule tumorali resistenti (gene MDR = Multi-Drug Resistant); riduce la biodisponibilità orale espellendo farmaci a livello intestinale."},
-    {"cat": "Trasportatori", "front": "Cosa distingue il trasporto carrier-mediato (caratteristiche)?", "back": "È specifico, saturabile, inibibile, dipendente da temperatura e condizioni energetiche della cellula."},
-    {"cat": "Biodisponibilità", "front": "Come si calcola la biodisponibilità assoluta (F%)?", "back": "F% = (AUC via da esaminare / AUC via endovenosa) x 100."},
-    {"cat": "Biodisponibilità", "front": "Perché l'AUC dopo somministrazione endovenosa corrisponde a biodisponibilità 100%?", "back": "Perché non c'è fase di assorbimento: tutto il farmaco raggiunge immediatamente il circolo sistemico."},
-    {"cat": "Biodisponibilità", "front": "Quando si usa la biodisponibilità relativa invece di quella assoluta?", "back": "Quando si confrontano due vie di somministrazione diverse dall'endovenosa (es. passaggio da intramuscolo a orale)."},
-    {"cat": "Biodisponibilità", "front": "Esempio pratico di biodisponibilità (domanda tipica d'esame)", "back": "Somministro 100mg di cardioaspirin con biodisponibilità 60% → in circolo ci sono 60mg di farmaco in grado di agire."}
+    {
+      "cat": "Storia e definizioni",
+      "front": "Cos'è un farmaco secondo l'OMS?",
+      "back": "Ogni sostanza che, introdotta nell'organismo vivente, può modificarne una o più funzioni (definizione del 1969)."
+    },
+    {
+      "cat": "Storia e definizioni",
+      "front": "Chi introdusse il concetto di recettore e in che anno?",
+      "back": "Ehrlich, nel 1900. Frase chiave: 'corpora non agunt nisi fixata' (i farmaci non agiscono se non si legano)."
+    },
+    {
+      "cat": "Storia e definizioni",
+      "front": "Quali sono le poche categorie di farmaci che agiscono senza legarsi a un recettore?",
+      "back": "Farmaci che agiscono tramite proprietà fisico-chimiche: antiacidi (tamponano l'acidità gastrica), diuretici osmotici e lassativi osmotici (richiamano acqua)."
+    },
+    {
+      "cat": "Storia e definizioni",
+      "front": "Cosa fu il Prontosil Rosso e perché è importante?",
+      "back": "Un colorante inefficace in vitro ma efficace in vivo; dopo metabolizzazione produceva i primi sulfamidici, attivi contro Gram+."
+    },
+    {
+      "cat": "Storia e definizioni",
+      "front": "Cosa segnò il caso della Talidomide?",
+      "back": "La nascita della farmacologia clinica e della farmacovigilanza; antiemetico in gravidanza che causò focomelia nei nascituri, ritirato dopo 6 mesi."
+    },
+    {
+      "cat": "Storia e definizioni",
+      "front": "Differenza tra farmacologia clinica e farmacovigilanza?",
+      "back": "Farmacologia clinica: studia la tossicità prima della commercializzazione (fasi 1-3). Farmacovigilanza: monitora la sicurezza dopo la commercializzazione (fase 4)."
+    },
+    {
+      "cat": "Terminologia e concetti generali",
+      "front": "Cos'è un farmaco equivalente (generico)?",
+      "back": "Stesso principio attivo e stesso dosaggio del farmaco brevettato, ma diversi eccipienti; biodisponibilità può variare di ±20% rispetto al brevettato."
+    },
+    {
+      "cat": "Terminologia e concetti generali",
+      "front": "Perché nelle terapie croniche con basso indice terapeutico (es. Coumadin) bisogna usare sempre lo stesso equivalente?",
+      "back": "Perché cambiando tra due generici diversi (es. uno -20% e uno +20%) la differenza cumulativa può arrivare al 40%, rischiando emorragia o inefficacia."
+    },
+    {
+      "cat": "Terminologia e concetti generali",
+      "front": "Le 3 nomenclature di un farmaco (es. aspirina)?",
+      "back": "Nome chimico (acido acetilsalicilico), nome commerciale (Cardioaspirin), nome comune (aspirina)."
+    },
+    {
+      "cat": "Terminologia e concetti generali",
+      "front": "Cos'è il placebo e cos'è il nocebo?",
+      "back": "Placebo: sostanza inerte che produce risposta terapeutica per effetto psicologico. Nocebo: effetto placebo con esito negativo."
+    },
+    {
+      "cat": "Terminologia e concetti generali",
+      "front": "Cosa sono i farmaci off-label?",
+      "back": "Farmaci usati per un'indicazione non compresa nella AIC (Autorizzazione Immissione in Commercio), richiedono autorizzazione specifica."
+    },
+    {
+      "cat": "Farmacocinetica generale",
+      "front": "Differenza tra farmacocinetica e farmacodinamica?",
+      "back": "Farmacocinetica: cosa fa il corpo al farmaco (assorbimento, distribuzione, metabolismo, escrezione). Farmacodinamica: cosa fa il farmaco al corpo."
+    },
+    {
+      "cat": "Farmacocinetica generale",
+      "front": "Quali sono le 4 fasi della farmacocinetica?",
+      "back": "Assorbimento, Distribuzione, Metabolismo (Biotrasformazione), Escrezione."
+    },
+    {
+      "cat": "Trasporto attraverso le membrane",
+      "front": "Qual è il limite dimensionale di attraversamento della membrana plasmatica?",
+      "back": "60 kDalton (un farmaco tipico ha circa 200 Dalton, molto più piccolo)."
+    },
+    {
+      "cat": "Trasporto attraverso le membrane",
+      "front": "Da cosa dipende principalmente l'attraversamento della membrana da parte di un farmaco liposolubile?",
+      "back": "Dal gradiente di concentrazione, tramite diffusione passiva."
+    },
+    {
+      "cat": "Trasporto attraverso le membrane",
+      "front": "Cosa indica il pK di un farmaco?",
+      "back": "Il valore di pH al quale il farmaco è dissociato al 50%."
+    },
+    {
+      "cat": "Trasporto attraverso le membrane",
+      "front": "Cosa succede a un acido debole in un ambiente con pH uguale al suo pK?",
+      "back": "Rimane indissociato e attraversa la membrana come se fosse liposolubile (non deve cedere elettroni)."
+    },
+    {
+      "cat": "Trasporto attraverso le membrane",
+      "front": "Quali sono i fattori che condizionano l'assorbimento per diffusione passiva (indipendenti dal farmaco)?",
+      "back": "Superficie di contatto, spessore della membrana, presenza/assenza di carrier, flusso ematico del distretto."
+    },
+    {
+      "cat": "Trasporto attraverso le membrane",
+      "front": "Cos'è la Glicoproteina P (P-gp170)?",
+      "back": "Proteina di efflusso della famiglia ABC, identificata in cellule tumorali resistenti (gene MDR = Multi-Drug Resistant); riduce la biodisponibilità orale espellendo farmaci a livello intestinale."
+    },
+    {
+      "cat": "Trasporto attraverso le membrane",
+      "front": "Cosa distingue il trasporto carrier-mediato (caratteristiche)?",
+      "back": "È specifico, saturabile, inibibile, dipendente da temperatura e condizioni energetiche della cellula."
+    },
+    {
+      "cat": "Biodisponibilità",
+      "front": "Come si calcola la biodisponibilità assoluta (F%)?",
+      "back": "F% = (AUC via da esaminare / AUC via endovenosa) x 100."
+    },
+    {
+      "cat": "Biodisponibilità",
+      "front": "Perché l'AUC dopo somministrazione endovenosa corrisponde a biodisponibilità 100%?",
+      "back": "Perché non c'è fase di assorbimento: tutto il farmaco raggiunge immediatamente il circolo sistemico."
+    },
+    {
+      "cat": "Biodisponibilità",
+      "front": "Quando si usa la biodisponibilità relativa invece di quella assoluta?",
+      "back": "Quando si confrontano due vie di somministrazione diverse dall'endovenosa (es. passaggio da intramuscolo a orale)."
+    },
+    {
+      "cat": "Biodisponibilità",
+      "front": "Esempio pratico di biodisponibilità (domanda tipica d'esame)",
+      "back": "Somministro 100mg di cardioaspirin con biodisponibilità 60% → in circolo ci sono 60mg di farmaco in grado di agire."
+    }
   ]
 }

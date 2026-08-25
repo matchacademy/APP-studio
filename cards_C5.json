@@ -2,40 +2,180 @@
   "modulo": "Calascibetta",
   "lezione": "5 - Farmaci Antimicrobici",
   "cards": [
-    {"cat": "Definizioni generali", "front": "Differenza tra antibiotico e chemioterapico?", "back": "Antibiotico: sostanza prodotta da microrganismi (batteri/funghi) in natura. Chemioterapico: farmaco antibatterico prodotto per sintesi chimica."},
-    {"cat": "Definizioni generali", "front": "Differenza tra batteriostatico, battericida e batteriolitico?", "back": "Batteriostatico: ferma la moltiplicazione senza uccidere. Battericida: uccide i microrganismi. Batteriolitico: causa la lisi del batterio."},
-    {"cat": "Definizioni generali", "front": "Da cosa dipende la scelta dell'antibiotico giusto?", "back": "Identificazione del patogeno, sensibilità del germe, sede di infezione, anamnesi, profilo del farmaco, costo."},
-    {"cat": "Selettività", "front": "Quali sono le differenze strutturali/metaboliche tra cellula batterica e umana che rendono selettivi gli antibiotici?", "back": "Membrana con pochi steroli (vs molti negli eucarioti), ribosomi 70S (vs 80S), parete cellulare di peptidoglicano (assente nell'uomo), assenza di mitosi."},
-    {"cat": "Antibiogramma", "front": "Cosa sono MIC e MBC?", "back": "MIC (minima concentrazione inibente): concentrazione minima che inibisce la crescita batterica. MBC (minima concentrazione battericida): concentrazione minima che distrugge i batteri (generalmente 2-4 volte la MIC)."},
-    {"cat": "Antibiogramma", "front": "Cosa determina l'esito terapeutico in base al confronto tra concentrazione del farmaco e MIC?", "back": "Concentrazione > MIC: eradicazione. Concentrazione = MIC: risultato incerto. Concentrazione < MIC: fallimento terapeutico (e rischio di sviluppare resistenza)."},
-    {"cat": "Antibiogramma", "front": "Quali sono i due metodi principali dell'antibiogramma?", "back": "Metodo dei dischetti di diffusione (qualitativo, veloce) e metodo delle diluizioni progressive (quantitativo, misura precisa MIC/MBC)."},
-    {"cat": "Effetto post-antibiotico", "front": "Differenza tra antibiotico concentrazione-dipendente e tempo-dipendente?", "back": "Concentrazione-dipendente: efficacia aumenta con la concentrazione (alte dosi, mono-somministrazione, es. fluorochinoloni/aminoglicosidi). Tempo-dipendente: efficacia dipende dal tempo sopra la MIC (più somministrazioni, es. penicilline)."},
-    {"cat": "Effetto post-antibiotico", "front": "Cos'è l'effetto post-antibiotico (PAE)?", "back": "Il tempo in cui, dopo la fine della terapia, persiste ancora un effetto inibitorio sulla crescita batterica. È alto per fluorochinoloni/aminoglicosidi, quasi nullo per penicilline e batteriolitici."},
-    {"cat": "Farmacocinetica antibiotica", "front": "Perché la levofloxacina è indicata nelle infezioni delle vie urinarie ma non in quelle cutanee?", "back": "Ha rapporto urine/plasma = 67 (grande accumulo renale, fallimento terapia IVU = 0%) ma rapporto cute/plasma = solo 1.4 (fallimento nelle infezioni cutanee = 16%)."},
-    {"cat": "Farmacocinetica antibiotica", "front": "Quali distretti anatomici sono difficili da raggiungere per gli antibiotici e perché?", "back": "SNC/encefalo (barriera ematoencefalica), occhio (barriera emato-retinica, scarsa vascolarizzazione), prostata/orecchio/osso (scarsa vascolarizzazione), pericardio/pleura, biofilm (carico negativamente)."},
-    {"cat": "Farmacocinetica antibiotica", "front": "Qual è l'obiettivo di dose ottimale in termini di MIC nel sito di infezione?", "back": "Raggiungere MIC80, cioè l'80-90% della MIC nel sito di infezione."},
-    {"cat": "Tipi di terapia", "front": "Quali sono i 5 tipi/obiettivi della terapia antibiotica?", "back": "Profilattica (nessuna infezione), Preventiva (infezione presente, evitare peggioramento), Empirica (germe non identificato), Definitiva (patogeno isolato), Soppressiva (risoluzione)."},
-    {"cat": "Tipi di terapia", "front": "Errore comune da evitare nella terapia profilattica?", "back": "Somministrare subito antibiotico in caso di febbre: va prescritto solo con certezza di infezione batterica."},
-    {"cat": "Antibiotico resistenza", "front": "Differenza tra resistenza naturale (cromosomica) e acquisita (extracromosomica)?", "back": "Naturale: trasmissione verticale, immutabile, associata all'assenza del target. Acquisita: trasmissione orizzontale (plasmidi/batteriofagi), risultato di selezione clonale sotto pressione del farmaco, la più comune."},
-    {"cat": "Antibiotico resistenza", "front": "Quali sono i 4 principali meccanismi di resistenza batterica?", "back": "Modifica del bersaglio, alterata permeabilità, inattivazione enzimatica (es. beta-lattamasi), pompe di efflusso."},
-    {"cat": "Complicazioni", "front": "Quali sono le 3 complicazioni principali della terapia antibiotica?", "back": "Ipersensibilità (es. penicilline), tossicità diretta (es. aminoglicosidi = ototossici, tetracicline = ossee), sovrainfezioni (resistenza)."},
-    {"cat": "Sintesi del peptidoglicano", "front": "Quali sono le 3 tappe della sintesi del peptidoglicano e quali antibiotici agiscono su ciascuna?", "back": "1) Sintesi precursori nel citoplasma → cicloserina, fosfomicina. 2) Trasporto attraverso membrana → bacitracina. 3) Incremento nella parete (transpeptidazione) → glicopeptidi (vancomicina) e beta-lattamici."},
-    {"cat": "Sintesi del peptidoglicano", "front": "Meccanismo d'azione della D-cicloserina?", "back": "Analogo strutturale della D-alanina, inibisce competitivamente racemasi e sintetasi bloccando il dimero D-alanina-D-alanina. Neurotossica, usata solo per TBC resistente."},
-    {"cat": "Sintesi del peptidoglicano", "front": "Meccanismo d'azione della fosfomicina (Monuril)?", "back": "Analogo del fosfoenolpiruvato, blocca la sintesi dell'acido N-acetilmuramico legandosi alla piruvato-UDP-NAG transferasi. Usata in dose singola/breve per IVU iniziali."},
-    {"cat": "Glicopeptidi", "front": "Perché i Gram+ sono più sensibili ai glicopeptidi (vancomicina) rispetto ai Gram-?", "back": "I glicopeptidi non riescono a superare la membrana esterna dei Gram-, quindi agiscono solo sui Gram+."},
-    {"cat": "Glicopeptidi", "front": "Qual è il meccanismo di resistenza degli enterococchi alla vancomicina?", "back": "Sostituzione del dipeptide terminale D-alanina-D-alanina con D-alanina-D-lattato: la vancomicina non riconosce più il target, riduzione affinità di ~1000 volte."},
-    {"cat": "Beta-lattamici", "front": "Qual è la tripla azione battericida/batteriolitica della penicillina?", "back": "1) Blocca la transpeptidazione, 2) depolimerizza il peptidoglicano già presente (mureina-idrolasi), 3) blocca l'inibitore delle autolisine batteriche endogene."},
-    {"cat": "Beta-lattamici", "front": "Cosa sono le PBP (Penicillin Binding Proteins)?", "back": "Enzimi (transpeptidasi, carbossipeptidasi) che catalizzano la sintesi della parete batterica e si legano covalentemente agli antibiotici beta-lattamici. Ogni batterio ha un proprio patrimonio di PBP."},
-    {"cat": "Beta-lattamici", "front": "Quali sono i 4 principali meccanismi di resistenza ai beta-lattamici?", "back": "1) Ridotta affinità delle PBP, 2) incapacità di penetrare al sito d'azione, 3) produzione di beta-lattamasi, 4) pompe di efflusso. (+ biofilm come 5°)."},
-    {"cat": "Penicilline", "front": "Differenza tra penicillina G e V?", "back": "G (benzilpenicillina): instabile in ambiente gastrico, solo via sistemica, più usata in terapia. V (fenossimetilpenicillina): stabile, somministrabile per via orale, usata in ambito pediatrico."},
-    {"cat": "Penicilline", "front": "Cosa sono le penicilline resistenti alle beta-lattamasi? Esempio.", "back": "Penicilline con un grosso radicale vicino all'anello beta-lattamico che le rende resistenti alla penicillinasi. Esempio: meticillina."},
-    {"cat": "Penicilline", "front": "Cosa sono le aminopenicilline e perché si associano ad acido clavulanico?", "back": "Ampicillina/amoxicillina: ad ampio spettro (Gram-) ma sensibili alle beta-lattamasi; l'acido clavulanico le protegge inibendo l'enzima (es. Augmentin = amoxicillina + acido clavulanico)."},
-    {"cat": "Penicilline", "front": "Perché penicilline e aminoglicosidi hanno sinergismo?", "back": "La penicillina distrugge la parete batterica facilitando l'ingresso dell'aminoglicoside, che blocca la sintesi proteica; l'aminoglicoside porta anche il vantaggio dell'effetto post-antibiotico che la penicillina non ha."},
-    {"cat": "Beta-lattamici", "front": "Quali sono i 3 inibitori suicidi delle beta-lattamasi?", "back": "Acido clavulanico, sulbactam, tazobactam (si legano irreversibilmente alle beta-lattamasi inattivandole); avibactam è un nuovo inibitore non beta-lattamico."},
-    {"cat": "Cefalosporine", "front": "Come si classificano le cefalosporine in generazioni?", "back": "1a gen (cefalexina): spettro ristretto Gram+. 2a gen (cefoxitina): più efficace su Gram-. 3a gen (cefixima, ceftriaxone): estesa ai Gram-, resistente a beta-lattamasi. 4a gen (cefepima): ampio spettro Gram+/Gram-/Pseudomonas."},
-    {"cat": "Cefalosporine", "front": "Perché bisogna fare attenzione alla somministrazione intramuscolo del ceftriaxone?", "back": "È formulato con lidocaina (anestetico) per la via IM; bisogna evitare iniezioni endovenose accidentali."},
-    {"cat": "Sulfamidici", "front": "Meccanismo d'azione dei sulfamidici?", "back": "Analoghi del PABA, competono per la diidropteroato-sintetasi (DHPS) bloccando la sintesi dell'acido folico batterico. Azione batteriostatica selettiva (l'uomo assume folati dalla dieta, non li sintetizza)."},
-    {"cat": "Sulfamidici", "front": "Meccanismo d'azione del trimethoprim e perché si associa ai sulfamidici?", "back": "Blocca la diidrofolato reduttasi (analogo dell'acido diidrofolico). Associato ai sulfamidici crea un doppio blocco sequenziale nella via dell'acido folico."},
-    {"cat": "Sulfamidici", "front": "Perché i sulfamidici non funzionano bene nelle infezioni necrotiche purulente?", "back": "Il pus rilascia folati dalla degradazione di cellule/germi, che vengono captati dal batterio bypassando il blocco del sulfamidico."}
+    {
+      "cat": "Definizioni e concetti generali",
+      "front": "Differenza tra antibiotico e chemioterapico?",
+      "back": "Antibiotico: sostanza prodotta da microrganismi (batteri/funghi) in natura. Chemioterapico: farmaco antibatterico prodotto per sintesi chimica."
+    },
+    {
+      "cat": "Definizioni e concetti generali",
+      "front": "Differenza tra batteriostatico, battericida e batteriolitico?",
+      "back": "Batteriostatico: ferma la moltiplicazione senza uccidere. Battericida: uccide i microrganismi. Batteriolitico: causa la lisi del batterio."
+    },
+    {
+      "cat": "Definizioni e concetti generali",
+      "front": "Da cosa dipende la scelta dell'antibiotico giusto?",
+      "back": "Identificazione del patogeno, sensibilità del germe, sede di infezione, anamnesi, profilo del farmaco, costo."
+    },
+    {
+      "cat": "Definizioni e concetti generali",
+      "front": "Quali sono le differenze strutturali/metaboliche tra cellula batterica e umana che rendono selettivi gli antibiotici?",
+      "back": "Membrana con pochi steroli (vs molti negli eucarioti), ribosomi 70S (vs 80S), parete cellulare di peptidoglicano (assente nell'uomo), assenza di mitosi."
+    },
+    {
+      "cat": "Definizioni e concetti generali",
+      "front": "Cosa sono MIC e MBC?",
+      "back": "MIC (minima concentrazione inibente): concentrazione minima che inibisce la crescita batterica. MBC (minima concentrazione battericida): concentrazione minima che distrugge i batteri (generalmente 2-4 volte la MIC)."
+    },
+    {
+      "cat": "Definizioni e concetti generali",
+      "front": "Cosa determina l'esito terapeutico in base al confronto tra concentrazione del farmaco e MIC?",
+      "back": "Concentrazione > MIC: eradicazione. Concentrazione = MIC: risultato incerto. Concentrazione < MIC: fallimento terapeutico (e rischio di sviluppare resistenza)."
+    },
+    {
+      "cat": "Definizioni e concetti generali",
+      "front": "Quali sono i due metodi principali dell'antibiogramma?",
+      "back": "Metodo dei dischetti di diffusione (qualitativo, veloce) e metodo delle diluizioni progressive (quantitativo, misura precisa MIC/MBC)."
+    },
+    {
+      "cat": "Definizioni e concetti generali",
+      "front": "Differenza tra antibiotico concentrazione-dipendente e tempo-dipendente?",
+      "back": "Concentrazione-dipendente: efficacia aumenta con la concentrazione (alte dosi, mono-somministrazione, es. fluorochinoloni/aminoglicosidi). Tempo-dipendente: efficacia dipende dal tempo sopra la MIC (più somministrazioni, es. penicilline)."
+    },
+    {
+      "cat": "Definizioni e concetti generali",
+      "front": "Cos'è l'effetto post-antibiotico (PAE)?",
+      "back": "Il tempo in cui, dopo la fine della terapia, persiste ancora un effetto inibitorio sulla crescita batterica. È alto per fluorochinoloni/aminoglicosidi, quasi nullo per penicilline e batteriolitici."
+    },
+    {
+      "cat": "Farmacocinetica e terapia antibiotica",
+      "front": "Perché la levofloxacina è indicata nelle infezioni delle vie urinarie ma non in quelle cutanee?",
+      "back": "Ha rapporto urine/plasma = 67 (grande accumulo renale, fallimento terapia IVU = 0%) ma rapporto cute/plasma = solo 1.4 (fallimento nelle infezioni cutanee = 16%)."
+    },
+    {
+      "cat": "Farmacocinetica e terapia antibiotica",
+      "front": "Quali distretti anatomici sono difficili da raggiungere per gli antibiotici e perché?",
+      "back": "SNC/encefalo (barriera ematoencefalica), occhio (barriera emato-retinica, scarsa vascolarizzazione), prostata/orecchio/osso (scarsa vascolarizzazione), pericardio/pleura, biofilm (carico negativamente)."
+    },
+    {
+      "cat": "Farmacocinetica e terapia antibiotica",
+      "front": "Qual è l'obiettivo di dose ottimale in termini di MIC nel sito di infezione?",
+      "back": "Raggiungere MIC80, cioè l'80-90% della MIC nel sito di infezione."
+    },
+    {
+      "cat": "Farmacocinetica e terapia antibiotica",
+      "front": "Quali sono i 5 tipi/obiettivi della terapia antibiotica?",
+      "back": "Profilattica (nessuna infezione), Preventiva (infezione presente, evitare peggioramento), Empirica (germe non identificato), Definitiva (patogeno isolato), Soppressiva (risoluzione)."
+    },
+    {
+      "cat": "Farmacocinetica e terapia antibiotica",
+      "front": "Errore comune da evitare nella terapia profilattica?",
+      "back": "Somministrare subito antibiotico in caso di febbre: va prescritto solo con certezza di infezione batterica."
+    },
+    {
+      "cat": "Farmacocinetica e terapia antibiotica",
+      "front": "Differenza tra resistenza naturale (cromosomica) e acquisita (extracromosomica)?",
+      "back": "Naturale: trasmissione verticale, immutabile, associata all'assenza del target. Acquisita: trasmissione orizzontale (plasmidi/batteriofagi), risultato di selezione clonale sotto pressione del farmaco, la più comune."
+    },
+    {
+      "cat": "Farmacocinetica e terapia antibiotica",
+      "front": "Quali sono i 4 principali meccanismi di resistenza batterica?",
+      "back": "Modifica del bersaglio, alterata permeabilità, inattivazione enzimatica (es. beta-lattamasi), pompe di efflusso."
+    },
+    {
+      "cat": "Farmacocinetica e terapia antibiotica",
+      "front": "Quali sono le 3 complicazioni principali della terapia antibiotica?",
+      "back": "Ipersensibilità (es. penicilline), tossicità diretta (es. aminoglicosidi = ototossici, tetracicline = ossee), sovrainfezioni (resistenza)."
+    },
+    {
+      "cat": "Beta-lattamici e glicopeptidi",
+      "front": "Quali sono le 3 tappe della sintesi del peptidoglicano e quali antibiotici agiscono su ciascuna?",
+      "back": "1) Sintesi precursori nel citoplasma → cicloserina, fosfomicina. 2) Trasporto attraverso membrana → bacitracina. 3) Incremento nella parete (transpeptidazione) → glicopeptidi (vancomicina) e beta-lattamici."
+    },
+    {
+      "cat": "Beta-lattamici e glicopeptidi",
+      "front": "Meccanismo d'azione della D-cicloserina?",
+      "back": "Analogo strutturale della D-alanina, inibisce competitivamente racemasi e sintetasi bloccando il dimero D-alanina-D-alanina. Neurotossica, usata solo per TBC resistente."
+    },
+    {
+      "cat": "Beta-lattamici e glicopeptidi",
+      "front": "Meccanismo d'azione della fosfomicina (Monuril)?",
+      "back": "Analogo del fosfoenolpiruvato, blocca la sintesi dell'acido N-acetilmuramico legandosi alla piruvato-UDP-NAG transferasi. Usata in dose singola/breve per IVU iniziali."
+    },
+    {
+      "cat": "Beta-lattamici e glicopeptidi",
+      "front": "Perché i Gram+ sono più sensibili ai glicopeptidi (vancomicina) rispetto ai Gram-?",
+      "back": "I glicopeptidi non riescono a superare la membrana esterna dei Gram-, quindi agiscono solo sui Gram+."
+    },
+    {
+      "cat": "Beta-lattamici e glicopeptidi",
+      "front": "Qual è il meccanismo di resistenza degli enterococchi alla vancomicina?",
+      "back": "Sostituzione del dipeptide terminale D-alanina-D-alanina con D-alanina-D-lattato: la vancomicina non riconosce più il target, riduzione affinità di ~1000 volte."
+    },
+    {
+      "cat": "Beta-lattamici e glicopeptidi",
+      "front": "Qual è la tripla azione battericida/batteriolitica della penicillina?",
+      "back": "1) Blocca la transpeptidazione, 2) depolimerizza il peptidoglicano già presente (mureina-idrolasi), 3) blocca l'inibitore delle autolisine batteriche endogene."
+    },
+    {
+      "cat": "Beta-lattamici e glicopeptidi",
+      "front": "Cosa sono le PBP (Penicillin Binding Proteins)?",
+      "back": "Enzimi (transpeptidasi, carbossipeptidasi) che catalizzano la sintesi della parete batterica e si legano covalentemente agli antibiotici beta-lattamici. Ogni batterio ha un proprio patrimonio di PBP."
+    },
+    {
+      "cat": "Beta-lattamici e glicopeptidi",
+      "front": "Quali sono i 4 principali meccanismi di resistenza ai beta-lattamici?",
+      "back": "1) Ridotta affinità delle PBP, 2) incapacità di penetrare al sito d'azione, 3) produzione di beta-lattamasi, 4) pompe di efflusso. (+ biofilm come 5°)."
+    },
+    {
+      "cat": "Penicilline e cefalosporine",
+      "front": "Differenza tra penicillina G e V?",
+      "back": "G (benzilpenicillina): instabile in ambiente gastrico, solo via sistemica, più usata in terapia. V (fenossimetilpenicillina): stabile, somministrabile per via orale, usata in ambito pediatrico."
+    },
+    {
+      "cat": "Penicilline e cefalosporine",
+      "front": "Cosa sono le penicilline resistenti alle beta-lattamasi? Esempio.",
+      "back": "Penicilline con un grosso radicale vicino all'anello beta-lattamico che le rende resistenti alla penicillinasi. Esempio: meticillina."
+    },
+    {
+      "cat": "Penicilline e cefalosporine",
+      "front": "Cosa sono le aminopenicilline e perché si associano ad acido clavulanico?",
+      "back": "Ampicillina/amoxicillina: ad ampio spettro (Gram-) ma sensibili alle beta-lattamasi; l'acido clavulanico le protegge inibendo l'enzima (es. Augmentin = amoxicillina + acido clavulanico)."
+    },
+    {
+      "cat": "Penicilline e cefalosporine",
+      "front": "Perché penicilline e aminoglicosidi hanno sinergismo?",
+      "back": "La penicillina distrugge la parete batterica facilitando l'ingresso dell'aminoglicoside, che blocca la sintesi proteica; l'aminoglicoside porta anche il vantaggio dell'effetto post-antibiotico che la penicillina non ha."
+    },
+    {
+      "cat": "Beta-lattamici e glicopeptidi",
+      "front": "Quali sono i 3 inibitori suicidi delle beta-lattamasi?",
+      "back": "Acido clavulanico, sulbactam, tazobactam (si legano irreversibilmente alle beta-lattamasi inattivandole); avibactam è un nuovo inibitore non beta-lattamico."
+    },
+    {
+      "cat": "Penicilline e cefalosporine",
+      "front": "Come si classificano le cefalosporine in generazioni?",
+      "back": "1a gen (cefalexina): spettro ristretto Gram+. 2a gen (cefoxitina): più efficace su Gram-. 3a gen (cefixima, ceftriaxone): estesa ai Gram-, resistente a beta-lattamasi. 4a gen (cefepima): ampio spettro Gram+/Gram-/Pseudomonas."
+    },
+    {
+      "cat": "Penicilline e cefalosporine",
+      "front": "Perché bisogna fare attenzione alla somministrazione intramuscolo del ceftriaxone?",
+      "back": "È formulato con lidocaina (anestetico) per la via IM; bisogna evitare iniezioni endovenose accidentali."
+    },
+    {
+      "cat": "Sulfamidici",
+      "front": "Meccanismo d'azione dei sulfamidici?",
+      "back": "Analoghi del PABA, competono per la diidropteroato-sintetasi (DHPS) bloccando la sintesi dell'acido folico batterico. Azione batteriostatica selettiva (l'uomo assume folati dalla dieta, non li sintetizza)."
+    },
+    {
+      "cat": "Sulfamidici",
+      "front": "Meccanismo d'azione del trimethoprim e perché si associa ai sulfamidici?",
+      "back": "Blocca la diidrofolato reduttasi (analogo dell'acido diidrofolico). Associato ai sulfamidici crea un doppio blocco sequenziale nella via dell'acido folico."
+    },
+    {
+      "cat": "Sulfamidici",
+      "front": "Perché i sulfamidici non funzionano bene nelle infezioni necrotiche purulente?",
+      "back": "Il pus rilascia folati dalla degradazione di cellule/germi, che vengono captati dal batterio bypassando il blocco del sulfamidico."
+    }
   ]
 }

@@ -2,47 +2,215 @@
   "modulo": "Calascibetta",
   "lezione": "3 - Distribuzione, Metabolismo ed Eliminazione dei Farmaci",
   "cards": [
-    {"cat": "Legame farmaco-proteico", "front": "Quali farmaci hanno un legame alle proteine plasmatiche >80-90%?", "back": "Warfarin, furosemide, sulfamidici (i sulfamidici hanno affinità maggiore e possono spiazzare gli anticoagulanti dal legame, aumentando il rischio emorragico)."},
-    {"cat": "Legame farmaco-proteico", "front": "Perché i farmaci con basso legame alle proteine plasmatiche sono considerati più sicuri?", "back": "Perché hanno minore variabilità: non sono soggetti a fenomeni di spiazzamento da parte di altri farmaci con affinità maggiore."},
-    {"cat": "Volume di distribuzione", "front": "Formula del volume di distribuzione apparente (Vd)?", "back": "Vd = Q (quantità totale di farmaco) / C0 (concentrazione plasmatica). Il farmaco legato a proteine/tessuti non viene calcolato perché si considera solo il farmaco libero."},
-    {"cat": "Volume di distribuzione", "front": "Cosa indica un Vd molto piccolo (es. 3L)?", "back": "Il farmaco è di solito una molecola grande che rimane confinata nel plasma e non riesce a passare nei tessuti (es. eparina, anticorpi monoclonali)."},
-    {"cat": "Volume di distribuzione", "front": "Cosa indica un Vd superiore al volume dell'acqua corporea totale?", "back": "Il farmaco si è accumulato massicciamente in un tessuto e non è più misurabile nel plasma (es. clorochina Vd=130, amiodarone Vd=66)."},
-    {"cat": "Volume di distribuzione", "front": "Relazione tra volume di distribuzione ed emivita/eliminazione", "back": "Sono inversamente proporzionali: più un farmaco si distribuisce nei tessuti, meno si elimina e maggiore sarà la sua emivita."},
-    {"cat": "Volume di distribuzione", "front": "Esempi di farmaci che si accumulano in tessuti specifici", "back": "Benzodiazepine/tiopentale/amiodarone → tessuto adiposo; tetracicline/bisfosfonati → osso; clorochina → retina; amiodarone → polmone; aminoglicosidi → orecchio."},
-    {"cat": "Dose da carico", "front": "Formula della dose da carico (loading dose)", "back": "Dose = Cp(target) x Vd. Si usa per farmaci a lenta induzione/ampia distribuzione per raggiungere subito la concentrazione efficace."},
-    {"cat": "Dose da carico", "front": "Formula dell'emivita (T1/2) in relazione a Vd e clearance", "back": "T1/2 = (Vd / Clearance) x 0,693. Più grande il Vd, maggiore l'emivita, minore l'eliminazione."},
-    {"cat": "Volume di distribuzione", "front": "Quali fattori fisiologici/patologici modificano il Vd dei farmaci?", "back": "Età (anziano ha più tessuto adiposo), sesso, obesità, terzo spazio (versamenti), gravidanza, alterazioni legame proteico (insufficienza epatica/renale), alterazioni flusso ematico, alterazioni BEE, intrappolamento ionico."},
-    {"cat": "Monitoraggio terapeutico", "front": "Quali farmaci sono candidati al monitoraggio terapeutico (TDM)?", "back": "Farmaci con basso indice terapeutico, senza parametri clinici guida, con ampia variabilità farmacocinetica, con scarsa compliance, usati in terapie croniche."},
-    {"cat": "Monitoraggio terapeutico", "front": "Perché i barbiturici richiedono monitoraggio terapeutico?", "back": "Sono induttori enzimatici: attivano il proprio metabolismo, quindi la loro concentrazione plasmatica si abbassa nel tempo fino a diventare inefficace (tolleranza)."},
-    {"cat": "Monitoraggio terapeutico", "front": "Differenza tra meccanismo d'azione di barbiturici e benzodiazepine sul recettore GABA?", "back": "I barbiturici aprono direttamente il canale del cloro (più pericolosi). Le benzodiazepine agiscono come modulatori allosterici e richiedono la presenza del GABA per aprire il canale (più sicure)."},
-    {"cat": "Metabolismo", "front": "Quali sono le 2 fasi del metabolismo dei farmaci?", "back": "Fase 1: reazioni di funzionalizzazione (ossidazione, riduzione, idrolisi) - principalmente citocromi. Fase 2: reazioni di coniugazione (aggiunta di gruppi funzionali) - transferasi."},
-    {"cat": "Metabolismo", "front": "Qual è il citocromo più comune e che percentuale di farmaci metabolizza?", "back": "CYP3A4, metabolizza circa il 38% dei farmaci ed ha la minore variabilità genetica tra i citocromi."},
-    {"cat": "Metabolismo", "front": "Cos'è un profarmaco? Fai 3 esempi.", "back": "Composto inattivo che viene attivato dal metabolismo. Esempi: Enalapril (ACE-inibitore), Ciclofosfamide (attivata in fosforamide mostarda), Capecitabina (profarmaco del ciprofluoruracile)."},
-    {"cat": "Metabolismo", "front": "Esempio di farmaco che diventa tossico tramite un metabolita", "back": "Paracetamolo → benzochinone (para-idrossibenzochinone), responsabile della necrosi epatica fulminante."},
-    {"cat": "Metabolismo", "front": "Esempio di farmaco con metabolita più attivo del composto originario", "back": "Morfina → morfina-6-glucuronide, più potente della morfina stessa e con emivita più lunga."},
-    {"cat": "Metabolismo", "front": "Cos'è la reazione di glucurono-coniugazione e perché è importante?", "back": "Reazione di fase 2 che aggiunge acido glucuronico, aumentando l'idrosolubilità del farmaco per permetterne l'eliminazione renale (evita il riassorbimento passivo)."},
-    {"cat": "Metabolismo", "front": "Cosa succede nella sindrome di Gilbert dal punto di vista farmacocinetico?", "back": "Deficit della coniugazione epatica (fase 2): i farmaci che subiscono glucurono-coniugazione devono essere ridotti nel dosaggio."},
-    {"cat": "Metabolismo", "front": "Cos'è il metabolismo di fase 3 (ricircolo enteroepatico)?", "back": "Farmaci eliminati con la bile nell'intestino possono essere scissi dalle glucuronidasi batteriche (che rimuovono l'acido glucuronico) e riassorbiti a livello dell'ultima ansa ileale."},
-    {"cat": "Metabolismo", "front": "Cosa succede al ricircolo enteroepatico dopo una terapia antibiotica?", "back": "Si riduce la flora batterica produttrice di glucuronidasi → meno riassorbimento → possibile insufficienza terapeutica del farmaco."},
-    {"cat": "Metabolismo", "front": "Cosa sono i metabolizzatori lenti, rapidi e ultrarapidi?", "back": "Classificazione genetica basata sulla velocità di metabolizzazione enzimatica (es. acetilazione); identificata storicamente con l'isoniazide nella TBC. Gli ultrarapidi necessitano di dosi più alte."},
-    {"cat": "Metabolismo", "front": "Esempi di induttori enzimatici", "back": "Barbiturici, isoniazide, etanolo (cronico), rifampicina, erba di San Giovanni (Iperico), fumo di tabacco, carbamazepina."},
-    {"cat": "Metabolismo", "front": "Esempi di inibitori enzimatici", "back": "Itraconazolo, ketoconazolo, fluconazolo (antimicotici), amiodarone, eritromicina, cimetidina, succo di pompelmo, valproato."},
-    {"cat": "Metabolismo", "front": "Perché il metabolismo è la fase più variabile della farmacocinetica?", "back": "Per la combinazione di variabilità genetica (numerosi citocromi con instabilità genica), induzione/inibizione enzimatica (anche contemporanee), e fattori esogeni (età, sesso, malattie, farmaci concomitanti)."},
-    {"cat": "Eliminazione", "front": "Vie minori di eliminazione dei farmaci", "back": "Via cutanea/mucosale (ghiandole esocrine), via lattea (latte materno, farmaci basici), via polmonare/aerea (gas e volatili)."},
-    {"cat": "Eliminazione", "front": "Perché una neo-mamma non deve assumere molte sostanze farmaceutiche?", "back": "Perché i farmaci prevalentemente basici si accumulano ed eliminano nel latte materno, esponendo il neonato a rischi."},
-    {"cat": "Eliminazione", "front": "Quali trasportatori sono coinvolti nell'eliminazione epatica?", "back": "Oatp, Ntcp, Lst e Oct (gli stessi usati anche nella fase di assorbimento)."},
-    {"cat": "Eliminazione", "front": "Quali sono le 3 fasi del processo di eliminazione renale?", "back": "Ultrafiltrazione (a livello del glomerulo), riassorbimento tubulare, secrezione tubulare attiva."},
-    {"cat": "Eliminazione", "front": "Quali metaboliti riescono ad attraversare la membrana di ultrafiltrazione glomerulare?", "back": "Quelli apolari/a polarità positiva, con basso peso molecolare, non legati a proteine plasmatiche (diffusione passiva secondo gradiente pressorio)."},
-    {"cat": "Eliminazione", "front": "Come si può ridurre la tossicità di un avvelenamento da salicilati (acidi)?", "back": "Alcalinizzando le urine (pH urinario più elevato), aumentando l'eliminazione renale del composto acido."},
-    {"cat": "Eliminazione", "front": "Esempio di interazione farmacologica utile tramite competizione sul trasportatore tubulare", "back": "Probenecid + penicillina naturale: il probenecid ha maggiore affinità per il trasportatore comune, riducendo l'eliminazione della penicillina e aumentandone l'emivita (usato anche per la Gotta)."},
-    {"cat": "Eliminazione", "front": "Differenza tra cinetica di eliminazione di primo ordine e di ordine zero?", "back": "Primo ordine: velocità di eliminazione dipende dalla concentrazione plasmatica (tipica dell'ultrafiltrazione renale). Ordine zero: velocità costante, indipendente dalla concentrazione (secrezione attiva saturabile)."},
-    {"cat": "Eliminazione", "front": "Formula della clearance renale", "back": "Clearance = (U x V) / P, dove U=concentrazione urinaria, V=volume urina/min, P=concentrazione plasmatica. Valore normale filtrazione: ~130 ml/min."},
-    {"cat": "Eliminazione", "front": "Cosa indica una clearance >650 ml/min o <130 ml/min?", "back": ">650 ml/min: sostanza completamente filtrata e secreta attivamente (es. acido p-aminoippurico). <130 ml/min: sostanza filtrata e anche riassorbita."},
-    {"cat": "Emivita", "front": "Cos'è l'emivita plasmatica (T1/2)?", "back": "Il tempo necessario affinché la concentrazione plasmatica del farmaco si dimezzi; esprime l'efficienza dei processi di eliminazione ed è indipendente dalla concentrazione del farmaco."},
-    {"cat": "Emivita", "front": "Quali sono le 3 tipologie di emivita?", "back": "Emivita plasmatica (dimezzamento concentrazione), emivita biologica (permanenza in tessuto di accumulo), emivita farmacodinamica (permanenza dell'azione recettoriale, es. aspirina su COX-1 piastrinica per 10gg)."},
-    {"cat": "Emivita", "front": "Quanto tempo serve per eliminare completamente un farmaco dall'organismo?", "back": "4-5 emivite plasmatiche."},
-    {"cat": "Emivita", "front": "Cos'è lo stato stazionario (steady state)?", "back": "La condizione in cui la quantità di farmaco somministrata è equivalente a quella eliminata; si raggiunge dopo circa 4 emivite plasmatiche."},
-    {"cat": "Indice terapeutico", "front": "Cos'è l'indice terapeutico?", "back": "Rapporto tra dose tossica mediana (DT50) e dose efficace mediana (DE50). Più è ampio, più il farmaco è sicuro (chemioterapici hanno IT=1, molto pericolosi)."},
-    {"cat": "Interazioni farmacologiche", "front": "Quali sono i 3 tipi di interazioni farmacologiche?", "back": "Farmacodinamiche (sinergismo/antagonismo recettoriale), farmacocinetiche (in ogni fase: assorbimento, distribuzione, metabolismo, eliminazione), chimico-fisiche (antidotismo)."}
+    {
+      "cat": "Legame proteico e distribuzione",
+      "front": "Quali farmaci hanno un legame alle proteine plasmatiche >80-90%?",
+      "back": "Warfarin, furosemide, sulfamidici (i sulfamidici hanno affinità maggiore e possono spiazzare gli anticoagulanti dal legame, aumentando il rischio emorragico)."
+    },
+    {
+      "cat": "Legame proteico e distribuzione",
+      "front": "Perché i farmaci con basso legame alle proteine plasmatiche sono considerati più sicuri?",
+      "back": "Perché hanno minore variabilità: non sono soggetti a fenomeni di spiazzamento da parte di altri farmaci con affinità maggiore."
+    },
+    {
+      "cat": "Legame proteico e distribuzione",
+      "front": "Formula del volume di distribuzione apparente (Vd)?",
+      "back": "Vd = Q (quantità totale di farmaco) / C0 (concentrazione plasmatica). Il farmaco legato a proteine/tessuti non viene calcolato perché si considera solo il farmaco libero."
+    },
+    {
+      "cat": "Legame proteico e distribuzione",
+      "front": "Cosa indica un Vd molto piccolo (es. 3L)?",
+      "back": "Il farmaco è di solito una molecola grande che rimane confinata nel plasma e non riesce a passare nei tessuti (es. eparina, anticorpi monoclonali)."
+    },
+    {
+      "cat": "Legame proteico e distribuzione",
+      "front": "Cosa indica un Vd superiore al volume dell'acqua corporea totale?",
+      "back": "Il farmaco si è accumulato massicciamente in un tessuto e non è più misurabile nel plasma (es. clorochina Vd=130, amiodarone Vd=66)."
+    },
+    {
+      "cat": "Legame proteico e distribuzione",
+      "front": "Relazione tra volume di distribuzione ed emivita/eliminazione",
+      "back": "Sono inversamente proporzionali: più un farmaco si distribuisce nei tessuti, meno si elimina e maggiore sarà la sua emivita."
+    },
+    {
+      "cat": "Legame proteico e distribuzione",
+      "front": "Esempi di farmaci che si accumulano in tessuti specifici",
+      "back": "Benzodiazepine/tiopentale/amiodarone → tessuto adiposo; tetracicline/bisfosfonati → osso; clorochina → retina; amiodarone → polmone; aminoglicosidi → orecchio."
+    },
+    {
+      "cat": "Dosaggio e monitoraggio",
+      "front": "Formula della dose da carico (loading dose)",
+      "back": "Dose = Cp(target) x Vd. Si usa per farmaci a lenta induzione/ampia distribuzione per raggiungere subito la concentrazione efficace."
+    },
+    {
+      "cat": "Dosaggio e monitoraggio",
+      "front": "Formula dell'emivita (T1/2) in relazione a Vd e clearance",
+      "back": "T1/2 = (Vd / Clearance) x 0,693. Più grande il Vd, maggiore l'emivita, minore l'eliminazione."
+    },
+    {
+      "cat": "Legame proteico e distribuzione",
+      "front": "Quali fattori fisiologici/patologici modificano il Vd dei farmaci?",
+      "back": "Età (anziano ha più tessuto adiposo), sesso, obesità, terzo spazio (versamenti), gravidanza, alterazioni legame proteico (insufficienza epatica/renale), alterazioni flusso ematico, alterazioni BEE, intrappolamento ionico."
+    },
+    {
+      "cat": "Dosaggio e monitoraggio",
+      "front": "Quali farmaci sono candidati al monitoraggio terapeutico (TDM)?",
+      "back": "Farmaci con basso indice terapeutico, senza parametri clinici guida, con ampia variabilità farmacocinetica, con scarsa compliance, usati in terapie croniche."
+    },
+    {
+      "cat": "Dosaggio e monitoraggio",
+      "front": "Perché i barbiturici richiedono monitoraggio terapeutico?",
+      "back": "Sono induttori enzimatici: attivano il proprio metabolismo, quindi la loro concentrazione plasmatica si abbassa nel tempo fino a diventare inefficace (tolleranza)."
+    },
+    {
+      "cat": "Dosaggio e monitoraggio",
+      "front": "Differenza tra meccanismo d'azione di barbiturici e benzodiazepine sul recettore GABA?",
+      "back": "I barbiturici aprono direttamente il canale del cloro (più pericolosi). Le benzodiazepine agiscono come modulatori allosterici e richiedono la presenza del GABA per aprire il canale (più sicure)."
+    },
+    {
+      "cat": "Metabolismo",
+      "front": "Quali sono le 2 fasi del metabolismo dei farmaci?",
+      "back": "Fase 1: reazioni di funzionalizzazione (ossidazione, riduzione, idrolisi) - principalmente citocromi. Fase 2: reazioni di coniugazione (aggiunta di gruppi funzionali) - transferasi."
+    },
+    {
+      "cat": "Metabolismo",
+      "front": "Qual è il citocromo più comune e che percentuale di farmaci metabolizza?",
+      "back": "CYP3A4, metabolizza circa il 38% dei farmaci ed ha la minore variabilità genetica tra i citocromi."
+    },
+    {
+      "cat": "Metabolismo",
+      "front": "Cos'è un profarmaco? Fai 3 esempi.",
+      "back": "Composto inattivo che viene attivato dal metabolismo. Esempi: Enalapril (ACE-inibitore), Ciclofosfamide (attivata in fosforamide mostarda), Capecitabina (profarmaco del ciprofluoruracile)."
+    },
+    {
+      "cat": "Metabolismo",
+      "front": "Esempio di farmaco che diventa tossico tramite un metabolita",
+      "back": "Paracetamolo → benzochinone (para-idrossibenzochinone), responsabile della necrosi epatica fulminante."
+    },
+    {
+      "cat": "Metabolismo",
+      "front": "Esempio di farmaco con metabolita più attivo del composto originario",
+      "back": "Morfina → morfina-6-glucuronide, più potente della morfina stessa e con emivita più lunga."
+    },
+    {
+      "cat": "Metabolismo",
+      "front": "Cos'è la reazione di glucurono-coniugazione e perché è importante?",
+      "back": "Reazione di fase 2 che aggiunge acido glucuronico, aumentando l'idrosolubilità del farmaco per permetterne l'eliminazione renale (evita il riassorbimento passivo)."
+    },
+    {
+      "cat": "Metabolismo",
+      "front": "Cosa succede nella sindrome di Gilbert dal punto di vista farmacocinetico?",
+      "back": "Deficit della coniugazione epatica (fase 2): i farmaci che subiscono glucurono-coniugazione devono essere ridotti nel dosaggio."
+    },
+    {
+      "cat": "Metabolismo",
+      "front": "Cos'è il metabolismo di fase 3 (ricircolo enteroepatico)?",
+      "back": "Farmaci eliminati con la bile nell'intestino possono essere scissi dalle glucuronidasi batteriche (che rimuovono l'acido glucuronico) e riassorbiti a livello dell'ultima ansa ileale."
+    },
+    {
+      "cat": "Metabolismo",
+      "front": "Cosa succede al ricircolo enteroepatico dopo una terapia antibiotica?",
+      "back": "Si riduce la flora batterica produttrice di glucuronidasi → meno riassorbimento → possibile insufficienza terapeutica del farmaco."
+    },
+    {
+      "cat": "Metabolismo",
+      "front": "Cosa sono i metabolizzatori lenti, rapidi e ultrarapidi?",
+      "back": "Classificazione genetica basata sulla velocità di metabolizzazione enzimatica (es. acetilazione); identificata storicamente con l'isoniazide nella TBC. Gli ultrarapidi necessitano di dosi più alte."
+    },
+    {
+      "cat": "Metabolismo",
+      "front": "Esempi di induttori enzimatici",
+      "back": "Barbiturici, isoniazide, etanolo (cronico), rifampicina, erba di San Giovanni (Iperico), fumo di tabacco, carbamazepina."
+    },
+    {
+      "cat": "Metabolismo",
+      "front": "Esempi di inibitori enzimatici",
+      "back": "Itraconazolo, ketoconazolo, fluconazolo (antimicotici), amiodarone, eritromicina, cimetidina, succo di pompelmo, valproato."
+    },
+    {
+      "cat": "Metabolismo",
+      "front": "Perché il metabolismo è la fase più variabile della farmacocinetica?",
+      "back": "Per la combinazione di variabilità genetica (numerosi citocromi con instabilità genica), induzione/inibizione enzimatica (anche contemporanee), e fattori esogeni (età, sesso, malattie, farmaci concomitanti)."
+    },
+    {
+      "cat": "Eliminazione",
+      "front": "Vie minori di eliminazione dei farmaci",
+      "back": "Via cutanea/mucosale (ghiandole esocrine), via lattea (latte materno, farmaci basici), via polmonare/aerea (gas e volatili)."
+    },
+    {
+      "cat": "Eliminazione",
+      "front": "Perché una neo-mamma non deve assumere molte sostanze farmaceutiche?",
+      "back": "Perché i farmaci prevalentemente basici si accumulano ed eliminano nel latte materno, esponendo il neonato a rischi."
+    },
+    {
+      "cat": "Eliminazione",
+      "front": "Quali trasportatori sono coinvolti nell'eliminazione epatica?",
+      "back": "Oatp, Ntcp, Lst e Oct (gli stessi usati anche nella fase di assorbimento)."
+    },
+    {
+      "cat": "Eliminazione",
+      "front": "Quali sono le 3 fasi del processo di eliminazione renale?",
+      "back": "Ultrafiltrazione (a livello del glomerulo), riassorbimento tubulare, secrezione tubulare attiva."
+    },
+    {
+      "cat": "Eliminazione",
+      "front": "Quali metaboliti riescono ad attraversare la membrana di ultrafiltrazione glomerulare?",
+      "back": "Quelli apolari/a polarità positiva, con basso peso molecolare, non legati a proteine plasmatiche (diffusione passiva secondo gradiente pressorio)."
+    },
+    {
+      "cat": "Eliminazione",
+      "front": "Come si può ridurre la tossicità di un avvelenamento da salicilati (acidi)?",
+      "back": "Alcalinizzando le urine (pH urinario più elevato), aumentando l'eliminazione renale del composto acido."
+    },
+    {
+      "cat": "Eliminazione",
+      "front": "Esempio di interazione farmacologica utile tramite competizione sul trasportatore tubulare",
+      "back": "Probenecid + penicillina naturale: il probenecid ha maggiore affinità per il trasportatore comune, riducendo l'eliminazione della penicillina e aumentandone l'emivita (usato anche per la Gotta)."
+    },
+    {
+      "cat": "Eliminazione",
+      "front": "Differenza tra cinetica di eliminazione di primo ordine e di ordine zero?",
+      "back": "Primo ordine: velocità di eliminazione dipende dalla concentrazione plasmatica (tipica dell'ultrafiltrazione renale). Ordine zero: velocità costante, indipendente dalla concentrazione (secrezione attiva saturabile)."
+    },
+    {
+      "cat": "Eliminazione",
+      "front": "Formula della clearance renale",
+      "back": "Clearance = (U x V) / P, dove U=concentrazione urinaria, V=volume urina/min, P=concentrazione plasmatica. Valore normale filtrazione: ~130 ml/min."
+    },
+    {
+      "cat": "Eliminazione",
+      "front": "Cosa indica una clearance >650 ml/min o <130 ml/min?",
+      "back": ">650 ml/min: sostanza completamente filtrata e secreta attivamente (es. acido p-aminoippurico). <130 ml/min: sostanza filtrata e anche riassorbita."
+    },
+    {
+      "cat": "Eliminazione",
+      "front": "Cos'è l'emivita plasmatica (T1/2)?",
+      "back": "Il tempo necessario affinché la concentrazione plasmatica del farmaco si dimezzi; esprime l'efficienza dei processi di eliminazione ed è indipendente dalla concentrazione del farmaco."
+    },
+    {
+      "cat": "Eliminazione",
+      "front": "Quali sono le 3 tipologie di emivita?",
+      "back": "Emivita plasmatica (dimezzamento concentrazione), emivita biologica (permanenza in tessuto di accumulo), emivita farmacodinamica (permanenza dell'azione recettoriale, es. aspirina su COX-1 piastrinica per 10gg)."
+    },
+    {
+      "cat": "Eliminazione",
+      "front": "Quanto tempo serve per eliminare completamente un farmaco dall'organismo?",
+      "back": "4-5 emivite plasmatiche."
+    },
+    {
+      "cat": "Eliminazione",
+      "front": "Cos'è lo stato stazionario (steady state)?",
+      "back": "La condizione in cui la quantità di farmaco somministrata è equivalente a quella eliminata; si raggiunge dopo circa 4 emivite plasmatiche."
+    },
+    {
+      "cat": "Dosaggio e monitoraggio",
+      "front": "Cos'è l'indice terapeutico?",
+      "back": "Rapporto tra dose tossica mediana (DT50) e dose efficace mediana (DE50). Più è ampio, più il farmaco è sicuro (chemioterapici hanno IT=1, molto pericolosi)."
+    },
+    {
+      "cat": "Interazioni farmacologiche",
+      "front": "Quali sono i 3 tipi di interazioni farmacologiche?",
+      "back": "Farmacodinamiche (sinergismo/antagonismo recettoriale), farmacocinetiche (in ogni fase: assorbimento, distribuzione, metabolismo, eliminazione), chimico-fisiche (antidotismo)."
+    }
   ]
 }

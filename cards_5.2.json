@@ -1,0 +1,81 @@
+{
+  "modulo": "Plescia",
+  "lezione": "5.2 - Epilessia e Malattia di Alzheimer",
+  "cards": [
+    {
+      "cat": "Epilessia: basi e classificazione",
+      "front": "Epilessia: alterazione di base e classificazione eziologica",
+      "back": "Alterazione delle trasmissioni GABAergica (diminuita) e glutammatergica (aumentata). Primaria/idiopatica: origine sconosciuta, non correlata a causa genetica diretta. Secondaria: causa sottostante (genetica, metabolica es. ipoglicemia, intossicazione alcolica, traumi, ipossia cerebrale)."
+    },
+    {
+      "cat": "Epilessia: basi e classificazione",
+      "front": "Crisi parziali/focali vs generalizzate",
+      "back": "Focali: originano da una regione, possono restare localizzate o propagarsi; si dividono in semplici (contrazioni cloniche, paziente cosciente) e complesse (coinvolgono il lobo temporale, spesso perdita di coscienza, possibili comportamenti aggressivi/allucinazioni). Generalizzate: coinvolgono tutto il cervello, sempre perdita di coscienza; sottotipi: tonico-clonica (grande male), mioclonica, assenza (piccolo male, nei bambini), atonica."
+    },
+    {
+      "cat": "Farmaci GABAergici e sui canali",
+      "front": "Farmaci che potenziano l'azione del GABA: meccanismi diversi",
+      "back": "Benzodiazepine e Fenobarbital: modulazione allosterica del recettore GABA-A, aumentano apertura dei canali del cloro. Vigabatrin: inibisce la GABA transaminasi (degradazione del GABA). Tiagabina: inibisce il trasportatore GAT-1 (rimozione del GABA dalla sinapsi). Gabapentin: aumenta la sintesi di GABA dal glutammato (via GAD) e blocca canali Ca P/Q."
+    },
+    {
+      "cat": "Farmaci GABAergici e sui canali",
+      "front": "Farmaci sui canali del sodio e del calcio",
+      "back": "Blocco uso-dipendente dei canali del sodio: fenitoina, fosfenitoina, carbamazepina, valproato, lamotrigina, topiramato, zonisamide, lacosamide. Blocco canali Ca tipo T (assenze): valproato, etosuccimide. Blocco canali Ca tipo P/Q: gabapentin, pregabalin. Antagonisti del glutammato: topiramato (AMPA), felbamato (NMDA). Levetiracetam: si lega alla proteina vescicolare SV2A, inibendo il rilascio di neurotrasmettitori eccitatori."
+    },
+    {
+      "cat": "Farmaci antiepilettici e gestione clinica",
+      "front": "Carbamazepina: meccanismo e farmacocinetica particolare",
+      "back": "Blocco uso-dipendente dei canali del sodio, attenua l'azione del glutammato su NMDA. Efficace nella maggior parte delle epilessie tranne mioclonie e assenze. Fenomeno del 'substrato suicida': induce il proprio metabolismo (CYP3A4), l'emivita scende da 36h iniziali a 8-12h dopo 2 settimane. Effetti avversi: Stevens-Johnson, leucopenia, teratogenicità, induzione enzimatica."
+    },
+    {
+      "cat": "Farmaci antiepilettici e gestione clinica",
+      "front": "Fenitoina/Fosfenitoina: meccanismo e cinetica",
+      "back": "Efficaci in tutti i tipi di epilessia tranne le assenze. Blocco uso-dipendente Na (principale) + blocco Ca tipo L + potenziamento GABA. Cinetica non lineare: piccole variazioni di dose causano grandi variazioni plasmatiche (saturazione enzimatica), emivita da 12h a quasi 4 giorni. Effetti avversi: iperplasia gengivale, irsutismo, anemia megaloblastica, teratogenicità, induzione CYP450."
+    },
+    {
+      "cat": "Farmaci antiepilettici e gestione clinica",
+      "front": "Acido valproico: meccanismi multipli",
+      "back": "Efficace per tutti i tipi di epilessia: potenzia il GABA (favorisce GAD, inibisce GAT-1 e GABA-transaminasi ad alte dosi), blocca canali Na uso-dipendenti, attenua NMDA, inibisce canali Ca tipo T, attiva BDNF. Emivita 9-21h (polimorfismi). Tossicità idiosincrasica: epatite fulminante (rischio maggiore sotto i 2 anni e in politerapia), trombocitopenia, teratogeno, inibitore del CYP450."
+    },
+    {
+      "cat": "Farmaci antiepilettici e gestione clinica",
+      "front": "Etosuccimide: farmaco d'elezione per le assenze",
+      "back": "Blocca selettivamente i canali del calcio di tipo T a livello talamo-corticale, il meccanismo chiave nella genesi delle assenze. Farmaco di scelta per assenze, utilizzabile anche in mioclonie/toniche/atoniche. Emivita lunga 2-3 giorni. Effetti avversi: GI, sonnolenza, discinesia, agranulocitosi/anemia aplastica, teratogeno."
+    },
+    {
+      "cat": "Farmaci antiepilettici e gestione clinica",
+      "front": "Interazioni farmacologiche tra antiepilettici",
+      "back": "Carbamazepina e Fenobarbital: induttori enzimatici, riducono le concentrazioni di clonazepam, lamotrigina, topiramato, acido valproico (e fenitoina/tiagabina per il fenobarbital). Valproato: inibitore enzimatico, aumenta le concentrazioni di fenobarbital e lamotrigina. Vigabatrin: riduce le concentrazioni di fenitoina con meccanismo sconosciuto."
+    },
+    {
+      "cat": "Farmaci antiepilettici e gestione clinica",
+      "front": "Farmaci di prima scelta per tipo di crisi e stato di male epilettico",
+      "back": "Parziale semplice: carbamazepina, lamotrigina. Generalizzata tonico-clonica: acido valproico, lamotrigina. Assenza: etosuccimide, acido valproico. Mioclonica: acido valproico. Stato epilettico (crisi prolungate/ripetitive): Lorazepam ev è farmaco di scelta; Diazepam (minore durata, anche rettale); Midazolam (orale/intranasale); Fenitoina/fosfenitoina o Fenobarbital se non risposta in 15 min; Tiopentale/Propofol per anestesia se crisi non controllata."
+    },
+    {
+      "cat": "Malattia di Alzheimer: basi",
+      "front": "Alzheimer: fasi cliniche e decorso",
+      "back": "Patologia neurodegenerativa con riduzione dei neuroni colinergici, esordio solitamente dopo i 70 anni, durata media dalla diagnosi 8-12 anni. 5 fasi: pre-demenza (difficile diagnosi), lieve (2-4 anni, primi deficit cognitivi), moderata (2-10 anni, peggioramento), severa (3 anni, assistenza totale), terminale (6-12 mesi, allettamento, problemi vegetativi fino a morte)."
+    },
+    {
+      "cat": "Malattia di Alzheimer: basi",
+      "front": "Ipotesi della cascata della beta-amiloide",
+      "back": "In condizioni fisiologiche, α-secretasi e γ-secretasi tagliano la proteina APP in frammenti degradabili. Nella patologia prevale la β-secretasi, che forma il frammento di β-amiloide; l'accumulo extracellulare forma le placche caratteristiche. Conseguenze: aumento ROS, alterazione omeostasi ionica, danno sinaptico, neuroinfiammazione (gliosi), endocitosi recettori AMPA, riduzione del rilascio di Ach, iperfosforilazione della proteina tau con formazione di grovigli neurofibrillari."
+    },
+    {
+      "cat": "Terapia farmacologica Alzheimer",
+      "front": "Donepezil vs Galantamina vs Rivastigmina: meccanismi a confronto",
+      "back": "Donepezil: inibitore reversibile selettivo per l'AChE, 1000 volte meno potente della Galantamina sulla BuChE; emivita molto lunga 70-80h, 1 volta/die. Galantamina: duplice meccanismo, inibisce l'AChE E potenzia l'azione nicotinica dell'Ach (sito allosterico); emivita 7h, 2 volte/die. Rivastigmina: inibitore non selettivo di AChE e BuChE, legame covalente temporaneo; emivita brevissima 1-2h ma inibizione enzimatica prolungata 9h, disponibile anche in cerotto transdermico."
+    },
+    {
+      "cat": "Terapia farmacologica Alzheimer",
+      "front": "Effetti collaterali comuni degli inibitori dell'acetilcolinesterasi",
+      "back": "Tutti causano effetti da aumento del tono colinergico: nausea, vomito, diarrea, perdita di peso, allucinazioni/agitazione. Interazioni importanti: inibitori del CYP2D6/3A4 (es. fluoxetina, paroxetina, ketoconazolo, eritromicina) ne aumentano i livelli plasmatici; induttori enzimatici (fenitoina, carbamazepina, alcol) li riducono. Sinergismo pericoloso con succinilcolina e altri bloccanti neuromuscolari."
+    },
+    {
+      "cat": "Terapia farmacologica Alzheimer",
+      "front": "Memantina: meccanismo d'azione uso-dipendente",
+      "back": "Analogo dell'amantadina, antagonista NMDA con voltaggio-dipendenza intermedia (tra i bloccanti competitivi e il Mg2+ fisiologico). Nei neuroni malati, i recettori NMDA scaricano a potenziali diversi da quelli fisiologici legati al magnesio, quindi la memantina blocca selettivamente i recettori 'alterati' senza compromettere la trasmissione glutammatergica fisiologica utile per l'apprendimento (selettività uso-dipendente). Data spesso in associazione con Donepezil nelle fasi avanzate. Emivita 60-100h."
+    }
+  ]
+}

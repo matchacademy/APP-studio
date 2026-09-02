@@ -1,0 +1,76 @@
+{
+  "modulo": "Plescia",
+  "lezione": "5.1 - Schizofrenia e Farmaci Antipsicotici",
+  "cards": [
+    {
+      "cat": "Schizofrenia: basi cliniche",
+      "front": "I tre gruppi di sintomi psicotici",
+      "back": "Trasformazione della realtà (sintomi positivi): deliri e allucinazioni, localizzazione mesolimbica. Impoverimento ideo-affettivo (sintomi negativi): deficit cognitivo-comportamentale, difficoltà a provare empatia. Sintomi disorganizzativi: comportamenti bizzarri, incongruità affettiva, alterazioni linguistiche."
+    },
+    {
+      "cat": "Schizofrenia: basi cliniche",
+      "front": "Eziopatogenesi della schizofrenia: fattori di rischio",
+      "back": "Genetici: ~150 geni coinvolti, tra cui Neuroregolina 1 e Disrupted-in-schizophrenia 1 (migrazione neuronale), polimorfismi COMT (disponibilità sinaptica di DA), proteine scaffold del recettore del glutammato, polimorfismi recettori nicotinici alfa-7. Ambientali: carenze nutrizionali fetali nel 2° trimestre, insulti virali/infettivi, complicanze alla nascita, abuso di sostanze in adolescenza (corteccia prefrontale ancora immatura)."
+    },
+    {
+      "cat": "Le tre ipotesi patogenetiche",
+      "front": "Ipotesi dopaminergica: i 4 circuiti dopaminergici",
+      "back": "Mesocorticale (VTA→corteccia prefrontale): sintomi negativi da riduzione di DA. Mesolimbico (VTA→nucleus accumbens/amigdala/ippocampo): sintomi positivi da iperattività DA postsinaptica. Nigro-striatale: blocco DA da antipsicotici causa parkinsonismo iatrogeno. Tuberoinfundibolare: blocco DA causa galattorrea e ginecomastia."
+    },
+    {
+      "cat": "Le tre ipotesi patogenetiche",
+      "front": "Ipotesi glutammatergica: ruolo dell'NMDA",
+      "back": "Antagonisti NMDA (Ketamina, Fenciclidina) possono indurre sintomi psicotici positivi, negativi e deficit cognitivi. La riduzione dell'attività NMDA sull'interneurone gabaergico porta a: aumento del glutammato in AVT → sintomi negativi (via mesocorticale) e positivi (stimolo su neurone dopaminergico VTA→accumbens); scarica glutammatergica talamo-corticale → eccitotossicità e sintomi cognitivi."
+    },
+    {
+      "cat": "Le tre ipotesi patogenetiche",
+      "front": "Ipotesi serotoninergica: recettori 5HT2A",
+      "back": "Il rilascio di serotonina corticale attiva i recettori 5HT2A sui neuroni piramidali glutammatergici, che rilasciano glutammato nella Substantia Nigra, potenziando un interneurone GABAergico che inibisce il neurone dopaminergico → sintomi negativi. Gli antipsicotici atipici bloccano 5HT2A/5HT2C (e talvolta 5HT1A) per evitare questa cascata e permettere il rilascio libero di dopamina striatale."
+    },
+    {
+      "cat": "Antipsicotici tipici (1° generazione)",
+      "front": "Le 4 classi degli antipsicotici classici",
+      "back": "Fenotiazine (clorpromazina, flufenazina), Butirrofenoni (aloperidolo - il più usato), Tioxanteni (flupentixolo), Difenilbutilpiperidine (pimozide). Tutti hanno bassissima affinità per 5HT2A/2C e forte antagonismo D2; effetti collaterali comuni da blocco α1, H1, M1 (analogamente ai triciclici)."
+    },
+    {
+      "cat": "Antipsicotici tipici (1° generazione)",
+      "front": "Fenotiazine: classificazione per potenza",
+      "back": "Alifatiche (Clorpromazina, Trifluopromazina): meno potenti, elevata attività antistaminica e α1-bloccante, rischio ipotensione, modulano il GH (da evitare nei giovani). Piperidiniche (Tioridazina, tolta dal commercio per QT lungo): meno potenti. Piperaziniche (Flufenazina): più potenti, maggior rischio extrapiramidale ma meno sedazione/ipotensione."
+    },
+    {
+      "cat": "Antipsicotici tipici (1° generazione)",
+      "front": "Aloperidolo: caratteristiche principali",
+      "back": "Butirrofenone, tra i più utilizzati. Somministrabile per os (a differenza del Droperidolo, solo parenterale). Metabolizzato da CYP3A4 e CYP2D6, emivita 20h. La via endovenosa altera l'intervallo QT più delle altre vie. Esistono formulazioni depot (rilascio 14-30 giorni), utili in caso di scarsa aderenza."
+    },
+    {
+      "cat": "Effetti da blocco D2 e sindrome maligna",
+      "front": "Effetti collaterali extrapiramidali per via/circuito coinvolto",
+      "back": "Via mesocorticale: ottundimento emotivo, problemi cognitivi. Via nigro-striatale: parkinsonismo iatrogeno. Via tuberoinfundibolare: galattorrea, ginecomastia (da iperprolattinemia). A rapida insorgenza (giorni/settimane): parkinsonismo, distonie acute, acatisia. A lenta insorgenza (mesi): discinesia tardiva, iperprolattinemia, riduzione della libido."
+    },
+    {
+      "cat": "Effetti da blocco D2 e sindrome maligna",
+      "front": "Sindrome maligna da neurolettici",
+      "back": "Causata da eccessivo blocco dei recettori dopaminergici. Caratterizzata da rigidità muscolare, febbre, stupore, pressione sanguigna instabile. Trattamento: interruzione del neurolettico + terapia di supporto con Bromocriptina (agonista dopaminergico) per contrastare l'antagonismo."
+    },
+    {
+      "cat": "Antipsicotici atipici",
+      "front": "Profilo farmacodinamico generale degli atipici",
+      "back": "Ridotta affinità per D2 rispetto ai tipici, maggiore potenza di blocco su 5HT2A (efficacia sui sintomi negativi). Tutti antagonisti D2 e 5HT2A tranne l'Aripiprazolo (agonista parziale). Minor rischio di extrapiramidalismo rispetto ai classici."
+    },
+    {
+      "cat": "Antipsicotici atipici",
+      "front": "Clozapina e Olanzapina: uso ed effetti",
+      "back": "Clozapina: riservata a psicosi refrattarie ai tipici; rischio di agranulocitosi, sedazione, tachicardia, crisi epilettiche; metabolizzata da CYP3A4, emivita 12h, il fumo ne induce il metabolismo (CYP1A2). Olanzapina: usata nei casi difficili e nel Binge Eating Disorder; metabolizzata da CYP1A2, emivita molto variabile (20-70h)."
+    },
+    {
+      "cat": "Antipsicotici atipici",
+      "front": "Quetiapina e Risperidone",
+      "back": "Quetiapina: fortemente atipica, praticamente nessun effetto extrapiramidale a qualsiasi dose, non aumenta la prolattina; emivita 7h, CYP1A2. Risperidone: atipico a basse dosi, diventa 'classico' (extrapiramidalismo) ad alte dosi per riduzione relativa dell'effetto su 5HT2A; metabolizzato da CYP2D6, emivita variabile in base al metabolita 9-idrossirisperidone (3-30h)."
+    },
+    {
+      "cat": "Antipsicotici atipici",
+      "front": "Aripiprazolo: il farmaco 'atipico-atipico'",
+      "back": "Agonista parziale D2 e 5HT1A, antagonista 5HT2A. Si comporta da antagonista funzionale dove c'è iperattività dopaminergica (mesolimbico, sintomi positivi) e da agonista funzionale dove c'è ipoattività (mesocorticale, sintomi negativi). Occupazione recettoriale ~75% (vs 90% di un agonista completo). Emivita lunghissima: 46-68 giorni. Metabolizzato da CYP3A4 e 2D6."
+    }
+  ]
+}

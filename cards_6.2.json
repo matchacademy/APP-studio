@@ -1,0 +1,86 @@
+{
+  "modulo": "Plescia",
+  "lezione": "6.2 - Dolore, Farmaci Oppioidi e Anestetici Locali",
+  "cards": [
+    {
+      "cat": "Recettori, dipendenza e tolleranza",
+      "front": "Dipendenza vs Tossicodipendenza",
+      "back": "Dipendenza: stato di adattamento manifestato da sindrome d'astinenza (agitazione, iperalgesia, ipertermia, ipertensione, diarrea, midriasi, disforia). Tossicodipendenza: dipendenza + craving, cioè ricerca compulsiva della sostanza nonostante gli eventi avversi. Coinvolge lo shell del nucleus accumbens. Non c'è tolleranza crociata tra oppiacei diversi, quindi si può ruotare la molecola."
+    },
+    {
+      "cat": "Recettori, dipendenza e tolleranza",
+      "front": "Tolleranza acuta: cos'è e quali effetti ne vanno incontro",
+      "back": "Desensibilizzazione che si instaura in poche ore/2-3 giorni per fosforilazione e internalizzazione del recettore. La miosi non va mai in tolleranza (utile per la diagnosi di overdose); stipsi, emesi, analgesia e sedazione hanno tolleranza moderata; l'effetto euforico va in tolleranza rapidamente (spiega l'escalation di dose nei tossicodipendenti)."
+    },
+    {
+      "cat": "Dolore: basi fisiopatologiche",
+      "front": "Dolore nocicettivo vs neuropatico",
+      "back": "Nocicettivo: risposta difensiva a stimoli meccanici, termici, chimici, attivazione dei nocicettori periferici, trasmesso da fibre veloci (neospinotalamica) e lente (paleospinotalamica). Neuropatico: più difficile da curare, persiste a prescindere dalla malattia di base (es. arto fantasma, herpes zoster); tipologie: spontaneo, iperalgesia, allodinia."
+    },
+    {
+      "cat": "Dolore: basi fisiopatologiche",
+      "front": "Fibre nervose coinvolte nella trasmissione del dolore",
+      "back": "Aβ: mieliniche, bassa soglia, stimoli meccanici (tatto/pressione). Aδ: mielinizzate, velocità intermedia, freddo/caldo/meccanici medi. C: amieliniche, bassa velocità, calore intenso, meccanici intensi, chimici irritanti. Le fibre entrano nelle corna dorsali del midollo (lamine I-V) e si distribuiscono in base al tipo."
+    },
+    {
+      "cat": "Dolore: basi fisiopatologiche",
+      "front": "Gate control spinale del dolore",
+      "back": "Nella sostanza gelatinosa avviene il controllo dell'afferenza nocicettiva. Componenti inibitorie: interneuroni oppioidergici/GABAergici, afferenze Aβ non nocive, vie discendenti serotoninergiche (5HT) e noradrenergiche (NA, via recettori alfa-2). Il recettore μ sugli interneuroni GABAergici inibisce il GABA, disinibendo così la via discendente inibitoria (inibizione dell'inibizione)."
+    },
+    {
+      "cat": "FANS e non-oppioidi",
+      "front": "Meccanismo d'azione dei FANS sul dolore",
+      "back": "Inibiscono le ciclossigenasi (COX-1 costitutiva, COX-2 indotta in infiammazione), bloccando la sintesi di prostaglandine che altrimenti sensibilizzano i canali del sodio. Acido acetilsalicilico: inibizione irreversibile COX-1, più gastrolesivo. Ibuprofene e Diclofenac: più selettivi su COX-2."
+    },
+    {
+      "cat": "FANS e non-oppioidi",
+      "front": "Cannabinoidi endogeni e sinergia con oppioidi",
+      "back": "Dall'acido arachidonico derivano 2-AG e anandamide, agonisti dei recettori CB1 (ubiquitari, come il μ localizzati su interneuroni gabaergici) e CB2 (sistema immunitario). Il THC stimola il rilascio di endorfine e inibisce gli enzimi che le degradano; la co-somministrazione con oppioidi riduce la dose minima efficace di morfina (-55%), metadone (-75%) e codeina (-96%)."
+    },
+    {
+      "cat": "FANS e non-oppioidi",
+      "front": "Antidepressivi come coadiuvanti nel dolore cronico",
+      "back": "Triciclici (amitriptilina, nortriptilina, imipramina) sono più efficaci di SNRI (desipramina, maprotilina) e SSRI (i meno efficaci). Agiscono aumentando le proiezioni discendenti noradrenergiche/serotoninergiche inibitorie e bloccando i canali del sodio."
+    },
+    {
+      "cat": "Recettori, dipendenza e tolleranza",
+      "front": "Recettori μ, κ, δ: localizzazione ed effetti principali",
+      "back": "Tutti accoppiati a proteine G inibitorie (↓AMPc). μ: midollo spinale (analgesia spinale), centri bulbari (depressione respiratoria), nucleo oculomotore (miosi), area postrema (nausea/vomito), ipotalamo (↑ADH/prolattina, ↓ACTH/LH/FSH), sistema immunitario (immunodepressione). κ: funzioni cognitive/coordinazione motoria. δ: inibizione riflesso della tosse."
+    },
+    {
+      "cat": "Recettori, dipendenza e tolleranza",
+      "front": "Sottotipi μ1 e μ2",
+      "back": "μ1: analgesia sovraspinale ed euforia. μ2: analgesia spinale, depressione respiratoria, miosi, alterata peristalsi intestinale, implicati nella dipendenza patologica (es. ossicodone, molecola di abuso morfino-simile)."
+    },
+    {
+      "cat": "Farmaci oppioidi",
+      "front": "Classificazione strutturale/origine degli oppioidi",
+      "back": "Naturali (fenantreni): Morfina, Codeina, Tebaina. Semisintetici: Eroina, Idromorfone, Destrometorfano, Tramadolo, Buprenorfina. Sintetici: Meperidina, Fentanil e congeneri, Metadone, Destropropossifene, Pentazocina. Classificazione per proprietà: agonisti completi (morfina, fentanil), agonisti parziali/antagonisti misti (buprenorfina), agonisti-antagonisti misti (pentazocina), antagonisti puri (naloxone, naltrexone)."
+    },
+    {
+      "cat": "Farmaci oppioidi",
+      "front": "Morfina: farmacocinetica essenziale",
+      "back": "Biodisponibilità orale solo 25% (preferibile ev), non passa bene la BEE (a differenza dell'eroina, meno effetti centrali). Metabolizzata in Morfina-6-glucuronide (2x più potente della morfina) e Morfina-3-glucuronide; eliminazione per filtrazione glomerulare. Il circolo entero-epatico può riportare il metabolita a morfina attiva."
+    },
+    {
+      "cat": "Farmaci oppioidi",
+      "front": "Fentanil, Sulfentanil, Remifentanil: uso in anestesia",
+      "back": "Fentanil: 80-100 volte più potente della morfina, azione rapida e reversibile, disponibile anche in cerotto transdermico (48-72h) per dolore cronico. Remifentanil: 1000 volte più potente della morfina, emivita brevissima (8-20 min) per metabolismo tramite esterasi, ideale per anestesie brevi in chirurgia."
+    },
+    {
+      "cat": "Farmaci oppioidi",
+      "front": "Metadone, Tramadolo, Buprenorfina: usi particolari",
+      "back": "Metadone: usato nella disintossicazione da oppioidi, agonista μ + antagonista NMDA, emivita 15-40h. Tramadolo: agonista debole μ + inibisce reuptake 5HT/NA, mai associato a IMAO. Buprenorfina: agonista parziale μ/antagonista κ, usata nella dipendenza (a basso dosaggio con naloxone), depressione respiratoria tardiva rispetto alla morfina."
+    },
+    {
+      "cat": "Overdose e anestetici locali",
+      "front": "Overdose da oppioidi: segni e trattamento",
+      "back": "Segni: coma, miosi a spillo, depressione respiratoria, ipotensione, bradicardia, atonia intestinale. Trattamento: naloxone 0.4-0.8mg ripetuto ogni 15-20 min (in bolo o infusione), può scatenare sindrome astinenziale nel dipendente. Osservazione ospedaliera per il rischio di edema polmonare tardivo (12-24h)."
+    },
+    {
+      "cat": "Overdose e anestetici locali",
+      "front": "Anestetici locali: esteri vs ammidi",
+      "back": "Esteri (cocaina, procaina, tetracaina, benzocaina): metabolizzati rapidamente dalle butirril-colinesterasi plasmatiche, emivita breve (~1 min). Ammidi (lidocaina, bupivacaina, mepivacaina): emivita più lunga, metabolizzate dal CYP450 (1A2, 3A4), danno metaboliti cardiotossici. La bupivacaina ha maggior neuro/cardiotossicità di tutti; l'enantiomero S ha minore cardiotossicità dell'R."
+    }
+  ]
+}

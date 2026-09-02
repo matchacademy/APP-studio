@@ -1,0 +1,81 @@
+{
+  "modulo": "Plescia",
+  "lezione": "6.1 - Malattia di Parkinson e Terapia Farmacologica",
+  "cards": [
+    {
+      "cat": "Fisiopatologia del Parkinson",
+      "front": "Malattia di Parkinson: cosa succede a livello dei gangli della base",
+      "back": "Degenerazione cronica e progressiva dei gangli della base (globo pallido, nucleo caudato, subtalamico, substantia nigra). Neurodegenerazione dopaminergica nella Substantia Nigra pars compacta, perdita delle terminazioni nervose striatali, riduzione di dopamina, 5HT e NA. I sintomi compaiono quando circa l'80% dei neuroni dopaminergici è già distrutto."
+    },
+    {
+      "cat": "Fisiopatologia del Parkinson",
+      "front": "Via diretta vs via indiretta nel controllo motorio striatale",
+      "back": "Via diretta: stimolatoria, tramite recettori D1 (Gs), proietta al globo pallido interno inibendolo → permette il movimento. Via indiretta: tramite D2 (Gi), passa per globo pallido esterno e nucleo subtalamico → inibisce il movimento. Nel Parkinson: downregulation della via diretta e upregulation della via indiretta → unbalance che causa acinesia, discinesie e sintomi motori."
+    },
+    {
+      "cat": "Fisiopatologia del Parkinson",
+      "front": "Corpi di Lewy e α-sinucleina",
+      "back": "Caratteristica anatomo-patologica distintiva del Parkinson. L'α-sinucleina è una proteina neuronale importante per plasticità sinaptica, apprendimento e memoria; mutata può essere trasmessa con meccanismo autosomico dominante e si deposita nei corpi di Lewy, spiegando anche la demenza associata."
+    },
+    {
+      "cat": "Fisiopatologia del Parkinson",
+      "front": "Forme primaria/idiopatica vs secondaria del Parkinsonismo",
+      "back": "Primaria (idiopatica): legata a mutazioni geniche dominanti (es. α-sinucleina, ERK2, penetranza certa) o recessive (es. parkina, può dare portatore sano). Secondaria (iatrogena): da antipsicotici (blocco D nel circuito extrapiramidale), infezioni (HIV, TBC), traumi, neoplasie, esposizione a manganese."
+    },
+    {
+      "cat": "Fisiopatologia del Parkinson",
+      "front": "Classificazione dei recettori dopaminergici D1-like e D2-like",
+      "back": "D1-like: D1 e D5, molto presenti nello striato, importanti per genesi e trattamento della MP. D2-like: D2, D3, D4. D4 e D5 localizzati fuori dallo striato. D3: bassa espressione nel caudato/putamen, più abbondante in nucleus accumbens e tubercolo olfattivo."
+    },
+    {
+      "cat": "Levodopa",
+      "front": "Levodopa: farmacocinetica essenziale",
+      "back": "Precursore della dopamina, picco plasmatico tra 0.5-2h, emivita 3h. Da sola passa la BEE solo all'1%; associata a inibitori delle decarbossilasi (Carbidopa o Benserazide) il passaggio sale al 6-8%. Questi inibitori non passano la BEE, quindi agiscono solo in periferia."
+    },
+    {
+      "cat": "Levodopa",
+      "front": "Associazioni comuni di Levodopa",
+      "back": "Benserazide + Levodopa (rapporto fisso 1:4, es. 25:100 o 50:200); Carbidopa + Levodopa (25:100 o 25:250 mg). Esistono preparazioni a rilascio controllato (prevengono il wearing-off) e formulazioni solubili a rapido assorbimento (risolvono i blocchi motori 'off')."
+    },
+    {
+      "cat": "Levodopa",
+      "front": "Effetti collaterali acuti della Levodopa",
+      "back": "GI: nausea e vomito (D1 in trigger zone) → prevenire con Domperidone (non passa BEE) o Metoclopramide. Cardiovascolari: ipotensione ortostatica (D1 vasale). Psichici: insonnia, allucinazioni, deliri."
+    },
+    {
+      "cat": "Levodopa",
+      "front": "Sindrome da disregolazione dopaminergica",
+      "back": "Detta anche 'sindrome dell'uomo sporcaccione': binge eating, gioco d'azzardo patologico, ipersessualità, shopping compulsivo, abuso di farmaci. Dovuta ad aumento dopaminergico nel circuito mesolimbico della ricompensa, tipica di chi fa terapia con Levodopa."
+    },
+    {
+      "cat": "Levodopa",
+      "front": "Fluttuazioni motorie tardive da Levodopa",
+      "back": "Dopo anni di terapia (30-40% dei casi dopo 5 anni): discinesie coreiche (movimenti involontari), acinesie di fine dose (farmaco esaurito), fenomeni on-off (rapide alternanze tra risposta motoria e blocco). Interazioni: antipsicotici (antagonismo), MAO (crisi ipertensive), B6 (riduce l'L-dopa), simpaticomimetici (aumentano tossicità)."
+    },
+    {
+      "cat": "Agonisti dopaminergici",
+      "front": "Ergolinici vs Non ergolinici: farmaci principali",
+      "back": "Ergolinici: Bromocriptina (D2, D3, agonista parziale D1), Cabergolina (D2, D3, emivita lunga), Lisuride (D2, D3, D4), Pergolide (D2, D3, D4, D1). Non ergolinici: Ropinirolo e Pramipexolo (i più usati, affinità D2), Apomorfina, Rotigotina."
+    },
+    {
+      "cat": "Agonisti dopaminergici",
+      "front": "Apomorfina: caratteristiche e uso come rescue-therapy",
+      "back": "Derivato della morfina ma senza effetto sui recettori oppioidergici. Azione su D1-like e D2-like, effetto rapido (8-10 min), somministrata s.c., proposta come 'rescue-therapy' per i fenomeni di off. Va premedicata con Domperidone (che non passa la BEE) 30 min prima per l'emesi."
+    },
+    {
+      "cat": "IMAO-B, COMT e altri farmaci",
+      "front": "IMAO-B: reversibili vs irreversibili",
+      "back": "Reversibili: Safinamide (più potente, agisce anche su canali Na/Ca voltaggio-dipendenti e modula il glutammato). Irreversibili: Selegilina (inibisce anche il DAT, prolungando la permanenza della dopamina nel cleft) e Rasagilina. Le MAO-B sono più specifiche per la dopamina rispetto alle MAO-A (più noradrenalina)."
+    },
+    {
+      "cat": "IMAO-B, COMT e altri farmaci",
+      "front": "Inibitori delle COMT: Entacapone vs Tolcapone",
+      "back": "Bloccando decarbossilasi + COMT l'emivita plasmatica della Levodopa passa da 60 a oltre 180 minuti. Entacapone: il più usato, biodisponibilità 25%, va somministrato ad ogni dose di Levodopa. Tolcapone: abbandonato per rischio di epatite fulminante."
+    },
+    {
+      "cat": "IMAO-B, COMT e altri farmaci",
+      "front": "Antimuscarinici e Amantadina nel Parkinson",
+      "back": "Antimuscarinici (Orfenadrina, Prociclidina, Biperidene): riducono l'ipertono colinergico, agiscono sul tremore ma non su rigidità/bradicinesia; utili per scialorrea e incontinenza. Amantadina (antivirale): aumenta rilascio dopaminergico, blocca DAT, recettori muscarinici e glutamatergici; utile su discinesie da Levodopa ma effetto si esaurisce in ~6 mesi."
+    }
+  ]
+}
